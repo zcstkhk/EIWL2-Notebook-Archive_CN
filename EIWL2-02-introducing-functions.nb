@@ -1,0 +1,3733 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    156189,       3725]
+NotebookOptionsPosition[     52753,       1651]
+NotebookOutlinePosition[    147378,       3574]
+CellTagsIndexPosition[    146935,       3554]
+WindowTitle->\:51FD\:6570\:4ECB\:7ECD - Wolfram \
+\:8BED\:8A00\:5165\:95E8\:4ECB\:7ECD \:7FFB\:8BD1 By \:90D1\:660C\:76DB
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ InterpretationBox[Cell[TextData[StyleBox["\:51fd\:6570\:4ecb\:7ecd",
+   FontFamily->"Microsoft YaHei",
+   FontWeight->"Normal"]], "SectionInline",
+   Editable->False,
+   Evaluatable->False,ExpressionUUID->
+   "7800ef93-90c6-42e8-865e-e4ae085d6719"],
+  $Line = 0; Null]], "Section",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ ShowCellLabel->False,
+ CellChangeTimes->{
+  3.652728456208679*^9, 3.652728527108994*^9, {3.8361055573503942`*^9, 
+   3.8361055654423943`*^9}, {3.8362986823727517`*^9, 3.836298684732938*^9}},
+ CounterAssignments->{{"Section", 1}, {"Subsection", 0}, {
+   "Subsubsection", 0}, {"Exercise", 0}, {"Question", 0}},
+ CellTags->{
+  "p:3", "i:1"},ExpressionUUID->"54ed8130-640a-410d-9a5d-06af0f5cea6f"],
+
+Cell[TextData[{
+ "\:5f53\:4f60\:8f93\:5165 2+2 \:65f6\:ff0cWolfram \:8bed\:8a00\:5c06\:5176\
+\:89e3\:91ca\:4e3a ",
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Plus",
+    BaseStyle->"CodeLink"], "[", 
+   RowBox[{"2", ",", "2"}], "]"}]], "InlineCodeText",ExpressionUUID->
+  "cc1bcd2f-ce33-4f10-8910-07164224a954"],
+ "\:3002",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:662f\:4e00\:4e2a",
+ StyleBox["\:51fd\:6570",
+  FontWeight->"Bold"],
+ "\:3002Wolfram \:8bed\:8a00\:4e2d\:5185\:7f6e\:8d85\:8fc7 5000 \:4e2a\:51fd\
+\:6570\:3002\:7b97\:672f\:53ea\:4f7f\:7528\:4e86\:5176\:4e2d\:7684\:6781\:5c11\
+\:6570\:3002"
+}], "Text",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361055739169865`*^9, 3.8361056502540836`*^9}, {
+  3.8362986952908235`*^9, 3.8362986965446396`*^9}, {3.8374826879507885`*^9, 
+  3.8374826891844873`*^9}},
+ CellTags->"i:2",ExpressionUUID->"1b55d5d3-a30c-42f4-88f4-bd47fdcddf42"],
+
+Cell[TextData[{
+ "\:4f7f\:7528\:51fd\:6570 ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:8ba1\:7b97 3+4\:ff1a"
+}], "CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.8361056583724303`*^9, 3.8361056725995555`*^9}, 
+   3.837482703933055*^9},ExpressionUUID->"b9500f89-12d2-4bf5-ac17-\
+af1c68dc0f9a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plus", "[", 
+  RowBox[{"3", ",", "4"}], "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[1]:=",ExpressionUUID->"a1e8d18d-4097-465b-be4d-eed3036478d9"],
+
+Cell[BoxData["7"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellLabel->"Out[1]=",ExpressionUUID->"015255e0-bf5e-4c83-a38c-54ddc58ae1bc"]
+}, Open  ]],
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:8ba1\:7b97 1+2+3\:ff1a"
+}], "CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.8361057040491447`*^9, 3.8361057182333255`*^9}, 
+   3.8374827066936684`*^9},ExpressionUUID->"80196e49-29d0-4dff-93f1-\
+2a27378c53bc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Plus", "[", 
+  RowBox[{"1", ",", "2", ",", "3"}], "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[2]:=",ExpressionUUID->"15005ee5-9fde-42b7-a346-5fc94e5f4ebd"],
+
+Cell[BoxData["6"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellLabel->"Out[2]=",ExpressionUUID->"d32fb37a-df9f-4e6c-9d39-0bcae6867a80"]
+}, Open  ]],
+
+Cell[TextData[{
+ "\:51fd\:6570 ",
+ ButtonBox["Times",
+  BaseStyle->"Link"],
+ " \:8fdb\:884c\:7684\:662f\:4e58\:6cd5\:8fd0\:7b97\:ff1a"
+}], "CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.8361057333878045`*^9, 3.8361057487831926`*^9}},
+ CellTags->"i:3",ExpressionUUID->"933e543e-3f15-4e6e-a8e6-6631fa2b3c7e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Times", "[", 
+  RowBox[{"2", ",", "3"}], "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[3]:=",ExpressionUUID->"4bd1fecf-b3e8-4cd2-a239-f7c699311d0b"],
+
+Cell[BoxData["6"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellLabel->"Out[3]=",ExpressionUUID->"b81ce32f-d234-4c6e-bf9c-ca9fed1d81d9"]
+}, Open  ]],
+
+Cell["\:4f60\:53ef\:4ee5\:628a\:4e00\:4e2a\:51fd\:6570\:653e\:5728\:53e6\:4e00\
+\:4e2a\:51fd\:6570\:91cc\:9762\:ff1a", "CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.8361057629634695`*^9, 
+  3.836105774702775*^9}},ExpressionUUID->"5d3c3dfb-04fd-4c36-9058-\
+b35177c617f5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Times", "[", 
+  RowBox[{"2", ",", 
+   RowBox[{"Plus", "[", 
+    RowBox[{"2", ",", "3"}], "]"}]}], "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[4]:=",ExpressionUUID->"a5140266-a21e-433d-a9c5-8d86bc66e4ea"],
+
+Cell[BoxData["10"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellLabel->"Out[4]=",ExpressionUUID->"6e9ddd3d-ddc0-416b-8458-779272897ad1"]
+}, Open  ]],
+
+Cell["Wolfram \:8bed\:8a00\:4e2d\:7684\:6240\:6709\:51fd\:6570\:90fd\:4f7f\
+\:7528\:65b9\:62ec\:53f7\:ff0c\:5e76\:4e14\:5176\:540d\:79f0\:4ee5\:5927\:5199\
+\:5b57\:6bcd\:5f00\:5934\:3002", "Text",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {7, 5}},
+ CellChangeTimes->{{3.8361057828240566`*^9, 3.8361058029881773`*^9}},
+ CellTags->"i:4",ExpressionUUID->"8ea36605-4a5b-40a7-91ed-a03e19c3c087"],
+
+Cell[TextData[{
+ "\:51fd\:6570 ",
+ ButtonBox["Max",
+  BaseStyle->"Link"],
+ " \:53ef\:4ee5\:627e\:5230\:4e00\:7ec4\:6570\:5b57\:4e2d\:7684\:6700\:5927\
+\:503c\:3002"
+}], "Text",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {7, 5}},
+ CellChangeTimes->{{3.8361058113456697`*^9, 3.8361058510155396`*^9}},
+ CellTags->"i:5",ExpressionUUID->"227feee0-7e2d-4719-a411-82506f66c98c"],
+
+Cell["\:8fd9\:4e9b\:6570\:5b57\:4e2d\:7684\:6700\:5927\:503c\:662f 7\:ff1a", \
+"CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.8361058575898647`*^9, 3.8361058616315975`*^9}, 
+   3.8374827120543346`*^9},ExpressionUUID->"44bb4687-d987-4e6b-9550-\
+414fe0afb9b4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Max", "[", 
+  RowBox[{"2", ",", "7", ",", "3"}], "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[5]:=",ExpressionUUID->"4781b511-93cf-4c77-a463-a2df6059946d"],
+
+Cell[BoxData["7"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellLabel->"Out[5]=",ExpressionUUID->"2e8840be-6531-4da1-8fdd-f1d1ae00647b"]
+}, Open  ]],
+
+Cell[TextData[{
+ "\:51fd\:6570 ",
+ ButtonBox["RandomInteger",
+  BaseStyle->"Link"],
+ " \:5c06\:5728 0 \
+\:548c\:4f60\:6307\:5b9a\:7684\:4efb\:610f\:5927\:5c0f\:4e4b\:95f4\:6311\:9009\
+\:4e00\:4e2a\:968f\:673a\:7684\:6574\:6570\:3002"
+}], "Text",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {7, 5}},
+ CellChangeTimes->{{3.836105872575465*^9, 3.8361059303704185`*^9}, {
+  3.8374827132112412`*^9, 3.83748271442301*^9}},
+ CellTags->"i:6",ExpressionUUID->"f6fecac7-7050-4189-9dd7-20ef9d78b28e"],
+
+Cell["\:5728 0 \:5230 100 \:4e4b\:95f4\:968f\:673a\:6311\:9009\:4e00\:4e2a\
+\:6574\:6570\:ff1a", "CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.8361059383540835`*^9, 3.836105945865366*^9}, {
+  3.8374827227477407`*^9, 
+  3.837482724657638*^9}},ExpressionUUID->"5b76f1d1-02e0-47ab-bf42-\
+6d6d0fb374b6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RandomInteger", "[", "100", "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[6]:=",ExpressionUUID->"0d59ab3b-7f80-42fb-a373-00c62dabf73a"],
+
+Cell[BoxData["71"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellLabel->"Out[6]=",ExpressionUUID->"9ada605b-4a58-4e8b-b1b8-6bb5701ab982"]
+}, Open  ]],
+
+Cell["\:6bcf\:8fd0\:884c\:4e00\:6b21\:ff0c\:4f60\:5c31\:4f1a\:5f97\:5230\:53e6\
+\:4e00\:4e2a\:968f\:673a\:6570\:5b57\:ff1a", "CodeCaption",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{66, 10}, {4, 10}},
+ CellChangeTimes->{{3.836105961861*^9, 
+  3.836105973437314*^9}},ExpressionUUID->"c7caa9f4-6ab9-491f-abd1-\
+306502adc700"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RandomInteger", "[", "100", "]"}]], "Input",
+ Editable->False,
+ Deletable->False,
+ CellLabel->"In[7]:=",ExpressionUUID->"4f3cb2e9-ac50-454f-8d44-77389a1e0dae"],
+
+Cell[BoxData["1"], "Output",
+ Editable->False,
+ Deletable->False,
+ CellEditDuplicate->False,
+ Evaluatable->False,
+ CellTags->"LastCellOfAPage",
+ CellLabel->"Out[7]=",ExpressionUUID->"cf0f6fd9-cc32-46e2-b222-16eea55d8590"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["\:8bcd\:6c47",
+ FontFamily->"Microsoft YaHei",
+ FontWeight->"Normal",
+ FontSlant->"Oblique"]], "VocabularySection",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{3.8362987030569286`*^9},
+ CellTags->"p:4",ExpressionUUID->"4893dd6b-e68c-4d5b-abf5-09e6f0654329"],
+
+Cell[BoxData[GridBox[{
+   {
+    RowBox[{
+     ButtonBox["Plus",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"2", ",", "2"}], "]"}], " ", 
+    RowBox[{"2", "+", "2"}], " ", Cell[
+    "\:52a0\:6cd5 ", "VocabularyText",ExpressionUUID->
+     "1854b5cb-cf3d-4dc1-a3b1-46cdb7dde577"]},
+   {
+    RowBox[{
+     ButtonBox["Subtract",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"5", ",", "2"}], "]"}], " ", 
+    RowBox[{"5", "-", "2"}], " ", Cell[
+    "\:51cf\:6cd5 ", "VocabularyText",ExpressionUUID->
+     "839be50d-03d8-42f2-904d-4ade5f5fadac"]},
+   {
+    RowBox[{
+     ButtonBox["Times",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"2", ",", "3"}], "]"}], " ", 
+    RowBox[{"2", "*", "3"}], " ", Cell[TextData[{
+     "\:4e58\:6cd5(",
+     StyleBox["2 3\:4e5f\:53ef\:4ee5", "VocabularyText"],
+     ") "
+    }], "VocabularyText",ExpressionUUID->
+     "f46ed055-7aa1-47b2-8e4c-44b3e9db506b"]},
+   {
+    RowBox[{
+     ButtonBox["Divide",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"6", ",", "2"}], "]"}], " ", 
+    RowBox[{"6", "/", "2"}], " ", Cell[
+    "\:9664\:6cd5 ", "VocabularyText",ExpressionUUID->
+     "a0dd6a28-a26f-4cae-b57e-84d0fa4dfc88"]},
+   {
+    RowBox[{
+     ButtonBox["Power",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"3", ",", "2"}], "]"}], " ", 
+    RowBox[{"3", "^", "2"}], " ", Cell[
+    "\:4e58\:65b9", "VocabularyText",ExpressionUUID->
+     "b4239a5f-9339-42a1-b321-383da7c71db3"]},
+   {
+    RowBox[{
+     ButtonBox["Max",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"3", ",", "4"}], "]"}], " ", " ", " ", Cell[
+    "\:6700\:5927\:503c ", "VocabularyText",ExpressionUUID->
+     "5f9d7c10-054c-4a60-ab34-3586cbae9cc0"]},
+   {
+    RowBox[{
+     ButtonBox["Min",
+      BaseStyle->"CodeLink"], "[", 
+     RowBox[{"3", ",", "4"}], "]"}], " ", " ", " ", Cell[
+    "\:6700\:5c0f\:503c", "VocabularyText",ExpressionUUID->
+     "2cfc1427-1774-4695-98c0-358ea5ad8aa5"]},
+   {
+    RowBox[{
+     ButtonBox["RandomInteger",
+      BaseStyle->"CodeLink"], "[", "10", "]"}], " ", " ", " ", Cell[
+    "\:968f\:673a\:6574\:6570", "VocabularyText",ExpressionUUID->
+     "3bb5c952-0706-4366-816e-5f63afb3c25f"]}
+  }]], "VocabularyTable3Column",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361068127551384`*^9, 3.8361068308384323`*^9}, {
+  3.836106915045805*^9, 3.8361069561693897`*^9}},
+ GridBoxOptions->{
+ GridBoxDividers->{
+  "Columns" -> {{False}}, "Rows" -> {False, {True, True, True, True, 
+      Directive[
+       Thickness[1.5], "VocabDivColor"], True, True, True, True}, False}}},
+ CellTags->"i:7",ExpressionUUID->"e122106c-f7d2-462c-a4fd-4de76f7407a2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ DynamicModuleBox[{$CellContext`open$$ = False}, 
+  TagBox[GridBox[{
+     {
+      StyleBox["\<\"\:4e60\:9898\"\>",
+       StripOnInput->False,
+       FontSlant->"Italic"], 
+      PaneBox[
+       TagBox[
+        ButtonBox[
+         DynamicBox[ToBoxes[
+           If[$CellContext`open$$, 
+            Row[{
+              Style["-", "ExercisePreviewButtonTextHighlight"], 
+              Style[
+              " \:9884\:89c8\:4e60\:9898", "ExercisePreviewButtonText"]}], 
+            Row[{
+              Style["+", "ExercisePreviewButtonTextHighlight"], 
+              Style[
+              " \:9884\:89c8\:4e60\:9898", "ExercisePreviewButtonText"]}]], 
+           StandardForm],
+          ImageSizeCache->{133.5, {2., 24.}}],
+         Appearance->None,
+         ButtonFunction:>(
+          If[$CellContext`open$$, $CellContext`open$$ = 
+            False, $CellContext`open$$ = True]; NotebookFind[
+            EvaluationNotebook[], "ExerciseSummaryCell", Next, CellStyle, 
+            WrapAround -> True, AutoScroll -> False]; FrontEndTokenExecute[
+            EvaluationNotebook[], "ExpandSelection"]; FrontEndExecute[
+            FrontEndToken[
+             EvaluationNotebook[], "OpenCloseGroup"]]),
+         Evaluator->Automatic,
+         Method->"Preemptive"],
+        MouseAppearanceTag["LinkHand"]],
+       Alignment->Right,
+       ImageSize->Full]}
+    },
+    AutoDelete->False,
+    GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+   "Grid"],
+  DynamicModuleValues:>{}]], "ExerciseSection",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{
+  3.669991951589675*^9, 3.836105996742233*^9, {3.8361060296880054`*^9, 
+   3.836106042965828*^9}},
+ ShowStringCharacters->
+  False,ExpressionUUID->"4f59bfc1-25d5-49e4-a0aa-9b306a9c93c6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TagBox[GridBox[{
+        {
+         PaneBox[
+          
+          StyleBox["\<\"\:5171\:6709 5 \:9053\:4e60\:9898\"\>", 
+           "ExerciseSummaryHeading",
+           StripOnInput->False],
+          ImageMargins->{{20, 0}, {0, 10}}]},
+        {
+         PaneBox[
+          StyleBox[
+           RowBox[{
+           "\:4ee5\:53ca", " ", "8", " ", "\:9053\:9644\:52a0\:9898"}], 
+           "ExerciseSummarySubheading",
+           StripOnInput->False],
+          ImageMargins->{{20, 0}, {10, 0}}]}
+       },
+       DefaultBaseStyle->"Column",
+       GridBoxAlignment->{"Columns" -> {{Left}}},
+       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+       
+       GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{0}}}],
+      "Column"], 
+     PaneBox[
+      ButtonBox[
+       StyleBox["\<\"\:5f00\:59cb\:7ec3\:4e60 \[RightGuillemet]\"\>", 
+        "ExerciseSummaryHeading",
+        StripOnInput->False],
+       Appearance->None,
+       ButtonFunction:>
+        NotebookLocate[{"EIWL2-02-introducing-functions-exercises.nb", ""}],
+       Evaluator->Automatic,
+       Method->"Preemptive"],
+      FrameMargins->{{10, 0}, {10, 10}},
+      ImageSize->Full]}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {
+       Scaled[0.7], 
+       Scaled[0.3]}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "ExerciseSummaryCell",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361059797022467`*^9, 3.836106024874383*^9}, {
+  3.836109342811039*^9, 
+  3.8361093946289606`*^9}},ExpressionUUID->"9fe83728-50c9-4a33-9c6d-\
+f81df0ed48fe"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528\:51fd\:6570 ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:6765\:8ba1\:7b97 7+6+5\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "2.1", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8374820125467243`*^9, 
+  3.8374820293707323`*^9}},ExpressionUUID->"53264e16-9f57-40b9-a110-\
+733ed81492d6"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "18"], "ExerciseOutput",ExpressionUUID->
+       "2bd062ae-b74d-4416-af34-b88d0d0279fc"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["18"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"c9789bda-448b-4640-a104-363ffd68e3f0"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528\:51fd\:6570 ",
+ ButtonBox["Times",
+  BaseStyle->"Link"],
+ " \:548c ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:8ba1\:7b97 2\[Times](3+4)\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "2.2", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.837482046573862*^9, 
+  3.837482081211237*^9}},ExpressionUUID->"698e3c30-1903-4409-82e9-\
+b592d4b656c7"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "14"], "ExerciseOutput",ExpressionUUID->
+       "52ce2e2b-0416-4037-9288-c18b2c2cb075"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["14"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"c5686a61-808b-467f-a715-f5082b36ea3e"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528\:51fd\:6570 ",
+ ButtonBox["Max",
+  BaseStyle->"Link"],
+ " \:6765\:627e\:51fa 6\[Times]8 \:4e0e 5\[Times]9 \:4e2d\:7684\:8f83\:5927\
+\:503c\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "2.3", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8374820931034393`*^9, 
+  3.837482122757162*^9}},ExpressionUUID->"e3cc0d8c-380b-4132-a0fc-\
+b6b9dea5d36d"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "48"], "ExerciseOutput",ExpressionUUID->
+       "46858b09-be6b-48ad-baa9-fd9297267349"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["48"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"20f05a97-869b-4042-8766-54d715197a51"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["RandomInteger",
+  BaseStyle->"Link"],
+ " \:751f\:6210\:4e00\:4e2a 0 \:5230 1000 \
+\:4e4b\:95f4\:7684\:968f\:673a\:6570\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "2.4", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.837482131194601*^9, 
+  3.837482157984482*^9}},ExpressionUUID->"f383efb6-724e-4b5e-b27f-\
+5f8cb0581b06"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa\:793a\:4f8b", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "658"], "ExerciseOutput",ExpressionUUID->
+       "e8c61140-b922-4a73-bc97-1b25cced9113"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["658"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"62a5a685-7bd8-416e-acd2-c8aa6e92a08f"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:548c ",
+ ButtonBox["RandomInteger",
+  BaseStyle->"Link"],
+ " \:6765\:751f\:6210\:4e00\:4e2a 10 \:5230 20 \:4e4b\:95f4\:7684\:6570\:5b57\
+\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "2.5", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{
+  3.8374821760038166`*^9, {3.837482233748929*^9, 
+   3.837482242564357*^9}},ExpressionUUID->"17dc79f8-fd44-445f-a0e1-\
+282ac6c005d1"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa\:793a\:4f8b", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "19"], "ExerciseOutput",ExpressionUUID->
+       "df9236dc-53bc-48d2-ae4b-17b5bc10f016"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["19"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"4159ad5f-27ad-4704-acd1-0130e7c4f9aa"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Times",
+  BaseStyle->"Link"],
+ " \:6765\:8ba1\:7b97 5\[Times]4\[Times]3\[Times]2\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.1", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8374822540217276`*^9, 
+  3.837482270923527*^9}},ExpressionUUID->"d7213e14-24bf-46a7-a28b-\
+7c8d89986b3d"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "120"], "ExerciseOutput",ExpressionUUID->
+       "0718a6f9-d238-45ba-bdde-eb12e87ccfcd"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["120"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"48d2e928-6556-43d9-a5f7-a34929412cc4"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Subtract",
+  BaseStyle->"Link"],
+ StyleBox[" \:6765\:8ba1\:7b97 2\[Minus]3\:3002",
+  FontFamily->"Source Sans Pro"],
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.2", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8374822847942066`*^9, 
+  3.8374822985244865`*^9}},ExpressionUUID->"1b8205c6-3fc4-4131-b649-\
+8fee131737a1"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+       RowBox[{"-", "1"}]], "ExerciseOutput",ExpressionUUID->
+       "906c0269-c94a-4972-b8e4-a987d6689cff"],
+      Apply[TextCell, 
+       Cell[
+        BoxData[
+         RowBox[{"-", "1"}]], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"c09fccec-b1a8-4735-ab6c-78b571f42506"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Times",
+  BaseStyle->"Link"],
+ " \:548c ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ StyleBox[" \:6765\:8ba1\:7b97 (8+7)\[Times](9+2)\:3002",
+  FontFamily->"Source Sans Pro"],
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.3", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.837482306483206*^9, 
+  3.837482357104851*^9}},ExpressionUUID->"64c51d53-99d0-42a7-b770-\
+865aa97bdb73"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "165"], "ExerciseOutput",ExpressionUUID->
+       "1852bcef-8d88-4126-a42c-6ff6c98d564d"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["165"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"ff3b6e1c-8a0b-4088-8fbd-dd6196db63bf"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Subtract",
+  BaseStyle->"Link"],
+ " \:548c ",
+ ButtonBox["Divide",
+  BaseStyle->"Link"],
+ " \:6765\:8ba1\:7b97 (26\[Minus]89)/9\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.4", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.837482369422904*^9, 
+  3.837482389540111*^9}},ExpressionUUID->"0cec5534-3960-4d52-994a-\
+491dca66e396"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+       RowBox[{"-", "7"}]], "ExerciseOutput",ExpressionUUID->
+       "93ca97cc-63f7-49d1-8657-e4e4f46ed812"],
+      Apply[TextCell, 
+       Cell[
+        BoxData[
+         RowBox[{"-", "7"}]], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"35d0d5b0-3f30-41ee-997d-9dbd9c1c8a03"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:4f7f\:7528 ",
+ ButtonBox["Subtract",
+  BaseStyle->"Link"],
+ " \:548c ",
+ ButtonBox["Power",
+  BaseStyle->"Link"],
+ " \:6765\:8ba1\:7b97 100\[Minus]5^2\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.5", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8374824007162485`*^9, 
+  3.837482416778277*^9}},ExpressionUUID->"1033ebb0-3105-4382-aa7d-\
+4b5d99b7e3e6"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "75"], "ExerciseOutput",ExpressionUUID->
+       "abf89878-c0f9-4b23-82ab-48796c39c45a"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["75"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"55d7f3f4-f7e6-4dba-baee-031abdd7b5da"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:627e\:51fa 3^5 \:548c 5^3 \:4e4b\:95f4\:7684\:8f83\:5927\:503c\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.6", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8374824240199165`*^9, 
+  3.8374824274746757`*^9}},ExpressionUUID->"c793c2bf-55b0-4ee7-9de6-\
+18d0bdd443dc"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "243"], "ExerciseOutput",ExpressionUUID->
+       "8e1c29e0-c77f-4e87-958c-f0b61ccf7682"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["243"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"0766a9a8-ef6c-47f7-9680-1038b0b9d7dc"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:5c06 4^3 \:4e0e 3^4 \:4e2d\:7684\:8f83\:5927\:503c\:4e58\:4ee5 3\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.7", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.837482434462996*^9, 
+  3.837482438744546*^9}},ExpressionUUID->"03d0f2f0-2d60-4272-b408-\
+260173be0580"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "243"], "ExerciseOutput",ExpressionUUID->
+       "1593e34c-05da-47ad-a998-a663dfa68121"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["243"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"e7bcd8c9-7afa-476f-9fa6-5ca0e8e4ac5c"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "\:5c06\:4e24\:4e2a 0 \:5230 1000 \:4e4b\:95f4\:968f\:673a\:6570\:76f8\:52a0\
+\:3002",
+ StyleBox[ButtonBox["\[RightGuillemet]",
+  Appearance->None,
+  Evaluator->Automatic,
+  Method->"Preemptive",
+  ButtonFunction:>(SelectionMove[
+     ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+   FrontEndExecute[
+     FrontEndToken[
+      ButtonNotebook[], "OpenCloseGroup"]])],
+  FontColor->RGBColor[1, 0.501961, 0]]
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "+2.8", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.83748244568649*^9, 
+  3.8374824489268312`*^9}},ExpressionUUID->"f1667ffc-140f-4025-912d-\
+8f38c708c223"],
+
+Cell[BoxData[
+ PaneBox[GridBox[{
+    {" ", 
+     StyleBox[
+      RowBox[{"\:671f\:671b\:8f93\:51fa", "\:ff1a"}],
+      Editable->False,
+      Selectable->False,
+      StripOnInput->False,
+      FontColor->RGBColor[0.45, 0.45, 0.45]], " "},
+    {" ", 
+     InterpretationBox[Cell[BoxData[
+      "1167"], "ExerciseOutput",ExpressionUUID->
+       "4ecb9484-a074-4413-a438-269092007c1b"],
+      Apply[TextCell, 
+       Cell[
+        BoxData["1167"], "ExerciseOutput", Selectable -> False, Copyable -> 
+        False, Editable -> False, ShowCellBracket -> False]]], " "}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Center}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1, 1, 1]}}},
+   GridBoxSpacings->{"Columns" -> {{Automatic}}, "Rows" -> {{1}}}],
+  FrameMargins->0]], "ExerciseOutput",
+ Editable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ CellFrameColor->RGBColor[0.85, 0.85, 0.85],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"d99601a5-2338-468c-9dd8-344f137ffc86"]
+}, Closed]]
+}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["\:95ee&\:7b54",
+ FontFamily->"Microsoft YaHei",
+ FontWeight->"Normal",
+ FontSlant->"Oblique"]], "QASection",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{64, Inherited}, {8, 28}},
+ CellChangeTimes->{{3.836106047680109*^9, 
+  3.836106053537112*^9}},ExpressionUUID->"166acb6f-68a4-41a2-b546-\
+77f52769b323"],
+
+Cell[TextData[{
+ "\:6211\:5fc5\:987b\:5728\:8f93\:5165 ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ "\:3001",
+ ButtonBox["RandomInteger",
+  BaseStyle->"Link"],
+ " \:7b49\:51fd\:6570\:65f6\:8f93\:5165\:5927\:5199\:5b57\:6bcd\:5417\:ff1f"
+}], "Question",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361060650480614`*^9, 3.8361060841171103`*^9}, {
+  3.8361061264500604`*^9, 3.836106160668984*^9}},
+ CellTags->"i:8",ExpressionUUID->"209a098d-73eb-4afd-a5d2-7eeefdf13bcd"],
+
+Cell[TextData[{
+ "\:662f\:7684\:ff0c\:5728 Wolfram \:8bed\:8a00\:4e2d\:ff0cplus \:4e0e Plus \
+\:4e0d\:4e00\:6837\:3002",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:4e2d\:7684\:5927\:5199\:5b57\:6bcd\:8868\:793a\:4f60\:6b63\:5728\:4f7f\
+\:7528\:5185\:7f6e\:7684(\[OpenCurlyDoubleQuote]\:5b98\:65b9\
+\[CloseCurlyDoubleQuote])\:52a0\:6cd5\:51fd\:6570\:3002"
+}], "Answer",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361061692089677`*^9, 
+  3.8361062510949297`*^9}},ExpressionUUID->"34d1430d-6fb4-42fb-a350-\
+c92b5fa701d2"],
+
+Cell[TextData[{
+ "\:5f53\:6211\:4f7f\:7528\:51fd\:6570\:65f6\:ff0c\:6211\:5fc5\:987b\:8f93\
+\:5165\:65b9\:62ec\:53f7 ",
+ Cell[BoxData[
+  RowBox[{"[", "\[NegativeThinSpace]", 
+   StyleBox["...",
+    FontColor->GrayLevel[0.6]], "]"}]], "InlineCode",ExpressionUUID->
+  "8bcd8605-548b-48e8-9ae1-1d41e25d13c7"],
+ " \:5417\:ff1f"
+}], "Question",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{65, Inherited}, {2, 10}},
+ CellChangeTimes->{{3.8361062591918097`*^9, 3.836106271696312*^9}, {
+  3.8361065933872747`*^9, 3.8361065965407276`*^9}},
+ CellTags->"i:9",ExpressionUUID->"bcdaa796-5d67-4fee-9179-763abd66191b"],
+
+Cell[TextData[{
+ "\:662f\:7684\:ff0c\:65b9\:62ec\:53f7",
+ Cell[BoxData[
+  RowBox[{"[", "\[NegativeThinSpace]", 
+   StyleBox["...",
+    FontColor->GrayLevel[0.6]], "]"}]], "InlineCode",ExpressionUUID->
+  "048ce91c-99b3-4234-bbf9-7a611a7c2c17"],
+ "\:7528\:4e8e\:51fd\:6570\:ff1b\:5c0f\:62ec\:53f7(\[NegativeThinSpace]...)\
+\:7528\:4e8e\:7ec4\:5408\:ff0c\:6bd4\:5982 2*(3+4)\:ff0c\:5b83\:4e0d\:7528\
+\:4e8e\:51fd\:6570\:3002"
+}], "Answer",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.836106280610118*^9, 3.8361063249954915`*^9}, 
+   3.837482731931185*^9},
+ FontTracking->-0.05,ExpressionUUID->"4cebf128-b2b1-4009-91a5-245e8a5742a2"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Plus",
+    BaseStyle->"CodeLink"], "[", 
+   RowBox[{"2", ",", "3"}], "]"}]], "InlineCode",ExpressionUUID->
+  "a0df5724-3d73-4296-9373-9407d82a9155"],
+ " \:8be5\:600e\:6837\:8bfb\:51fa\:6765\:ff1f"
+}], "Question",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{65, Inherited}, {2, 8}},
+ CellChangeTimes->{{3.8361063331157703`*^9, 3.8361063596375446`*^9}, 
+   3.83610659208822*^9},
+ CellTags->"i:10",ExpressionUUID->"d89d7a26-91f8-4223-9fd8-16b763dacf67"],
+
+Cell[TextData[{
+ "\:4e00\:822c\:662f\:8bfb\:4f5c\[OpenCurlyDoubleQuote]plus of 2 and 3\
+\[CloseCurlyDoubleQuote]\:ff1b\:6709\:65f6\:5019\:4e5f\:8bfb\:4f5c\
+\[OpenCurlyDoubleQuote]plus of 2 comma 3\[CloseCurlyDoubleQuote]\:3002\
+\[OpenCurlyDoubleQuote]",
+ Cell[BoxData[
+ "["], "InlineCode",ExpressionUUID->"354923f6-9058-43e7-ba96-cd52873820a6"],
+ "\[CloseCurlyDoubleQuote]\:53ef\:8bfb\:4f5c\[OpenCurlyDoubleQuote]\:5de6\
+\:62ec\:53f7\[CloseCurlyDoubleQuote]\:ff1b\[OpenCurlyDoubleQuote]",
+ Cell[BoxData[
+ "]"], "InlineCode",ExpressionUUID->"8b274a5b-47ab-4f0e-803e-6c1ee8a5532d"],
+ "\[CloseCurlyDoubleQuote]\:8bfb\:4f5c\[OpenCurlyDoubleQuote]\:53f3\:62ec\
+\:53f7\[CloseCurlyDoubleQuote]\:3002"
+}], "Answer",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361063674540973`*^9, 3.836106468043995*^9}, {
+  3.836106780577218*^9, 
+  3.836106788826354*^9}},ExpressionUUID->"9abb3897-9310-4320-9b6c-\
+e97d1377836b"],
+
+Cell[TextData[{
+ "\:4e3a\:4ec0\:4e48\:8981\:4f7f\:7528 ",
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Plus",
+    BaseStyle->"CodeLink"], "[", 
+   RowBox[{"2", ",", "3"}], "]"}]], "InlineCode",ExpressionUUID->
+  "8abee7c5-55c6-4261-a1d1-123e66259ea3"],
+ " \:800c\:4e0d\:662f 2+3\:ff1f"
+}], "Question",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{65, Inherited}, {2, 10}},
+ CellChangeTimes->{{3.836106477590541*^9, 3.8361064913338795`*^9}, {
+  3.8361065879900045`*^9, 
+  3.8361065898395205`*^9}},ExpressionUUID->"29c9a334-e03d-4223-9635-\
+8ef122291042"],
+
+Cell[TextData[{
+ "\:5bf9\:4e8e ",
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:6765\:8bf4\:ff0c\:8fd9\:7684\:786e\:662f\:6ca1\:6709\:5fc5\:8981\:7684\
+\:3002\:4f46\:5bf9\:4e8e\:7edd\:5927\:591a\:6570\:51fd\:6570(\:6bd4\:5982 ",
+ ButtonBox["Max",
+  BaseStyle->"Link"],
+ " \:6216\:8005 ",
+ ButtonBox["RandomInteger",
+  BaseStyle->"Link"],
+ ")\:6765\:8bf4\:ff0c\:6ca1\:6709\:50cf+\:8fd9\:6837\:7684\:7279\:6b8a\:5f62\
+\:5f0f\:ff0c\:6240\:4ee5\:4f60\:5fc5\:987b\:7ed9\:51fa\:5b83\:4eec\:7684\:540d\
+\:5b57\:3002"
+}], "Answer",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361064981570835`*^9, 
+  3.8361065567375674`*^9}},ExpressionUUID->"4e358088-739d-41c4-9c68-\
+920bbf882ba9"],
+
+Cell[TextData[{
+ "\:6211\:53ef\:4ee5\:6df7\:5408\:4f7f\:7528 ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    ButtonBox["Plus",
+     BaseStyle->"CodeLink"], "[", "\[NegativeThinSpace]", 
+    StyleBox["...",
+     FontColor->GrayLevel[0.6]], "]"}], " "}]], "InlineCode",ExpressionUUID->
+  "13c85566-8269-4e97-bfa3-24ae6cdba1ab"],
+ "\:548c + \:5417?"
+}], "Question",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{65, Inherited}, {2, 10}},
+ CellChangeTimes->{{3.8361065703468857`*^9, 
+  3.836106583988411*^9}},ExpressionUUID->"d90c8eba-9ad1-4384-9a28-\
+2b5ce8f5a249"],
+
+Cell[TextData[{
+ "\:53ef\:4ee5\:7684\:ff0c\:6bd4\:5982 ",
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Plus",
+    BaseStyle->"CodeLink"], "[", 
+   RowBox[{
+    RowBox[{"4", "+", "5"}], ",", 
+    RowBox[{"2", "+", "3"}]}], "]"}]], "InlineCode",ExpressionUUID->
+  "fa74cd75-ea36-491e-86ba-31dd93101111"],
+ "\:ff0c\:6216\:8005 ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    ButtonBox["Plus",
+     BaseStyle->"CodeLink"], "[", 
+    RowBox[{"4", ",", "5"}], "]"}], "*", "5"}]], "InlineCode",ExpressionUUID->
+  "c7280dc1-05b9-4dc4-b732-e72eb0570152"],
+ " \:8fd9\:6837\:7684\:5f62\:5f0f\:5c31\:5f88\:597d\:3002"
+}], "Answer",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8361066134791737`*^9, 
+  3.8361066946108975`*^9}},ExpressionUUID->"0e24c1e6-c4dd-4341-90b6-\
+3d2283003ca5"],
+
+Cell["\:5982\:679c Wolfram Language \
+\:5c06\:6211\:7684\:4e00\:4e9b\:8f93\:5165\:5185\:5bb9\:67d3\:6210\:7ea2\:8272\
+\:ff0c\:8fd9\:610f\:5473\:7740\:4ec0\:4e48\:ff1f", "Question",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{65, Inherited}, {2, 8}},
+ CellChangeTimes->{{3.83610670293182*^9, 3.8361067158364677`*^9}},
+ CellTags->"i:11",ExpressionUUID->"7f1f976f-8da6-4060-8e04-c4eb3c0205b9"],
+
+Cell[TextData[{
+ "\:8fd9\:8868\:793a\:4f60\:8f93\:5165\:4e86\:4e00\:4e9b Wolfram \:8bed\:8a00\
+\:65e0\:6cd5\:7406\:89e3\:7684\:5185\:5bb9\:3002\:8bf7\:53c2\:9605",
+ ButtonBox["\:7b2c 47 \:8282",
+  BaseStyle->"Hyperlink",
+  ButtonData->{"EIWL2-47-debugging-your-code.nb", None}],
+ "\:4ee5\:4e86\:89e3\:66f4\:591a\:4fe1\:606f\:3002\:9996\:5148\:68c0\:67e5\
+\:4f60\:7684\:5de6\:62ec\:53f7\:548c\:53f3\:62ec\:53f7\:662f\:5426\:5339\:914d\
+\:3002"
+}], "Answer",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.836106724319871*^9, 3.836106775119465*^9}},
+ CellTags->
+  "LastCellOfAPage",ExpressionUUID->"0eafc7d5-f5f0-428e-97a0-6879d30b08df"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["\:6280\:672f\:7b14\:8bb0",
+ FontFamily->"Microsoft YaHei",
+ FontWeight->"Normal",
+ FontSlant->"Oblique"]], "TechNoteSection",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.836298725049616*^9, 3.8362987258741913`*^9}},
+ CellTags->"p:5",ExpressionUUID->"95311b94-353d-4314-824f-ab7eca24eae5"],
+
+Cell[TextData[{
+ "Wolfram \:8bed\:8a00\:4e2d\:7684\:8868\:8fbe\:5f0f(\:8be6\:89c1",
+ ButtonBox["\:7b2c 33 \:8282",
+  BaseStyle->"Hyperlink",
+  ButtonData->{"EIWL2-33-expressions-and-their-structure.nb", None}],
+ ")\:7531\:5d4c\:5957\:7684\:51fd\:6570\:6811\:7ec4\:6210\:3002"
+}], "TechNote",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.651515120816633*^9, 3.651515125814807*^9}, 
+   3.6515155174947033`*^9, {3.836298789630498*^9, 
+   3.836298856041135*^9}},ExpressionUUID->"aca586fb-3d25-4dbc-950a-\
+670a0aa6e30a"],
+
+Cell[TextData[{
+ ButtonBox["Plus",
+  BaseStyle->"Link"],
+ " \:53ef\:4ee5\:5c06\:4efb\:610f\:6570\:91cf\:7684\:6570\:5b57\:76f8\:52a0\
+\:5728\:4e00\:8d77\:ff0c\:4f46 ",
+ ButtonBox["Subtract",
+  BaseStyle->"Link"],
+ " \:53ea\:80fd\:4ece\:4e00\:4e2a\:6570\:5b57\:4e2d\:51cf\:53bb\:53e6\:4e00\
+\:4e2a\:6570\:5b57(\:4ee5\:907f\:514d\:5728 (2\[Minus]3)\[Minus]4 \:548c 2\
+\[Minus](3\[Minus]4) \:4e4b\:95f4\:4ea7\:751f\:6b67\:4e49)\:3002"
+}], "TechNote",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.651515120816633*^9, 3.651515125814807*^9}, 
+   3.6515155174947033`*^9, {3.8362988679512973`*^9, 
+   3.8362989297511406`*^9}},ExpressionUUID->"27c72d25-93ac-49f0-8d10-\
+35550200e952"],
+
+Cell[TextData[{
+ "\:5728 Wolfram \:8bed\:8a00\:4e2d\:ff0c\:51fd\:6570\:7684\:6982\:5ff5\:8981\
+\:6bd4\:4f20\:7edf\:6570\:5b66\:6216\:8ba1\:7b97\:673a\:79d1\:5b66\:4e2d\:7684\
+\:6982\:5ff5\:66f4\:4e3a\:5e7f\:6cdb\:3002\:4f8b\:5982\:ff0c",
+ Cell[BoxData[
+  RowBox[{
+   StyleBox["f", "CodeVariable"], "[", 
+   StyleBox["anything", "CodeVariable"], "]"}]], "InlineCode",ExpressionUUID->
+  "7386e9b4-5a97-4a4d-9e28-21ecce5ec120"],
+ " \:53ef\:4ee5\:770b\:4f5c\:662f\:4e00\:4e2a\:51fd\:6570\:ff0c\:65e0\:8bba\
+\:5b83\:7684\:503c\:662f\:786e\:5b9a\:7684\:8fd8\:662f\:4fdd\:6301\:7b26\:53f7\
+\:5f62\:5f0f\:3002"
+}], "TechNote",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.651515120816633*^9, 3.651515125814807*^9}, 
+   3.6515155174947033`*^9, {3.8362989386344023`*^9, 3.8362990003018184`*^9}},
+ CellTags->"i:12",ExpressionUUID->"5c1c27e8-28f5-4cec-94ce-96c1328cfabf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["\:63a2\:7d22\:66f4\:591a",
+ FontFamily->"Microsoft YaHei",
+ FontWeight->"Normal",
+ FontSlant->"Oblique"]], "MoreExploreSection",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8362987437074566`*^9, 
+  3.8362987447638445`*^9}},ExpressionUUID->"9b644817-c85a-4c02-b07b-\
+11e276485c06"],
+
+Cell[TextData[ButtonBox["Wolfram \:8bed\:8a00\:4e2d\:7684\:6570\:5b66\:51fd\
+\:6570\[NonBreakingSpace]\[RightGuillemet]",
+ BaseStyle->"Link",
+ ButtonData->"paclet:guide/MathematicalFunctions"]], "MoreExplore",
+ Editable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellChangeTimes->{{3.8362987633675604`*^9, 3.8362987754985986`*^9}},
+ CellTags->
+  "LastCellOfAPage",ExpressionUUID->"f7390ec3-749f-4697-acb5-6ab5dceff26d"]
+}, Open  ]]
+},
+Saveable->False,
+WindowToolbars->{},
+BlinkingCellInsertionPoint->False,
+CellInsertionPointCell->None,
+WindowSize->{1920., 1017.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+WindowPersistentStyles->{
+ WindowFrame, WindowMargins, WindowSize, Magnification},
+WindowTitle->"\:51fd\:6570\:4ecb\:7ecd - Wolfram \:8bed\:8a00\:5165\:95e8\
+\:4ecb\:7ecd \:7ffb\:8bd1 By \:90d1\:660c\:76db",
+DockedCells->{
+  Cell[
+   BoxData[
+    TagBox[
+     GridBox[{{
+        TemplateBox[{
+         "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]", 
+          "\"\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\"", 
+          GraphicsBox[
+           TagBox[
+            RasterBox[CompressedData["
+1:eJztl01IVFEUxyctMFzUysjIyUDCTauiIJFM6ENpM4NEtJrBUaSYZMYPhCRm
+rYuoICgiW0VEBVIUEbTNEMTAIqRsk6JGCVFBHx7//+4JLo/36DqvB4Ie+Mk7
+7+t3733nHpzq9NlEW0ksFsuX4U8i1duQy6X6kpuRtGTzHe3ZTOuxbFemPZPb
+ny7FyZ2gEqwHInICfJToguOIReywPVHHlYDzcY4hJHZ486giyBOXtfms5Pms
+Bs9zUBDTow6DJOgBT8DP/+B5CepAPbgqZm+zT70Bt9VXCx6H8DwE28Gw5ufB
+IT2eA1N6PKquC0V4xtUxqfkE6ARD4BHYAx5Y938Gu8GdZXq4VsNWngIfwDzY
+Aa6Bm55nOKYq8NXRw29eb+Uz4JSVd4Nn4IbPs2fARUdPQcfLWAQJ8Mq6Tkdd
+gGcEHHT0sHYn9Jg1dcnnnhf6vnee8xzXVkcP9wdr97eY7z0NnlrX74qpxffg
+iOZ2VDp6kvqOe6AVXAb7xNQB462YNfsCfoBzoE1MzTEqHD096mgE98WsEec4
+Jqamvvk8cx2kwWuw19HDXnIAbNAx03ka9IO8mO+3ScyebRZTi01i1rqguHjY
+r3aJWaugOA5O6vEC+K6ebWDW0cNgv6oBnwKus87KwKDmv8BRMOBz77/6G/sV
+e8lkwHWuTwm4pQ7WzGIRHgb7FXsJ9/mI5z2si42gXMw8/ByuHgb7FXsJ9yX3
+IPfHFjF1xTl5v0exnrCx5gnn+fu7JC7h/z/0Y52+P+rfWX9iCXVYErg=
+             "], {{0,
+              34}, {26, 0}}, {0, 255}, ColorFunction -> RGBColor], 
+            BoxForm`ImageTag[
+            "Byte", ColorSpace -> "RGB", Interleaving -> True, Magnification -> 
+             1], Selectable -> False], DefaultBaseStyle -> "ImageGraphics", 
+           ImageSize -> Magnification[1], ImageSizeRaw -> {26, 34}, 
+           PlotRange -> {{0, 26}, {0, 34}}], 
+          GraphicsBox[
+           TagBox[
+            RasterBox[CompressedData["
+1:eJztXUuS47gRLX8WXtYRaJ+gl17SS+8U4/CeM+H2hDdtRY8jHF6ZR9AReATt
+qrwyj6AjcO+ZaN0gLZCZwEMiQVJqSd2qwYvgdBGf/AF4+LFqfvvd37/56y+f
+np5++M3pP998+88/fPz47b/+9Hx6+fOHH/72/Yf3f/njh3+8//79x99/96tT
+4u9Oz79/8fT066cY9NNLSz++9uPz0+uOPv3n3Zj+40vj083npZktd5IVdJzk
+hvT9pHOq78uc9I75rD/KA31n6/z03+dY1lRX64jkQh3LLpevbWI7t6N/Esv/
+vdSJDpcOdpr5M74lvk/tt6VPL1VG3j7v79Qedr2XLlevoKDgsTHx8Cud+OTA
+XDKM7yfOijnmlB+XC9zvuGfMm+HhqfwR8sjLY54ddbJuw05yesL7Sp2qHtY1
+4+F8VjZ4Xajf2/q6Gd/HuUDH6OTvZOM21jHZmm0TsTvH/d531WZOn5o3x3lL
+Ys22pnFN87Bezs6CgoLHhFsnMqd1IW1cz26TsrO8nOdSX8bgO+CwZlmHzf2L
+OoXbYE08y/2e80AXcDGkbVEuzEXbIAvmA9S/kvuz+aIL5yeJHbTlVHbcQwzT
+/BDncT5l6xXuLyh4k4C1Xfb8wZe9Bfcrnr0J949r43H9vV9bl2Oyn2w88Te/
+Yx0+DxmiOiddiSyDk2/B/cEGFWPm/GkOeDmavo5zQ5wnaYX7CwreJvy61HGb
+cc7uy63g/rEMPLEeg/tl7cxrZa/DpStZ2TOfFTo1Vy5yP88Zk02vGzkTic54
+prjx/JDuFWJ501nXXCwS/Wev+9m+aN/Bdrk8dUYVZE1zv7n/4vScHQUFBY8L
+f2fpz99PP1v8vob71ROV8efSruxYfj9xojujVuf92cfg/mWdPf88yDp9ed0f
+8uXMZJIxroP5zN3ar6Tn6cGOsK5efd6f8S1/3n/6Nzrbirl7sj852yFuk87P
+Zfzzmr1VQUHBY2M6+x/HPJnnCddY9yOXjevmkz7kqhut+xPZS9zv1/juvnvc
+N3STTv5+R8XCsi+2Y+Joyy67fLijxifxXbhf5uzkeyZ/zt/yt0ADzrXs06RH
+fJ7uKI7TnXfh/oKCnwvgDiD67u8W5/1JmZuc92vOndbus9wvd+D+TEq+ZQ3v
+wpNTebkTMO5S4b4gZ5dp9xlnPp7/cR7F73v0g9/K4v7Ff4c17VEK9xcUvE2M
+vJR828dcpc/m3wL3e05fvsPktW/0jY7n02m9PSS6FP+infHvJlyZ+4352p/h
+671AWi5wv/+2R/Y5hfsLCt4icKzD2cpe3xmOZS8484nuIm/E/efqpJXfLkIc
+hihdvtnP7YvcuYq/Ww1nM7EM/v5I2y5zzCV3vXJeF/YCg7Yx8kv2LMj9MofI
+7/YV7i8oeJOY1vhwxh+e5JvPS+5643vGG3H/mTr9efYi9/vf5+qUHebc6O0P
+c4M8e+Mc3rzLDWcvF3C/P6fnuSdno5xX+d/Lm7mnKNxfUPDmodeeBZdjXD+P
+sYw5v6CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoOBr
+BxE9n57aPV/aloLr4dSeFbdr9m/CXlmf60fVPXTdGi5mHLvqS9uyhNz45fTm
+9LTu3y9jXcFacHu1/NRXktlmnprzXb8ZcQ19Pxdw3K7WTtcG2+bQ30nf4fQc
+7zXX3BIuZhy79kryKhl3Kt1K23J6tVK2OX7Bh69mbFv+FkzgeVpg/r9bL5CZ
+Q8v5D8n99+S1jP4W43hm3Zvbfivuz/nN6Y7/b/57dCcdwzX6K/T9VqXfgvuj
+MYZpBPPluWPRGr9KdkdfyXz8iDxzLzi+5/Ac+d/PHkfQB7bcT+SpOP/huJ+m
+PflDcj/Eu7+NZV7PXbn/nrhWf70X97NMGdM1v+M6b8tp0q+T/+/cCh/ISrsG
+h1wLj8Yz9wJN5z3C+x3/3KgyY7/g8XeE8vn/z1dAncnP7Rk3xOsrRof9SHiF
+6x/gXc4Zxb6dkvuO4v1oT/G6R/JQhvt3w/mNsmuUAbL3Kk/rF50tlNnyv3tV
+VvQk8SWDA0HeJba3UFfi2UIbYb2Dtol9HyBf4thr+1a0/Vbpk3bdUYoWZRP0
+M8Nu3dai38ntVLmEs9jHAylAvu6zkT4lC9tI+yKx2yt5jZJh6TO5FmQKz6O/
+e7DJv4PPOF6cPh1jHweK+4H2S2yUdnT+yzkz1hkobifpmxsK3HNkeysKYy6q
+Z8TA25nJrykdv63hK/ogequZmCFqMtZfZI9nHIsSr0bZvKW0H3nZNMW3W5Cx
+4bwOftZcRErG0SqXqROt+4146jEkcPZIv+gytmC/ORpp77hOBfk9hfY5gFxs
+syPIGYz2OHL5HeftVLqgUXajjcJrggr6j9drxHWO+0XHEWUs2N5COnG5DduB
+aVhfbMW4DqT4SNu30PYt1JUz/IEC9+vYNcr3WsVvzu6aYuA4S//+Xcr9PYUx
+Vis5EoOR3wxZDZTRvmjewHg+G/51YFevdam4SnsPYOfR6lOUtiv6LmPK4n4d
+I91G6HMFaRi33rBdxwPXN6u5aCa/A3nYBtKndH/BdulADtoXjQUK9/g5H1tD
+jo59ZdiD+a68tDPOix3EqTb8dn0SuUivtYntdGU8Ry/FWwPyrfEvfjT8/sw2
+Hw25so4R3h0otNWg5EgZbCdp43fqfc96fd80bPZtB3Zu4F307SBN0Km6En/x
+p9V1Vfk57u8usB25H9dcYheuBSVGnRH7Z1Wvh3o5WzBN+qbEYfTD0O39Vr7X
+/C593rJbxoXo92sh8MXkEMtmpa+DNOl/yTyiYq59ETt7CuM8GrOgbwv1RJ81
+12xQptgKunCtKjokFr3hp+wVrDbMxUig98IbitcRWp7E6cD5yE/S18W/41MG
+lk0q38nG8St9uNV+UeifjREjgV47VUoO1rHGs6uLY1F4sTbigvviDuo74LgU
+e5GTxL4NxecoTS52ZLRTLt4cx1YeyLf6jqCH52iVMWKH8Yx4At4PIFfGS63K
+1DO6TP6E2O4hntomwbOqJzIP/C7xrzJxneP+s22nzFwDduCYiPq7jrOSl/hu
+2ELWe8bvtdwv7Tpn99wYjOKTszmnf6WsJe5vjTTxD/di0RhBG6C+jFVXRniy
+ARsaUnMH6MT5Rfw/qvfV3J+xbUfqPG0uTpSO2zV9Zzafy1jjt13ha2/YJnEU
+v/ReCetYPjo+30I7aHsiHieY3/l9y++yj+lJ7Q8pPmPRwHVTEjsrzcqnM877
+oU6vn5xeupz75dHr/npGV44/8cynA1lZu1V935/Fzpm43or7W5U+GDJ1H/sa
+ud/a22q7H5n7BVZfrjL6JCbST/H8we/dDJ1Nzn8rHksxUmm4Lu4hJkvcr+Px
+2dxP8ZnPTrfDgq89pAknu7EjXHtYqBP5SBPvH0BOS2EsYhwkrYc4bpRM5H55
+RE8H9Vt+pC9k19or4ymoM/lWPMWfjVXH0kvruL/D94zcc7jf2WmdidUzNmXj
+BeWlzc2zAlW2hbQk1mfYvsRDuEeMzkUgrp1RJvGdwt5X1iXCI7iX9z5k7OlU
+uo69xZ9ipz6vQBuX+BrP2a39eGPo6zKyTF0Z2zXXJby8BKjjoM9PPf/O2a9t
+ps/n/tbQoeXdnPspvneQ9brm47Xc731iO7cUjzWpg/OBnKVpXdhOms/ceHHj
+WOb/PcVj34/1mZhIu+tvNyIOtmK3Nt6kznwonK/WUEbSJHbjOSyFfdhGyzXi
+jW2gY4W6XPmN2GXUqWd04fjvKb3LOpD6bmRNvCjufw7VTFw/l/u17Tnuxz1h
+C+W8Hoq/F9zN+C79aU9qH2vE/8i6OoL7UiXb6ZL92pxNObvP5n6ly/nTqnrO
+1i3F34HUGTlbKOPHLa3jfvFP4iRjpJmxG2Ng3YNondhXdhS+sSEK/QbHQqPr
+WXGbsWlHcDdqlJmLx2rup5iHWq6LY8/Jxn7W5nSQ3YfEhx2F71twnYAxi3y2
+dFE6XqSM9IGBfxZdlWGLq79hfXKXKWN7MGIl/nczbZekZeKtgbGaW3MIjmTw
+HLwvcr+KF8IaB/Wcj6S+veI0HO/OXpnL+zlZSq7Umf3Gmi7k/hnbTe43/CKr
+HKXfkUkc0fdWyfD9GcrgXhfL1Zxfq7x2xnfLbuvs2rLRp62IR2XEQNDMyHG+
+JvdCtIL7M3aMZxUz+qJ5PCNno+pY40XfCUXjl87jfjzzIYI7OChzbe7XaJVM
+iWVuLb523a8x3skauhyk76CPOA4GsvsFzhsI/J0NXebA6RWpeQnkRnn8c63K
+JGlWvvHgPOj0bLUNbJ9LT85+tF7LD8r8XRQu2/Cj71yljt6jJT7SNJYaZccG
+5Ro2ZeNFExdI+2bPe5S/FaTVa2ynMOd72y15hj6JWa6MtJfpO5RpQW8utjWX
+S3RBf9lQ/O1E5PuS3RT+Fo3ui+Z4UHU3FL5bxnhLDLJxMmwQ+2ScJf3W6pfK
+v+z5qOGvtrmy0g0dpk96/KIeVS7X1lK/Ql8N+7LxyOm09BsPyh3HhZJZqXe0
+zepDbgwPFP4+hoxpUnWlD1VaF8j2bavjQGHe6Sic0yfraCi7pRV9suC+4H4g
+87w/4ygoKHgcUNhb4f2YnMsTLawpztTVa5kUzhH7a+kpuC0o3vc2X9qegoKC
+80Hp78Phmr+7si48q5O9hqwdrzbHFNwWFL61rr60LQUFBZeDwt9N7Sl8O1nf
+SFdD4XuijtQ3RXP4P6lulfg=
+             "], {{0, 34}, {383, 0}}, {0, 255}, 
+             ColorFunction -> RGBColor], 
+            BoxForm`ImageTag[
+            "Byte", ColorSpace -> "RGB", Interleaving -> True, Magnification -> 
+             1], Selectable -> False], DefaultBaseStyle -> "ImageGraphics", 
+           ImageSize -> Magnification[1], ImageSizeRaw -> {383, 34}, 
+           PlotRange -> {{0, 383}, {0, 34}}]}, "RowWithSeparators"], 
+        PaneBox[
+         StyleBox["\[VeryThinSpace]", ShowStringCharacters -> False], 
+         Alignment -> Right, ImageSize -> {174, 47}], 
+        PaneBox[
+         PaneBox[
+          TemplateBox[{"\[ThinSpace]", "\" \"", 
+            TagBox[
+             TooltipBox[
+              PaneSelectorBox[{False -> ButtonBox[
+                  PaneBox[
+                   GraphicsBox[
+                    TagBox[
+                    RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UJAPiDmBmIUBO/j//z8jEDcA8W8g3oBFnhmIZ/9HgE9o8mxAvBZJ/hsQuyPJ
+8wPxfiT5N0BsjiQvCsTnkOSfALEWkrwSEN9Bkr8OxDJobniAJP8ZZCYWfxCj
+RpGQXcS4mVi/ExuGxMYFmlp4nAIAG14fWQ==
+                    "], {{0, 14}, {9, 
+                    0}}, {0, 255}, ColorFunction -> RGBColor], 
+                    BoxForm`ImageTag[
+                    "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                    Selectable -> False], DefaultBaseStyle -> "ImageGraphics",
+                     ImageSizeRaw -> {9, 14}, PlotRange -> {{0, 9}, {0, 14}}, 
+                    ImageSize -> Magnification[1]], ImageSize -> {35, 30}, 
+                   Alignment -> Center], 
+                  ButtonFunction :> (
+                   NotebookLocate[{
+                    "EIWL2-01-starting-out-elementary-arithmetic.nb", ""}, 
+                    FrontEnd`HistoryData :> {
+                    EvaluationNotebook[]}]& ), Enabled -> True, Appearance -> 
+                  None, Evaluator -> Automatic, Method -> "Preemptive"], True -> 
+                ButtonBox[
+                  PaneBox[
+                   GraphicsBox[
+                    TagBox[
+                    RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UJAPiDmBmIUBO/j//z8jEDcA8W8g3oBFnhmIZ/9HgE9o8mxAvBZJ/hsQuyPJ
+8wPxfiT5N0BsjiQvCsTnkOSfALEWkrwSEN9Bkr8OxDJobniAJP8ZZCYWfxCj
+RpGQXcS4mVi/ExuGxMYFmlp4nAIAG14fWQ==
+                    "], {{0, 14}, {9, 
+                    0}}, {0, 255}, ColorFunction -> RGBColor], 
+                    BoxForm`ImageTag[
+                    "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                    Selectable -> False], DefaultBaseStyle -> "ImageGraphics",
+                     ImageSizeRaw -> {9, 14}, PlotRange -> {{0, 9}, {0, 14}}, 
+                    ImageSize -> Magnification[1]], ImageSize -> {35, 30}, 
+                   Alignment -> Center], 
+                  ButtonFunction :> (
+                   NotebookLocate[{
+                    "EIWL2-01-starting-out-elementary-arithmetic.nb", ""}, 
+                    FrontEnd`HistoryData :> {
+                    EvaluationNotebook[]}]& ), Enabled -> True, Appearance -> 
+                  None, Background -> RGBColor[0.835294, 0.364706, 0.0196078],
+                   Evaluator -> Automatic, Method -> "Preemptive"]}, 
+               Dynamic[
+                CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+               FrameMargins -> 0], 
+              "\"\:8d77\:6b65\:ff1a\:521d\:7b49\:6570\:5b66\"", TooltipDelay -> 
+              0.15, LabelStyle -> "TextStyling"], 
+             Annotation[#, "\:8d77\:6b65\:ff1a\:521d\:7b49\:6570\:5b66", 
+              "Tooltip"]& ], 
+            InterpretationBox[
+             StyleBox[
+              
+              GraphicsBox[{}, ImageSize -> {5, 0}, BaselinePosition -> 
+               Baseline], "CacheGraphics" -> False], 
+             Spacer[5], Selectable -> False], 
+            TagBox[
+             TooltipBox[
+              PaneSelectorBox[{False -> ButtonBox[
+                  PaneBox[
+                   GraphicsBox[
+                    TagBox[
+                    RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UJAfiDmBmAWI////vwKIfwFxMQMOAJT7+R8B6nGoSf+PCjpwqMskUl0SEP9F
+UtcHxIxY1EWjqZuOQ10Mmr2TcNj7BEnNP1LNIeQeIDsZn78IhQ8x4fwfNb4a
+cPgTFu8l2ORBAAC+1hnm
+                    "], {{0, 15}, {9, 0}}, {0, 255}, 
+                    ColorFunction -> RGBColor], 
+                    BoxForm`ImageTag[
+                    "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                    Selectable -> False], DefaultBaseStyle -> "ImageGraphics",
+                     ImageSizeRaw -> {9, 15}, PlotRange -> {{0, 9}, {0, 15}}, 
+                    ImageSize -> Magnification[1]], ImageSize -> {35, 30}, 
+                   Alignment -> Center], 
+                  ButtonFunction :> (
+                   NotebookLocate[{"EIWL2-03-first-look-at-lists.nb", ""}, 
+                    FrontEnd`HistoryData :> {
+                    EvaluationNotebook[]}]& ), Appearance -> None, Evaluator -> 
+                  Automatic, Method -> "Preemptive"], True -> ButtonBox[
+                  PaneBox[
+                   GraphicsBox[
+                    TagBox[
+                    RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UJAfiDmBmAWI////vwKIfwFxMQMOAJT7+R8B6nGoSf+PCjpwqMskUl0SEP9F
+UtcHxIxY1EWjqZuOQ10Mmr2TcNj7BEnNP1LNIeQeIDsZn78IhQ8x4fwfNb4a
+cPgTFu8l2ORBAAC+1hnm
+                    "], {{0, 15}, {9, 0}}, {0, 255}, 
+                    ColorFunction -> RGBColor], 
+                    BoxForm`ImageTag[
+                    "Byte", ColorSpace -> "RGB", Interleaving -> True], 
+                    Selectable -> False], DefaultBaseStyle -> "ImageGraphics",
+                     ImageSizeRaw -> {9, 15}, PlotRange -> {{0, 9}, {0, 15}}, 
+                    ImageSize -> Magnification[1]], ImageSize -> {35, 30}, 
+                   Alignment -> Center], 
+                  ButtonFunction :> (
+                   NotebookLocate[{"EIWL2-03-first-look-at-lists.nb", ""}, 
+                    FrontEnd`HistoryData :> {
+                    EvaluationNotebook[]}]& ), Appearance -> None, Background -> 
+                  RGBColor[0.835294, 0.364706, 0.0196078], Evaluator -> 
+                  Automatic, Method -> "Preemptive"]}, 
+               Dynamic[
+                CurrentValue["MouseOver"]], ImageSize -> Automatic, 
+               FrameMargins -> 0], "\"\:521d\:8bc6\:5217\:8868\"", 
+              TooltipDelay -> 0.15, LabelStyle -> "TextStyling"], 
+             Annotation[#, "First Look at Lists", "Tooltip"]& ]}, 
+           "RowWithSeparators"], Alignment -> Right], ImageSize -> {100, 30}, 
+         FrameMargins -> {{0, 6}, {0, 0}}, Alignment -> Right], 
+        ActionMenuBox[
+         PaneSelectorBox[{True -> PanelBox[
+             GraphicsBox[
+              TagBox[
+               RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UBAkIQ3ELED8////Jf/pA0D2/KWTXSB7ZtPBPrA9DKOAYgAMR1Eg9gPiABpi
+P6g912mcLmAAZM9XOtkFsicKiNcD8QYaYpD5UQOdXoYD+E/HMooO9iDbR7c6
+BQDxtyEt
+                "], {{0, 16}, {27, 0}}, {0, 255}, ColorFunction -> 
+                RGBColor], 
+               BoxForm`ImageTag[
+               "Byte", ColorSpace -> "RGB", Interleaving -> True, 
+                Magnification -> 1], Selectable -> False], DefaultBaseStyle -> 
+              "ImageGraphics", ImageSize -> Magnification[1], 
+              ImageSizeRaw -> {27, 16}, PlotRange -> {{0, 27}, {0, 16}}], 
+             Appearance -> None, Background -> 
+             RGBColor[0.835294, 0.364706, 0.0196078], ImageSize -> {35, 30}, 
+             Alignment -> Center], False -> PanelBox[
+             GraphicsBox[
+              TagBox[
+               RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UBAkIQ3ELED8////Jf/pA0D2/KWTXSB7ZtPBPrA9DKOAYgAMR1Eg9gPiABpi
+P6g912mcLmAAZM9XOtkFsicKiNcD8QYaYpD5UQOdXoYD+E/HMooO9iDbR7c6
+BQDxtyEt
+                "], {{0, 16}, {27, 0}}, {0, 255}, ColorFunction -> 
+                RGBColor], 
+               BoxForm`ImageTag[
+               "Byte", ColorSpace -> "RGB", Interleaving -> True, 
+                Magnification -> 1], Selectable -> False], DefaultBaseStyle -> 
+              "ImageGraphics", ImageSize -> Magnification[1], 
+              ImageSizeRaw -> {27, 16}, PlotRange -> {{0, 27}, {0, 16}}], 
+             Appearance -> None, Background -> 
+             RGBColor[0.952941, 0.509804, 0], ImageSize -> {35, 30}, 
+             Alignment -> Center]}, 
+          Dynamic[
+           CurrentValue["MouseOver"]]], {
+         "\:524d\:8a00" :> 
+          NotebookLocate[{"EIWL2-0a-preface.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\:4ec0\:4e48\:662f Wolfram \:8bed\:8a00?" :> 
+          NotebookLocate[{"EIWL2-0b-what-is-the-wolfram-language.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], "\:4f7f\:7528 Wolfram \:8bed\:8a00" :> 
+          NotebookLocate[{
+            "EIWL2-0c-practicalities-of-using-the-wolfram-language.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], "\:5176\:5b83\:8d44\:6e90" :> 
+          NotebookLocate[{"EIWL2-0d-other-resources.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]1\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:8d77\:6b65\:ff1a\:521d\:7b49\:6570\:5b66" :> 
+          NotebookLocate[{
+            "EIWL2-01-starting-out-elementary-arithmetic.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]2\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:51fd\:6570\:4ecb\:7ecd" :> 
+          NotebookLocate[{"EIWL2-02-introducing-functions.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]3\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:521d\:8bc6\:5217\:8868" :> 
+          NotebookLocate[{"EIWL2-03-first-look-at-lists.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]4\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:663e\:793a\:5217\:8868" :> 
+          NotebookLocate[{"EIWL2-04-displaying-lists.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]5\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:64cd\:4f5c\:5217\:8868" :> 
+          NotebookLocate[{"EIWL2-05-operations-on-lists.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]6\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:521b\:5efa\:8868" :> 
+          NotebookLocate[{"EIWL2-06-making-tables.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]7\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:989c\:8272\:548c\:6837\:5f0f" :> 
+          NotebookLocate[{"EIWL2-07-colors-and-styles.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]8\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:57fa\:672c\:56fe\:5f62\:5bf9\:8c61" :> 
+          NotebookLocate[{"EIWL2-08-basic-graphics-objects.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\[ThickSpace]\[ThickSpace]\[ThinSpace]9\[ThickSpace]\[ThickSpace]|\
+\[ThickSpace]\[ThickSpace]\:4ea4\:4e92\:5f0f\:64cd\:4f5c" :> 
+          NotebookLocate[{"EIWL2-09-interactive-manipulation.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "10\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:56fe\:50cf\
+" :> NotebookLocate[{"EIWL2-10-images.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "11\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5b57\:7b26\
+\:4e32\:4e0e\:6587\:672c" :> 
+          NotebookLocate[{"EIWL2-11-strings-and-text.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "12\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:58f0\:97f3\
+" :> NotebookLocate[{"EIWL2-12-sound.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "13\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:6570\:7ec4\
+\:ff0c\:6216\:5217\:8868\:7684\:5217\:8868" :> 
+          NotebookLocate[{"EIWL2-13-arrays-or-lists-of-lists.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "14\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5750\:6807\
+\:4e0e\:56fe\:5f62" :> 
+          NotebookLocate[{"EIWL2-14-coordinates-and-graphics.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "15\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]Wolfram \
+\:8bed\:8a00\:7684\:8303\:56f4" :> 
+          NotebookLocate[{
+            "EIWL2-15-the-scope-of-the-wolfram-language.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "16\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:771f\:5b9e\
+\:4e16\:754c\:7684\:6570\:636e" :> 
+          NotebookLocate[{"EIWL2-16-real-world-data.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "17\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5355\:4f4d\
+" :> NotebookLocate[{"EIWL2-17-units.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "18\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5730\:7406\
+\:8ba1\:7b97" :> 
+          NotebookLocate[{"EIWL2-18-geocomputation.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "19\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:65e5\:671f\
+\:548c\:65f6\:95f4" :> 
+          NotebookLocate[{"EIWL2-19-dates-and-times.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "20\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:9009\:9879\
+" :> NotebookLocate[{"EIWL2-20-options.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "21\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:56fe\:548c\
+\:7f51\:7edc" :> 
+          NotebookLocate[{"EIWL2-21-graphs-and-networks.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "22\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:673a\:5668\
+\:5b66\:4e60" :> 
+          NotebookLocate[{"EIWL2-22-machine-learning.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "23\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:518d\:8c08\
+\:6570\:5b57" :> 
+          NotebookLocate[{"EIWL2-23-more-about-numbers.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "24\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:66f4\:591a\
+\:53ef\:89c6\:5316\:7684\:5f62\:5f0f" :> 
+          NotebookLocate[{"EIWL2-24-more-forms-of-visualization.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "25\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5e94\:7528\
+\:51fd\:6570\:7684\:65b9\:5f0f" :> 
+          NotebookLocate[{"EIWL2-25-ways-to-apply-functions.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "26\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:7eaf\:533f\
+\:540d\:51fd\:6570" :> 
+          NotebookLocate[{"EIWL2-26-pure-anonymous-functions.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "27\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:91cd\:590d\
+\:5e94\:7528\:51fd\:6570" :> 
+          NotebookLocate[{"EIWL2-27-applying-functions-repeatedly.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "28\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:6d4b\:8bd5\
+\:4e0e\:6761\:4ef6" :> 
+          NotebookLocate[{"EIWL2-28-tests-and-conditionals.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "29\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:518d\:8c08\
+\:7eaf\:51fd\:6570" :> 
+          NotebookLocate[{"EIWL2-29-more-about-pure-functions.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "30\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:91cd\:65b0\
+\:6392\:5217\:5217\:8868" :> 
+          NotebookLocate[{"EIWL2-30-rearranging-lists.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "31\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:63d0\:53d6\
+\:5217\:8868\:5143\:7d20" :> 
+          NotebookLocate[{"EIWL2-31-parts-of-lists.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "32\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:6a21\:5f0f\
+" :> NotebookLocate[{"EIWL2-32-patterns.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "33\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:8868\:8fbe\
+\:5f0f\:53ca\:5176\:7ed3\:6784" :> 
+          NotebookLocate[{"EIWL2-33-expressions-and-their-structure.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "34\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5173\:8054\
+" :> NotebookLocate[{"EIWL2-34-associations.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "35\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:7406\:89e3\
+\:81ea\:7136\:8bed\:8a00" :> 
+          NotebookLocate[{"EIWL2-35-natural-language-understanding.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "36\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:521b\:5efa\
+\:7f51\:7ad9\:548c\:5e94\:7528\:7a0b\:5e8f" :> 
+          NotebookLocate[{"EIWL2-36-creating-websites-and-apps.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "37\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5e03\:5c40\
+\:4e0e\:663e\:793a" :> 
+          NotebookLocate[{"EIWL2-37-layout-and-display.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          
+          "38\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:4e3a\:5bf9\
+\:8c61\:6307\:6d3e\:540d\:79f0" :> 
+          NotebookLocate[{"EIWL2-38-assigning-names-to-things.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "39\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:7acb\:5373\
+\:8d4b\:503c\:4e0e\:5ef6\:8fdf\:8d4b\:503c" :> 
+          NotebookLocate[{"EIWL2-39-immediate-and-delayed-values.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "40\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5b9a\:4e49\
+\:4f60\:81ea\:5df1\:7684\:51fd\:6570" :> 
+          NotebookLocate[{"EIWL2-40-defining-your-own-functions.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "41\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:518d\:8c08\
+\:6a21\:5f0f" :> 
+          NotebookLocate[{"EIWL2-41-more-about-patterns.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "42\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5b57\:7b26\
+\:4e32\:6a21\:5f0f\:4e0e\:6a21\:677f" :> 
+          NotebookLocate[{"EIWL2-42-string-patterns-and-templates.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "43\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5b58\:50a8\
+\:5bf9\:8c61" :> 
+          NotebookLocate[{"EIWL2-43-storing-things.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "44\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:5bfc\:5165\
+\:4e0e\:5bfc\:51fa" :> 
+          NotebookLocate[{"EIWL2-44-importing-and-exporting.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "45\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:6570\:636e\
+\:96c6" :> NotebookLocate[{"EIWL2-45-datasets.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "46\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:7f16\:5199\
+\:4f18\:79c0\:7684\:4ee3\:7801" :> 
+          NotebookLocate[{"EIWL2-46-writing-good-code.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "47\[ThickSpace]\[ThickSpace]|\[ThickSpace]\[ThickSpace]\:8c03\:8bd5\
+\:4f60\:7684\:4ee3\:7801" :> 
+          NotebookLocate[{"EIWL2-47-debugging-your-code.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\:8fd8\:6709\:4ec0\:4e48\:6211\:4eec\:5c1a\:672a\:8bba\:53ca" :> 
+          NotebookLocate[{"EIWL2-what-we-havent-discussed.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], 
+          "\:540e\:8bb0\:ff1a\:6210\:4e3a\:4e00\:4e2a\:7a0b\:5e8f\:5458" :> 
+          NotebookLocate[{"EIWL2-being-a-programmer.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], "\:4e60\:9898\:7b54\:6848" :> 
+          NotebookLocate[{"EIWL2-answers-to-exercises.nb", ""}, 
+            FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}], "\:7d22\:5f15" :> 
+          NotebookLocate[{"EIWL2-book-index.nb", ""}, FrontEnd`HistoryData :> {
+              EvaluationNotebook[]}]}, Appearance -> None]}}, 
+      GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Center}}}, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"]], 
+   "Text", ShowCellBracket -> False, CellFrame -> {{0, 0}, {3, 0}}, 
+   Selectable -> False, CellFrameColor -> 
+   RGBColor[0.835294, 0.364706, 0.0196078], CellMargins -> {{0, 0}, {0, -1}}, 
+   CellFrameMargins -> {{27, 0}, {1, 7}}, Background -> 
+   RGBColor[0.952941, 0.509804, 0], CellTags -> "DockedCellLogoCell"], 
+  Cell["\:7b2c\:4e8c\:7248", "Text", FontFamily -> "Source Sans Pro", 
+   CellFrame -> {{0, 0}, {3, 0}}, ShowCellBracket -> False, 
+   CellMargins -> {{0, 0}, {-1, -1}}, CellFrameMargins -> {{66, 0}, {2, 4}}, 
+   CellFrameColor -> RGBColor[0.952941, 0.509804, 0], FontSize -> 10, 
+   FontTracking -> "Extended", FontColor -> RGBColor[1, 0.929412, 0.721569], 
+   Background -> RGBColor[0.862745, 0.309804, 0], CellTags -> 
+   "DockedCellLogoCell"]},
+PrintingCopies->1,
+PrintingStartingPageNumber->3,
+PrintingPageRange->{1, Automatic},
+PageHeaders->{{
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Page"], "PageNumber"], 
+      StyleBox[
+      "    An Elementary Introduction to the Wolfram Language", "Header"]}], 
+    "Header", CellMargins -> {{37, Inherited}, {Inherited, Inherited}}], None,
+    None}, {None, None, 
+   Cell[
+    TextData[{
+      StyleBox[
+       CounterBox["Section"], "Header"], 
+      StyleBox[
+      " | Introducing Functions \[LongDash] wolfr.am/eiwl-", "Header"], 
+      StyleBox[
+       CounterBox["Section"], "Header"], 
+      StyleBox["    ", "Header"], 
+      StyleBox[
+       CounterBox["Page"], "PageNumber"]}], "Header", 
+    CellMargins -> {{Inherited, 17}, {Inherited, Inherited}}]}},
+PrintingOptions->{"FirstPageHeader"->True},
+ShowCellBracket->Automatic,
+ShowAutoSpellCheck->False,
+ShowPredictiveInterface->False,
+ShowSyntaxStyles->False,
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\
+\:65e5)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+      "Style Environments", "Section", 
+       CellChangeTimes -> {{3.64661165091824*^9, 3.646611654013329*^9}, 
+         3.6485723794335403`*^9, 3.651347081728628*^9, 3.651347179462186*^9, 
+         3.651347384135805*^9, 3.651348171662589*^9}], 
+      Cell[
+       StyleData[All, "Working"], CellInsertionPointCell -> 
+       FEPrivate`FrontEndResource["FEExpressions", "CellInsertionMenu"], 
+       CreateCellID -> True, $CellContext`GhostCellInEmptyNotebook -> False], 
+      
+      Cell[
+       StyleData[All, "Printout"], 
+       PrintingOptions -> {
+        "PageSize" -> {504, 720}, "PrintRegistrationMarks" -> True}, 
+       Magnification -> 0.6]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell["Styles for Headers and Footers", "Section"], 
+      Cell[
+       StyleData["Header"], StyleMenuListing -> None, FontFamily -> "Verdana",
+        FontSize -> 7, FontSlant -> "Plain", FontColor -> GrayLevel[0.6]], 
+      Cell[
+       StyleData["PageNumber"], CellMargins -> {{0, 0}, {4, 1}}, 
+       StyleMenuListing -> None, FontFamily -> "Verdana", FontSize -> 7, 
+       FontWeight -> "Bold", FontSlant -> "Plain", FontColor -> 
+       GrayLevel[0]]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+      "WPL Specific", "Section", 
+       CellChangeTimes -> {{3.6556608433734913`*^9, 3.6556608489412746`*^9}}], 
+      Cell[
+       StyleData["Link"], FontFamily -> "Source Sans Pro", FontSize :> 
+       If[CurrentValue[
+           EvaluationCell[], "FontFamily"] === "Source Sans Pro", Inherited, 
+         If[CurrentValue[
+            EvaluationCell[], "FontFamily"] === "WolframCodeSans", Inherited, 
+          Inherited 0.9]], FontColor -> GrayLevel[0]], 
+      Cell[
+       StyleData["CodeLink"], 
+       ButtonBoxOptions -> {
+        Appearance -> None, ButtonFunction :> (FEPrivate`FrontEndExecute[
+           FrontEndToken["OpenHelpLink", {
+             Part[#, 1], Null}]]& ), ButtonSource -> ButtonContents, 
+         Evaluator -> None, Method -> "Preemptive"}]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+      "Custom Styles", "Section", 
+       CellChangeTimes -> {{3.646611660445352*^9, 3.646611669493331*^9}}], 
+      Cell[
+       StyleData["Notebook"], PageWidth :> 700, 
+       PrintingOptions -> {
+        "InnerOuterMargins" -> {35, 16}, "PaperOrientation" -> "Portrait", 
+         "PaperSize" -> {504, 720}, 
+         "PrintingMargins" -> {{20, 20}, {54, 54}}}, CellLabelAutoDelete -> 
+       False, ShowSyntaxStyles -> True, 
+       AutoStyleOptions -> {
+        "FormattingErrorTooltips" -> False, "HighlightComments" -> False, 
+         "HighlightEmphasizedSyntaxErrors" -> False, 
+         "HighlightExcessArguments" -> False, "HighlightFormattingErrors" -> 
+         False, "HighlightGlobalToLocalScopeConflicts" -> False, 
+         "HighlightGraphicsCompatibilityProblems" -> False, 
+         "HighlightLocalScopeConflicts" -> False, "HighlightMissingArguments" -> 
+         False, "HighlightNoKernelPresent" -> False, 
+         "HighlightOrderOfEvaluationConflicts" -> False, "HighlightStrings" -> 
+         True, "HighlightSymbolContexts" -> False, "HighlightSymbolShadowing" -> 
+         False, "HighlightSyntaxErrors" -> False, "HighlightUndefinedSymbols" -> 
+         False, "HighlightUnknownOptions" -> False, 
+         "HighlightUnwantedAssignments" -> False}, MenuSortingValue -> None, 
+       GraphicsBoxOptions -> {ImageSize -> 240}, 
+       Graphics3DBoxOptions -> {ImageSize -> 240}], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Title"], CellMargins -> {{64, Inherited}, {50, 72}}, 
+          MenuCommandKey :> None, FontFamily -> "Verdana", FontSize -> 42, 
+          FontWeight -> "Bold", FontColor -> GrayLevel[0.4]], 
+         Cell[
+          StyleData["Title", "Printout"], 
+          CellMargins -> {{64, Inherited}, {50, 72}}]}, Closed]], 
+      Cell[
+       StyleData["Chapter"], MenuCommandKey :> None], 
+      Cell[
+       StyleData["Subchapter"], MenuCommandKey :> None], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Section"], CellFrame -> {{0, 0}, {0, 0}}, CellDingbat -> 
+          Cell[
+            TextData[
+             CounterBox["Section"], 
+             StyleBox[
+             "|\[NegativeThinSpace]", FontColor -> 
+              RGBColor[
+               0.9019607843137255, 0.4117647058823529, 0.027450980392156862`],
+               FontFamily -> "Courier", FontSize -> 36, FontWeight -> Plain]],
+             "SectionNumber"], CellMargins -> {{96, Inherited}, {12, 44}}, 
+          Evaluatable -> True, CellGroupingRules -> {"SectionGrouping", 60}, 
+          PageBreakAbove -> True, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+          CounterIncrements -> "Section", 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", 
+          FontSize -> 26, FontSlant -> "Plain", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          InterpretationBoxOptions -> {Editable -> True}], 
+         Cell[
+          StyleData["Section", "Printout"], 
+          CellMargins -> {{96, Inherited}, {12, 2}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionDoubleDigit"], CellFrame -> {{0, 0}, {0, 0}}, 
+          CellDingbat -> Cell[
+            TextData[
+             CounterBox["Section"], 
+             StyleBox[
+             "|\[NegativeThinSpace]", FontColor -> 
+              RGBColor[
+               0.9019607843137255, 0.4117647058823529, 0.027450980392156862`],
+               FontFamily -> "Courier", FontSize -> 36, FontWeight -> Plain]],
+             "SectionNumber"], CellMargins -> {{112, Inherited}, {12, 44}}, 
+          Evaluatable -> True, CellGroupingRules -> {"SectionGrouping", 60}, 
+          PageBreakAbove -> True, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+          CounterIncrements -> "Section", 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", 
+          FontSize -> 26, FontSlant -> "Plain", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          InterpretationBoxOptions -> {Editable -> True}], 
+         Cell[
+          StyleData["SectionDoubleDigit", "Printout"], 
+          CellMargins -> {{112, Inherited}, {12, 2}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionNumber"], CellBaseline -> Baseline, FontFamily -> 
+          "Source Sans Pro Semibold", FontSize -> 26, FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+         Cell[
+          StyleData["SectionNumber", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionInline"], FontFamily -> 
+          "Source Sans Pro Semibold", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+         Cell[
+          StyleData["SectionInline", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionNoDingbat"], 
+          CellMargins -> {{64, Inherited}, {12, 44}}, Evaluatable -> True, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakAbove -> 
+          True, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+          CounterIncrements -> "Section", 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", 
+          FontSize -> 26, FontSlant -> "Plain", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          InterpretationBoxOptions -> {Editable -> True}], 
+         Cell[
+          StyleData["SectionNoDingbat", "Printout"], 
+          CellMargins -> {{64, Inherited}, {12, 2}}]}, Closed]], 
+      Cell[
+       StyleData["AnswerKeyNumberedSection"], 
+       CellMargins -> {{64, Inherited}, {8, 28}}, Evaluatable -> True, 
+       CellGroupingRules -> {"SectionGrouping", 60}, PageBreakAbove -> True, 
+       ShowCellLabel -> False, 
+       CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+       CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+       CounterIncrements -> "Section", 
+       CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+         "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", FontSize -> 
+       18, FontSlant -> "Plain", FontColor -> 
+       RGBColor[
+        0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+       InterpretationBoxOptions -> {Editable -> True}], 
+      Cell[
+       StyleData["AnswerKeySectionNumber"], CellBaseline -> Baseline, 
+       FontFamily -> "Source Sans Pro Semibold", FontSize -> 18, FontColor -> 
+       RGBColor[
+        0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+      Cell[
+       StyleData["IndexLinkGuide"], 
+       CellMargins -> {{64, Inherited}, {48, 28}}, Evaluatable -> True, 
+       CellGroupingRules -> {"SectionGrouping", 60}, PageBreakAbove -> True, 
+       ShowCellLabel -> False, 
+       CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+       CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+       CounterIncrements -> "Section", 
+       CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+         "Exercise", 0}}, FontFamily -> "Source Sans Pro", FontSize -> 14, 
+       FontSlant -> "Plain", FontColor -> 
+       RGBColor[
+        0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+       InterpretationBoxOptions -> {Editable -> True}], 
+      Cell[
+       StyleData["Index"], MenuSortingValue -> 10000, FontFamily -> 
+       "Source Sans Pro", FontSize -> 11], 
+      Cell[
+       StyleData["IndexSubentry"], MenuSortingValue -> 10000, FontFamily -> 
+       "Source Sans Pro", FontSize -> 11], 
+      Cell[
+       StyleData["FunctionName"], MenuSortingValue -> 10000, FontFamily -> 
+       "Source Sans Pro Semibold", FontWeight -> "Bold"], 
+      Cell[
+       StyleData["IndexColumn"], 
+       CellMargins -> {{66, 0}, {Inherited, Inherited}}, TabSpacings -> {2.}, 
+       MenuSortingValue -> 10000, FontFamily -> "Source Sans Pro", 
+       GridBoxOptions -> {
+        GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+         GridBoxItemSize -> {"Columns" -> {{25}}}, 
+         GridBoxSpacings -> {"Columns" -> {{2}}}}], 
+      Cell[
+       StyleData["IndexSubsection"], 
+       CellMargins -> {{64, Inherited}, {9, 28}}, 
+       CellGroupingRules -> {"SectionGrouping", 40}, MenuSortingValue -> 
+       10000, FontFamily -> "Source Sans Pro", FontSize -> 24], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Subsection"], CellMargins -> {{64, Inherited}, {12, 32}},
+           FontFamily -> "Source Sans Pro Semibold", FontSize -> 18, 
+          FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+         Cell[
+          StyleData["Subsection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {12, 32}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ResourcesSubsection"], 
+          CellMargins -> {{64, Inherited}, {4, 16}}, FontFamily -> 
+          "Source Sans Pro Semibold", FontSize -> 15, FontSlant -> "Plain", 
+          FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["ResourcesSubsection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {4, 16}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Subsubsection"], 
+          CellMargins -> {{64, Inherited}, {6, 12}}, FontFamily -> 
+          "Source Sans Pro Semibold", FontSize -> 16, FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+         Cell[
+          StyleData["Subsubsection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {6, 12}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["VocabularySection"], PageWidth :> 700, 
+          CellFrame -> {{0, 0}, {0, 3}}, 
+          CellMargins -> {{64, Inherited}, {8, 24}}, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> 
+          False, CellFrameMargins -> {{8, 8}, {4, 6}}, CellFrameColor -> 
+          RGBColor[0.901961, 0.411765, 0.027451], FontFamily -> 
+          "Source Sans Pro", FontSize -> 18, FontSlant -> "Italic", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          GridBoxOptions -> {GridBoxAlignment -> {}}], 
+         Cell[
+          StyleData["VocabularySection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {8, 24}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["VocabularyTable", StyleDefinitions -> StyleData["Text"]],
+           SpanMaxSize -> 1, FontFamily -> "Source Sans Pro Light", FontColor -> 
+          GrayLevel[0.8], 
+          GridBoxOptions -> {
+           GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            GridBoxDividers -> {"Columns" -> {{False}}, "Rows" -> {False, {
+                 Directive[
+                  Thickness[0.5], "VocabDivColor"]}, False}}, 
+            GridBoxItemStyle -> {
+             "Columns" -> {"VocabularyCode", Inherited, Inherited}, 
+              "Rows" -> {{Automatic}}}, 
+            GridBoxSpacings -> {
+             "Columns" -> {{0, 1, 2, 1, 2}}, "Rows" -> {{1}}}}], 
+         Cell[
+          StyleData["VocabularyTable", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData[
+          "VocabularyTable3Column", StyleDefinitions -> StyleData["Text"]], 
+          SpanMaxSize -> 1, FontFamily -> "Source Sans Pro Light", FontColor -> 
+          GrayLevel[0.8], 
+          GridBoxOptions -> {
+           GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            GridBoxDividers -> {"Columns" -> {{False}}, "Rows" -> {False, {
+                 Directive[
+                  Thickness[0.5], "VocabDivColor"]}, False}}, 
+            GridBoxItemStyle -> {
+             "Columns" -> {
+               "VocabularyCode", Inherited, "VocabularyCode", Inherited, 
+                Inherited}, "Rows" -> {{Automatic}}}, 
+            GridBoxSpacings -> {
+             "Columns" -> {{0, 1, 2, 1, 2}}, "Rows" -> {{1}}}}], 
+         Cell[
+          StyleData["VocabularyTable3Column", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["VocabularyText"], FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Plain", FontSlant -> "Plain", 
+          FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["VocabularyText", "Printout"], 
+          CellMargins -> {{66, 10}, {7, 7}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["VocabularyCode", StyleDefinitions -> StyleData["Text"]], 
+          Deletable -> False, FontFamily -> "Source Sans Pro", FontSize -> 14,
+           FontWeight -> "Bold", FontColor -> GrayLevel[0.25], 
+          GridBoxOptions -> {
+           GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            GridBoxDividers -> {
+             "Columns" -> {{False}}, "ColumnsIndexed" -> {}, 
+              "Rows" -> {True, {True}, True}, "RowsIndexed" -> {}}}], 
+         Cell[
+          StyleData["VocabularyCode", "Printout"], FontColor -> 
+          GrayLevel[0.25]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["VocabDivColor"], FontColor -> GrayLevel[0.8]], 
+         Cell[
+          StyleData["VocabDivColor", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseSection"], PageWidth :> 700, 
+          CellFrame -> {{0, 0}, {0, 3}}, 
+          CellMargins -> {{64, Inherited}, {8, 30}}, Evaluatable -> True, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> 
+          False, ShowCellLabel -> False, CellFrameMargins -> {{8, 8}, {4, 6}},
+           CellFrameColor -> RGBColor[0.901961, 0.411765, 0.027451], 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro", FontSize -> 18, 
+          FontSlant -> "Italic", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          GridBoxOptions -> {GridBoxAlignment -> {}}], 
+         Cell[
+          StyleData["ExerciseSection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {8, 30}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Exercise"], PageWidth :> 700, CellDingbat -> Cell[
+            TextData[{"  ", 
+              CounterBox["Section"], ".", 
+              CounterBox["Exercise"]}], "ExerciseNumber", FontColor -> 
+            RGBColor[
+             0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+          ShowGroupOpener -> True, CellMargins -> {{108, Inherited}, {4, 8}}, 
+          CellGroupingRules -> {"SectionGrouping", 67}, CounterIncrements -> 
+          "Exercise", MenuSortingValue -> 10020, MenuCommandKey :> "2", 
+          FontFamily -> "Source Sans Pro", FontSize -> 14, FontWeight -> 
+          "Plain", FontSlant -> "Plain", FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["Exercise", "Printout"], ShowGroupOpener -> False, 
+          CellMargins -> {{110, Inherited}, {4, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseNumber"], FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Bold", FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["ExerciseNumber", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseSubsection"], PageWidth :> 500, 
+          CellFrame -> {{False, False}, {1, False}}, 
+          CellMargins -> {{64, Inherited}, {8, 18}}, 
+          CellGroupingRules -> {"SectionGrouping", 60}, CellFrameColor -> 
+          RGBColor[0.65, 0.6, 0.6], FontFamily -> "Source Sans Pro", FontSize -> 
+          18, FontSlant -> "Italic", FontColor -> RGBColor[0.65, 0.6, 0.6]], 
+         Cell[
+          StyleData["ExerciseSubsection", "Printout"], 
+          CellFrame -> {{False, False}, {1, False}}, CellFrameColor -> 
+          RGBColor[0.65, 0.6, 0.6]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseNote"], PageWidth :> 700, 
+          CellMargins -> {{64, Inherited}, {4, 8}}, PageBreakBelow -> False, 
+          MenuSortingValue -> 10050, FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Plain", FontSlant -> "Plain", 
+          FontColor -> GrayLevel[0.25], $CellContext`ReturnCreatesNewCell -> 
+          True], 
+         Cell[
+          StyleData["ExerciseNote", "Printout"], 
+          CellMargins -> {{64, Inherited}, {4, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["QASection"], PageWidth :> 700, 
+          CellFrame -> {{0, 0}, {0, 3}}, 
+          CellMargins -> {{64, Inherited}, {8, 30}}, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> 
+          False, CellFrameMargins -> {{8, 8}, {4, 6}}, CellFrameColor -> 
+          RGBColor[0.901961, 0.411765, 0.027451], 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Question", 0}}, FontFamily -> "Source Sans Pro", FontSize -> 18, 
+          FontSlant -> "Italic", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          GridBoxOptions -> {GridBoxAlignment -> {}}], 
+         Cell[
+          StyleData["QASection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {8, 30}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Question"], PageWidth :> 700, 
+          CellMargins -> {{64, Inherited}, {2, 12}}, PageBreakBelow -> False, 
+          CounterIncrements -> "Question", MenuSortingValue -> 10030, 
+          MenuCommandKey :> "3", FontFamily -> "Source Sans Pro", FontSize -> 
+          14, FontWeight -> "Bold", FontSlant -> 
+          "Plain", $CellContext`ReturnCreatesNewCell -> 
+          True, $CellContext`DefaultReturnCreatedCellStyle -> "Answer"], 
+         Cell[
+          StyleData["Question", "Printout"], 
+          CellMargins -> {{65, Inherited}, {2, 12}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Answer"], PageWidth :> 700, 
+          CellMargins -> {{66, 10}, {4, 1}}, LineSpacing -> {1.125, 1., 2.}, 
+          MenuSortingValue -> 10032, FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Plain", FontSlant -> "Plain", 
+          FontColor -> GrayLevel[0.25], $CellContext`ReturnCreatesNewCell -> 
+          True, $CellContext`DefaultReturnCreatedCellStyle -> "Question"], 
+         Cell[
+          StyleData["Answer", "Printout"], 
+          CellMargins -> {{66, 10}, {4, 1}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["QuestionNumber"], FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Bold", FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["QuestionNumber", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["TechNoteSection"], PageWidth :> 700, 
+          CellFrame -> {{0, 0}, {0, 3}}, 
+          CellMargins -> {{64, Inherited}, {8, 30}}, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> 
+          False, CellFrameMargins -> {{8, 8}, {4, 6}}, CellFrameColor -> 
+          RGBColor[0.901961, 0.411765, 0.027451], FontFamily -> 
+          "Source Sans Pro", FontSize -> 18, FontSlant -> "Italic", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          GridBoxOptions -> {GridBoxAlignment -> {}}], 
+         Cell[
+          StyleData["TechNoteSection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {8, 30}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["TechNote"], PageWidth :> 700, CellDingbat -> Cell[
+            TextData[{"\[FilledSmallSquare]"}], FontSize -> 12, FontColor -> 
+            GrayLevel[0.5]], CellMargins -> {{78, Inherited}, {4, 8}}, 
+          CellChangeTimes -> {{3.651515120816633*^9, 3.651515125814807*^9}, 
+            3.6515155174947033`*^9}, LineSpacing -> {1.25, 1., 2.}, 
+          MenuSortingValue -> 10040, FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Plain", FontSlant -> "Plain", 
+          FontColor -> GrayLevel[0.25], $CellContext`ReturnCreatesNewCell -> 
+          True], 
+         Cell[
+          StyleData["TechNote", "Printout"], 
+          CellMargins -> {{82, Inherited}, {4, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["MoreExploreSection"], PageWidth :> 700, 
+          CellFrame -> {{0, 0}, {0, 3}}, 
+          CellMargins -> {{64, Inherited}, {8, 30}}, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakBelow -> 
+          False, CellFrameMargins -> {{8, 8}, {4, 6}}, CellFrameColor -> 
+          RGBColor[0.901961, 0.411765, 0.027451], FontFamily -> 
+          "Source Sans Pro", FontSize -> 18, FontSlant -> "Italic", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          GridBoxOptions -> {GridBoxAlignment -> {}}], 
+         Cell[
+          StyleData["MoreExploreSection", "Printout"], 
+          CellMargins -> {{64, Inherited}, {8, 30}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["MoreExplore"], PageWidth :> 700, 
+          CellMargins -> {{64, Inherited}, {4, 8}}, PageBreakBelow -> False, 
+          MenuSortingValue -> 10050, FontFamily -> "Source Sans Pro", 
+          FontSize -> 14, FontWeight -> "Plain", FontSlant -> "Plain", 
+          FontColor -> GrayLevel[0], $CellContext`ReturnCreatesNewCell -> 
+          True], 
+         Cell[
+          StyleData["MoreExplore", "Printout"], 
+          CellMargins -> {{64, Inherited}, {4, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["MoreExploreShortURL"], 
+          CellMargins -> {{64, Inherited}, {4, 8}}, PageBreakBelow -> False, 
+          FontFamily -> "Source Sans Pro Light", FontSize -> 14, FontSlant -> 
+          "Plain", FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["MoreExploreShortURL", "Printout"], 
+          CellMargins -> {{64, Inherited}, {4, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Text"], CellMargins -> {{66, 10}, {4, 14}}, FontFamily -> 
+          "Baskerville", FontSize -> 18, FontColor -> 
+          GrayLevel[0], $CellContext`ReturnCreatesNewCell -> True], 
+         Cell[
+          StyleData["Text", "Printout"], CellMargins -> {{66, 10}, {7, 7}}]}, 
+        Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ResourcesText"], CellMargins -> {{66, 10}, {2, 0}}, 
+          FontFamily -> "Source Sans Pro", FontSize -> 14, FontWeight -> 
+          "Plain", FontSlant -> "Plain", FontColor -> 
+          GrayLevel[0], $CellContext`ReturnCreatesNewCell -> True], 
+         Cell[
+          StyleData["ResourcesText", "Printout"], 
+          CellMargins -> {{66, 10}, {2, 0}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ResourcesLink"], CellMargins -> {{66, 10}, {2, 0}}, 
+          FontFamily -> "Source Sans Pro", FontSize -> 14, FontWeight -> 
+          "Plain", FontSlant -> "Italic", FontColor -> 
+          GrayLevel[0], $CellContext`ReturnCreatesNewCell -> True], 
+         Cell[
+          StyleData["ResourcesLink", "Printout"], 
+          CellMargins -> {{66, 10}, {2, 0}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["CodeCaption"], CellFrame -> {{0, 0}, {0, 0}}, 
+          CellMargins -> {{66, 10}, {4, 12}}, PageBreakBelow -> False, 
+          CellFrameColor -> GrayLevel[0.4], MenuSortingValue -> 10010, 
+          MenuCommandKey :> "1", FontFamily -> "Source Sans Pro", FontSize -> 
+          16, FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["CodeCaption", "Printout"], 
+          CellMargins -> {{66, 10}, {4, 12}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Input"], CellMargins -> {{99, 10}, {3, 7}}, SpanMaxSize -> 
+          1, FontSize -> 15], 
+         Cell[
+          StyleData["Input", "Printout"], CellMargins -> {{99, 10}, {3, 7}}]},
+         Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Output"], CellMargins -> {{99, 10}, {14, 7}}, FontSize -> 
+          15], 
+         Cell[
+          StyleData["Output", "Printout"], 
+          CellMargins -> {{99, 10}, {14, 7}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["InputOnly"], CellMargins -> {{99, 10}, {25, 10}}, 
+          SpanMaxSize -> 1, MenuSortingValue -> 1500, FontSize -> 15], 
+         Cell[
+          StyleData["InputOnly", "Printout"], 
+          CellMargins -> {{99, 10}, {15, 10}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["CellLabel"], 
+          CellLabelMargins -> {{12, Inherited}, {Inherited, Inherited}}, 
+          LanguageCategory -> None, StyleMenuListing -> None, FontFamily -> 
+          "Helvetica Neue", FontSize -> 9, FontWeight -> "Plain", FontSlant -> 
+          "Plain", FontColor -> GrayLevel[0.5]], 
+         Cell[
+          StyleData["CellLabel", "Printout"], FontSize -> 8, FontColor -> 
+          GrayLevel[0.5]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Message"], Editable -> False, 
+          CellMargins -> {{66, Inherited}, {Inherited, Inherited}}, 
+          CellGroupingRules -> "OutputGrouping", TextClipboardType -> 
+          "PlainText", PageBreakWithin -> False, GroupPageBreakWithin -> 
+          False, GeneratedCell -> True, CellAutoOverwrite -> True, 
+          ShowCellLabel -> False, DefaultFormatType -> 
+          DefaultOutputFormatType, ContextMenu -> 
+          FEPrivate`FrontEndResource["ContextMenus", "Output"], 
+          ShowAutoStyles -> False, ShowSyntaxStyles -> False, 
+          AutoStyleOptions -> {
+           "StringStyle" -> None, "SyntaxErrorStyle" -> None}, 
+          HyphenationOptions -> {"HyphenationCharacter" -> "\[Continuation]"},
+           AutoItalicWords -> {}, AutoQuoteCharacters -> {}, 
+          PasteAutoQuoteCharacters -> {}, LanguageCategory -> None, 
+          FormatType -> InputForm, ShowStringCharacters -> False, 
+          CounterIncrements -> "Message", MenuSortingValue -> 1600, 
+          StyleMenuListing -> None, FontFamily :> 
+          CurrentValue["PanelFontFamily"], FontSize -> 11, FontColor -> 
+          RGBColor[0.5072, 0.16933, 0.15221], $CellContext`StripStyleOnPaste -> 
+          True], 
+         Cell[
+          StyleData["Message", "Printout"], 
+          CellMargins -> {{100, Inherited}, {Inherited, Inherited}}, 
+          CellFrameLabels -> {{None, None}, {None, None}}, FontColor -> 
+          GrayLevel[0]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseInput", StyleDefinitions -> StyleData["Input"]], 
+          CellMargins -> {{88, 10}, {4, 7}}, ShowCellLabel -> False, 
+          SpanMaxSize -> 1, FontSize -> 
+          14, $CellContext`GeneratedCellStyles -> {
+           "Output" -> "ExerciseOutput"}], 
+         Cell[
+          StyleData["ExerciseInput", "Printout"], 
+          CellMargins -> {{88, 10}, {4, 7}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData[
+          "ExerciseOutput", StyleDefinitions -> StyleData["Output"]], 
+          CellMargins -> {{88, 10}, {10, 4}}, ShowCellLabel -> False, 
+          FontSize -> 14], 
+         Cell[
+          StyleData["ExerciseOutput", "Printout"], 
+          CellMargins -> {{88, 10}, {10, 4}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Picture"], CellMargins -> {{66, 10}, {10, 10}}, 
+          CellGroupingRules -> "GraphicsGrouping", StyleMenuListing -> None], 
+         
+         Cell[
+          StyleData["Picture", "Printout"], 
+          CellMargins -> {{66, 10}, {8, 8}}]}, Closed]], 
+      Cell[
+       StyleData["ExerciseSummaryCell"], PageWidth :> 700, CellFrame -> 0, 
+       CellMargins -> {{64, Inherited}, {8, 10}}, 
+       CellGroupingRules -> {"SectionGrouping", 64}, PageBreakBelow -> False, 
+       ShowCellLabel -> False, CellFrameMargins -> 0, ShowStringCharacters -> 
+       False, FontFamily -> "Source Sans Pro", FontSize -> 18, FontColor -> 
+       RGBColor[1, 1, 1], 
+       GridBoxOptions -> {GridBoxBackground -> {"Columns" -> {{
+              RGBColor[0.990997, 0.539528, 0.155779], 
+              RGBColor[0.989487, 0.434699, 0.0320439]}}, "Rows" -> {{None}}}, 
+         GridBoxItemSize -> {"Columns" -> {
+             Scaled[0.7], 
+             Scaled[0.3]}, "Rows" -> {{Automatic}}}}], 
+      Cell[
+       StyleData["ExerciseSummaryHeading"], ShowStringCharacters -> False, 
+       FontFamily -> "Source Sans Pro", FontSize -> 18, FontColor -> 
+       RGBColor[1, 1, 1]], 
+      Cell[
+       StyleData["ExerciseSummarySubheading"], ShowStringCharacters -> False, 
+       FontFamily -> "Source Sans Pro", FontSize -> 15, FontColor -> 
+       RGBColor[1., 0.9294117647058824, 0.7215686274509804]], 
+      Cell[
+       StyleData["ExercisePreviewButtonText"], ShowStringCharacters -> False, 
+       FontFamily -> "Source Sans Pro", FontSize -> 14, FontSlant -> "Plain", 
+       FontColor -> RGBColor[0.6, 0.6, 0.6]], 
+      Cell[
+       StyleData["ExercisePreviewButtonTextHighlight"], ShowStringCharacters -> 
+       False, FontFamily -> "Source Sans Pro", FontSize -> 14, FontSlant -> 
+       "Plain", FontColor -> 
+       RGBColor[
+        0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]]}, 
+     Open]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+      "Inline and special formatting", "Section", 
+       CellChangeTimes -> {{3.646681732592888*^9, 3.646681749414035*^9}}], 
+      Cell[
+       StyleData["Graphics"], MenuSortingValue -> None], 
+      Cell[
+       StyleData["Graphics3D"], MenuSortingValue -> None], 
+      Cell[
+       StyleData["StandardForm"], 
+       InputAutoReplacements -> {
+        "->" -> "\[Rule]", ":>" -> "\[RuleDelayed]", "<=" -> "\[LessEqual]", 
+         ">=" -> "\[GreaterEqual]", "!=" -> "\[NotEqual]", "==" -> "\[Equal]",
+          "@>" -> "\\[InlinePart]", "<->" -> "\[UndirectedEdge]", ParentList},
+        LineSpacing -> {1.25, 0, 2}, SingleLetterItalics -> False, 
+       StyleMenuListing -> None, FontFamily -> "Source Sans Pro", 
+       PrivateFontOptions -> {"OperatorSubstitution" -> True}], 
+      Cell[
+       StyleData["OutputForm"], PageWidth :> DirectedInfinity[1], 
+       TextAlignment -> Left, LineSpacing -> {0.6, 1}, 
+       AutoQuoteCharacters -> {}, PasteAutoQuoteCharacters -> {}, 
+       StyleMenuListing -> None, FontFamily -> "Source Sans Pro", 
+       PrivateFontOptions -> {"OperatorSubstitution" -> True}], 
+      Cell[
+       StyleData["InputForm"], PageWidth :> DirectedInfinity[1], 
+       InputAutoReplacements -> {}, AllowInlineCells -> False, Hyphenation -> 
+       False, AutoQuoteCharacters -> {}, PasteAutoQuoteCharacters -> {}, 
+       AutoSpacing -> False, NumberMarks -> True, AutoNumberFormatting -> 
+       False, StyleMenuListing -> None, FontFamily -> "Source Sans Pro", 
+       PrivateFontOptions -> {"OperatorSubstitution" -> True}], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["DetailsLink"], FontFamily -> "Source Sans Pro", FontSize :> 
+          If[CurrentValue[
+              EvaluationCell[], "FontFamily"] === "Source Sans Pro", 
+            Inherited, 
+            If[CurrentValue[
+               EvaluationCell[], "FontFamily"] === "WolframCodeSans", 
+             Inherited, Inherited 0.9]], FontColor -> GrayLevel[0], 
+          ButtonBoxOptions -> {
+           ButtonFunction :> (
+             Function[$CellContext`t, 
+              NotebookFind[$CellContext`t, "Notes", All, CellStyle]; 
+              NotebookFind[$CellContext`t, "NotesSection", All, CellStyle, 
+                AutoScroll -> Top]][
+              Documentation`HelpLookup[
+               StringJoin["ref/", #]]]& ), ButtonSource -> ButtonContents, 
+            Evaluator -> Automatic}], 
+         Cell[
+          StyleData["DetailsLink", "Printout"], FontFamily -> 
+          "Source Sans Pro", FontSize :> If[CurrentValue[
+              EvaluationCell[], "FontFamily"] === "Source Sans Pro", 
+            Inherited, 
+            If[CurrentValue[
+               EvaluationCell[], "FontFamily"] === "WolframCodeSans", 
+             Inherited, Inherited 0.88]], FontColor -> GrayLevel[0]]}, 
+        Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["LinkAlt"], FontFamily -> "Source Sans Pro", FontSize :> 
+          If[CurrentValue[
+              EvaluationCell[], "FontFamily"] === "Source Sans Pro", 
+            Inherited, 
+            If[CurrentValue[
+               EvaluationCell[], "FontFamily"] === "WolframCodeSans", 
+             Inherited, Inherited 0.9]], FontColor -> GrayLevel[0]], 
+         Cell[
+          StyleData["LinkAlt", "Printout"], FontFamily -> "Source Sans Pro", 
+          FontSize :> If[CurrentValue[
+              EvaluationCell[], "FontFamily"] === "Source Sans Pro", 
+            Inherited, 
+            If[CurrentValue[
+               EvaluationCell[], "FontFamily"] === "WolframCodeSans", 
+             Inherited, Inherited 0.88]], FontColor -> GrayLevel[0]]}, 
+        Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Hyperlink"], MenuSortingValue -> None, FontColor -> 
+          RGBColor[0.3, 0.35, 0.5]], 
+         Cell[
+          StyleData["Hyperlink", "Printout"]]}, Closed]], 
+      Cell[
+       StyleData[
+       "IndexNavigationLink", StyleDefinitions -> StyleData["Hyperlink"]], 
+       MenuSortingValue -> None, FontColor -> 
+       RGBColor[
+        0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+      Cell[
+       StyleData["Crosslink"], 
+       ButtonBoxOptions -> {ButtonFunction :> (FrontEndExecute[{
+            
+            NotebookLocate[#2, "OpenInNewWindow" -> 
+             CurrentValue["HyperlinkModifierKey"]]}]& ), Evaluator -> None, 
+         Method -> "Queued"}], 
+      Cell[
+       StyleData["VocabularyLink"], FontColor -> GrayLevel[0], 
+       ButtonBoxOptions -> {ButtonFunction :> (FrontEndExecute[{
+            
+            NotebookLocate[#2, "OpenInNewWindow" -> 
+             CurrentValue["HyperlinkModifierKey"]]}]& ), Evaluator -> None, 
+         Method -> "Queued"}], 
+      Cell[
+       StyleData["InlineCode"], SpanMaxSize -> 1, FontColor -> GrayLevel[0]], 
+      
+      Cell[
+       StyleData["InlineCodeText"], SpanMaxSize -> 1, FontFamily -> 
+       "Source Sans Pro", FontSize -> 0.95 Inherited], 
+      Cell[
+       StyleData["NoLabel"], ShowCellLabel -> 
+       False, $CellContext`GeneratedCellStyles -> {
+        "Output" -> "ExerciseOutput"}], 
+      Cell[
+       StyleData["MenuName"], FontFamily -> "Verdana", FontWeight -> "Bold", 
+       FontColor -> GrayLevel[0.286275]], 
+      Cell[
+       StyleData["KeyEvent"], CellFrame -> {{0.5, 0.5}, {0.5, 0.5}}, 
+       CellFrameMargins -> {{2, 2}, {2, 2}}, CellFrameColor -> GrayLevel[0.7],
+        FontFamily -> "Verdana", FontColor -> GrayLevel[0.4]], 
+      Cell[
+       StyleData["KeyEventDelimiter"], FontColor -> GrayLevel[0.5]], 
+      Cell[
+       CellGroupData[{
+         Cell["Key Styles", "Subsubsection"], 
+         Cell[
+          StyleData["Key0"], 
+          TemplateBoxOptions -> {DisplayFunction -> (FrameBox[
+              TagBox[
+               GridBox[{{
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> GrayLevel[1], StripOnInput -> 
+                   False]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+                False, GridBoxDividers -> {"Rows" -> {{None}}}, 
+                GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}},
+                 GridBoxSpacings -> {"Columns" -> {{0}}}, 
+                BaselinePosition -> {{1, 1}, Baseline}], "Grid"], 
+              RoundingRadius -> 4, Background -> 
+              GrayLevel[0.9333333333333333], 
+              FrameMargins -> {{0, 0}, {-2, -2}}, FrameStyle -> {
+                GrayLevel[0.8352941176470589], 
+                AbsoluteThickness[1]}, BaselinePosition -> Baseline, 
+              StripOnInput -> False]& )}], 
+         Cell[
+          StyleData["Key1"], 
+          TemplateBoxOptions -> {DisplayFunction -> (FrameBox[
+              TagBox[
+               GridBox[{{
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> 
+                   GrayLevel[0.9333333333333333], StripOnInput -> False], 
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #2, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> GrayLevel[1], StripOnInput -> 
+                   False]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+                False, GridBoxDividers -> {
+                 "ColumnsIndexed" -> {2 -> GrayLevel[0.8352941176470589]}, 
+                  "Rows" -> {{None}}}, 
+                GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}},
+                 GridBoxSpacings -> {"Columns" -> {{0}}}, 
+                BaselinePosition -> {{1, 1}, Baseline}], "Grid"], 
+              RoundingRadius -> 4, Background -> 
+              GrayLevel[0.9333333333333333], 
+              FrameMargins -> {{0, 0}, {-2, -2}}, FrameStyle -> {
+                GrayLevel[0.8352941176470589], 
+                AbsoluteThickness[1]}, BaselinePosition -> Baseline, 
+              StripOnInput -> False]& )}], 
+         Cell[
+          StyleData["Key2"], 
+          TemplateBoxOptions -> {DisplayFunction -> (FrameBox[
+              TagBox[
+               GridBox[{{
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> 
+                   GrayLevel[0.9333333333333333], StripOnInput -> False], 
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #2, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> 
+                   GrayLevel[0.9333333333333333], StripOnInput -> False], 
+                  ItemBox[
+                   TemplateBox[{"\[ThickSpace]", #3, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> GrayLevel[1], StripOnInput -> 
+                   False]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+                False, GridBoxDividers -> {
+                 "ColumnsIndexed" -> {
+                   2 -> GrayLevel[0.8352941176470589], 3 -> 
+                    GrayLevel[0.8352941176470589]}, "Rows" -> {{None}}}, 
+                GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}},
+                 GridBoxSpacings -> {"Columns" -> {{0}}}, 
+                BaselinePosition -> {{1, 1}, Baseline}], "Grid"], 
+              RoundingRadius -> 4, Background -> 
+              GrayLevel[0.9333333333333333], 
+              FrameMargins -> {{0, 0}, {-2, -2}}, FrameStyle -> {
+                GrayLevel[0.8352941176470589], 
+                AbsoluteThickness[1]}, BaselinePosition -> Baseline, 
+              StripOnInput -> False]& )}], 
+         Cell[
+          StyleData["Key3"], 
+          TemplateBoxOptions -> {DisplayFunction -> (FrameBox[
+              TagBox[
+               GridBox[{{
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> 
+                   GrayLevel[0.9333333333333333], StripOnInput -> False], 
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #2, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> 
+                   GrayLevel[0.9333333333333333], StripOnInput -> False], 
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #3, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> 
+                   GrayLevel[0.9333333333333333], StripOnInput -> False], 
+                  ItemBox[
+                   
+                   TemplateBox[{"\[ThickSpace]", #4, "\[ThickSpace]"}, 
+                    "RowDefault"], Background -> GrayLevel[1], StripOnInput -> 
+                   False]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Baseline}}}, AutoDelete -> 
+                False, GridBoxDividers -> {
+                 "ColumnsIndexed" -> {
+                   2 -> GrayLevel[0.8352941176470589], 3 -> 
+                    GrayLevel[0.8352941176470589], 4 -> 
+                    GrayLevel[0.8352941176470589]}, "Rows" -> {{None}}}, 
+                GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{1.45}}},
+                 GridBoxSpacings -> {"Columns" -> {{0}}}, 
+                BaselinePosition -> {{1, 1}, Baseline}], "Grid"], 
+              RoundingRadius -> 4, Background -> 
+              GrayLevel[0.9333333333333333], 
+              FrameMargins -> {{0, 0}, {-2, -2}}, FrameStyle -> {
+                GrayLevel[0.8352941176470589], 
+                AbsoluteThickness[1]}, BaselinePosition -> Baseline, 
+              StripOnInput -> False]& )}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell["Entity styles", "Subsubsection"], 
+         Cell[
+          StyleData["Entity"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (TooltipBox[
+              FrameBox[
+               PaneSelectorBox[{True -> GridBox[{{
+                    
+                    StyleBox[#, FontWeight -> "Bold", FontFamily -> 
+                    "Source Sans Pro", FontColor -> 
+                    RGBColor[0.395437, 0.20595, 0.061158]], 
+                    StyleBox[
+                    RowBox[{"(", #4, ")"}], FontFamily -> "Source Sans Pro", 
+                    FontWeight -> "Plain", FontColor -> GrayLevel[0.65], 
+                    Selectable -> False]}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{All}}, "Rows" -> {{All}}}, 
+                   GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}},
+                    BaselinePosition -> {1, 1}], False -> 
+                 PaneBox[#, 
+                   BaseStyle -> {
+                    FontColor -> RGBColor[0.395437, 0.20595, 0.061158]}, 
+                   BaselinePosition -> Baseline]}, 
+                Dynamic[
+                 CurrentValue[Evaluatable]], ImageSize -> Automatic, 
+                BaselinePosition -> Baseline, 
+                BaseStyle -> {FontFamily -> "Helvetica"}], FrameStyle -> 
+               RGBColor[1., 0.504768, 0.], Background -> 
+               RGBColor[1., 0.980392, 0.921569], 
+               FrameMargins -> {{5, 5}, {1.5, 1.5}}, 
+               ImageMargins -> {{2, 2}, {2, 2}}, BaselinePosition -> Baseline,
+                RoundingRadius -> 4], #3, 
+              BaseStyle -> {
+               FontWeight -> "Plain", ShowStringCharacters -> False, 
+                LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityFrameless"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (TooltipBox[
+              PaneSelectorBox[{True -> GridBox[{{
+                    
+                    StyleBox[#, FontWeight -> "Bold", FontFamily -> 
+                    "Source Sans Pro", FontColor -> 
+                    RGBColor[0.395437, 0.20595, 0.061158]], 
+                    StyleBox[
+                    RowBox[{"(", #4, ")"}], FontFamily -> "Source Sans Pro", 
+                    FontWeight -> "Plain", FontColor -> GrayLevel[0.65], 
+                    Selectable -> False]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{All}}, "Rows" -> {{All}}}, 
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                  BaselinePosition -> {1, 1}], False -> 
+                PaneBox[#, 
+                  BaseStyle -> {
+                   FontColor -> RGBColor[0.395437, 0.20595, 0.061158]}, 
+                  BaselinePosition -> Baseline]}, 
+               Dynamic[
+                CurrentValue[Evaluatable]], ImageSize -> Automatic, 
+               BaselinePosition -> Baseline, 
+               BaseStyle -> {FontFamily -> "Helvetica"}], #3, 
+              BaseStyle -> {
+               ShowStringCharacters -> False, LineIndent -> 0, 
+                PrivateFontOptions -> {
+                 FontWeight -> "Plain", "OperatorSubstitution" -> False}}]& ),
+             Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityFramelessHot"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {
+           DisplayFunction -> (PaneSelectorBox[{True -> GridBox[{{
+                   
+                   StyleBox[#, FontWeight -> "Bold", FontFamily -> 
+                    "Source Sans Pro", FontColor -> GrayLevel[0]], 
+                   StyleBox[
+                    RowBox[{"(", #4, ")"}], FontWeight -> "Plain", FontFamily -> 
+                    "Source Sans Pro", FontColor -> GrayLevel[0], Selectable -> 
+                    False]}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                 BaselinePosition -> {1, 1}], False -> 
+               PaneBox[#, BaseStyle -> {FontColor -> GrayLevel[0]}, 
+                 BaselinePosition -> Baseline]}, 
+              Dynamic[
+               CurrentValue[Evaluatable]], ImageSize -> Automatic, 
+              BaselinePosition -> Baseline, 
+              BaseStyle -> {
+               FontWeight -> "Plain", FontFamily -> "Helvetica", 
+                ShowStringCharacters -> False, LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityClass"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (TooltipBox[
+              FrameBox[
+               PaneSelectorBox[{True -> GridBox[{{
+                    PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], 
+                    
+                    StyleBox[#, FontWeight -> "Bold", FontFamily -> 
+                    "Source Sans Pro", FontColor -> 
+                    RGBColor[0.395437, 0.20595, 0.061158]], 
+                    StyleBox[
+                    RowBox[{"(", #4, ")"}], FontWeight -> "Plain", FontFamily -> 
+                    "Source Sans Pro", FontColor -> GrayLevel[0.65], 
+                    Selectable -> False]}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{All}}, "Rows" -> {{All}}}, 
+                   GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}},
+                    BaselinePosition -> {1, 2}], False -> GridBox[{{
+                    PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], 
+                    
+                    StyleBox[#, FontColor -> 
+                    RGBColor[0.395437, 0.20595, 0.061158]]}}, 
+                   GridBoxItemSize -> {
+                    "Columns" -> {{All}}, "Rows" -> {{All}}}, 
+                   GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}},
+                    BaselinePosition -> {1, 2}]}, 
+                Dynamic[
+                 CurrentValue[Evaluatable]], ImageSize -> Automatic, 
+                BaselinePosition -> Baseline, 
+                BaseStyle -> {FontFamily -> "Helvetica"}], FrameStyle -> 
+               RGBColor[1., 0.504768, 0.], Background -> 
+               RGBColor[1., 0.980392, 0.921569], 
+               FrameMargins -> {{5, 5}, {1.5, 1.5}}, 
+               ImageMargins -> {{2, 2}, {2, 2}}, BaselinePosition -> Baseline,
+                RoundingRadius -> 4], #3, 
+              BaseStyle -> {
+               FontWeight -> "Plain", ShowStringCharacters -> False, 
+                LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityClassFrameless"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (TooltipBox[
+              PaneSelectorBox[{True -> GridBox[{{
+                    PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], 
+                    
+                    StyleBox[#, FontWeight -> "Bold", FontFamily -> 
+                    "Source Sans Pro", FontColor -> 
+                    RGBColor[0.395437, 0.20595, 0.061158]], 
+                    StyleBox[
+                    RowBox[{"(", #4, ")"}], FontWeight -> "Plain", FontFamily -> 
+                    "Source Sans Pro", FontColor -> GrayLevel[0.65], 
+                    Selectable -> False]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{All}}, "Rows" -> {{All}}}, 
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                  BaselinePosition -> {1, 2}], False -> GridBox[{{
+                    PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], 
+                    
+                    StyleBox[#, FontColor -> 
+                    RGBColor[0.395437, 0.20595, 0.061158]]}}, 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{All}}, "Rows" -> {{All}}}, 
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                  BaselinePosition -> {1, 2}]}, 
+               Dynamic[
+                CurrentValue[Evaluatable]], ImageSize -> Automatic, 
+               BaselinePosition -> Baseline, 
+               BaseStyle -> {FontFamily -> "Helvetica"}], #3, 
+              BaseStyle -> {
+               FontWeight -> "Plain", ShowStringCharacters -> False, 
+                LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityClassFramelessHot"], ShowStringCharacters -> False,
+           TemplateBoxOptions -> {
+           DisplayFunction -> (PaneSelectorBox[{True -> GridBox[{{
+                   PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], 
+                   
+                   StyleBox[#, FontWeight -> "Bold", FontFamily -> 
+                    "Source Sans Pro", FontColor -> GrayLevel[0]], 
+                   StyleBox[
+                    RowBox[{"(", #4, ")"}], FontWeight -> "Plain", FontFamily -> 
+                    "Source Sans Pro", FontColor -> GrayLevel[0], Selectable -> 
+                    False]}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                 BaselinePosition -> {1, 2}], False -> GridBox[{{
+                   PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], 
+                   StyleBox[#, FontColor -> GrayLevel[0]]}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                 BaselinePosition -> {1, 2}]}, 
+              Dynamic[
+               CurrentValue[Evaluatable]], ImageSize -> Automatic, 
+              BaselinePosition -> Baseline, 
+              BaseStyle -> {
+               FontWeight -> "Plain", FontFamily -> "Helvetica", 
+                ShowStringCharacters -> False, LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityProperty"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (TooltipBox[
+              FrameBox[
+               
+               PaneBox[#, 
+                BaseStyle -> {
+                 FontSlant -> Italic, FontWeight -> Plain, FontFamily -> 
+                  "Source Sans Pro", FontColor -> 
+                  RGBColor[0.395437, 0.20595, 0.061158]}, BaselinePosition -> 
+                Baseline], FrameStyle -> 
+               RGBColor[0.94227, 0.703639, 0.033387], Background -> 
+               RGBColor[1., 0.980392, 0.921569], 
+               FrameMargins -> {{5, 5}, {1.5, 1.5}}, 
+               ImageMargins -> {{2, 2}, {2, 2}}, BaselinePosition -> Baseline,
+                RoundingRadius -> 4], #3, 
+              BaseStyle -> {
+               FontWeight -> "Plain", ShowStringCharacters -> False, 
+                LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityPropertyClass"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (TooltipBox[
+              FrameBox[
+               PaneBox[
+                GridBox[{{
+                   PaneBox[
+                    DynamicBox[
+                    FEPrivate`ImportImage[
+                    
+                    FrontEnd`ToFileName[{"Typeset", "Entity"}, 
+                    "EntityClass.png"]], ImageSizeCache -> {8., {2., 6.}}], 
+                    BaselinePosition -> Bottom], #}}, 
+                 GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}},
+                  GridBoxSpacings -> {"Columns" -> {{0.2}}, "Rows" -> {{0}}}, 
+                 BaselinePosition -> {1, 2}], 
+                BaseStyle -> {
+                 FontSlant -> Italic, FontWeight -> Plain, FontFamily -> 
+                  "Source Sans Pro", FontColor -> 
+                  RGBColor[0.395437, 0.20595, 0.061158]}, BaselinePosition -> 
+                Baseline], FrameStyle -> 
+               RGBColor[0.94227, 0.703639, 0.033387], Background -> 
+               RGBColor[1., 0.980392, 0.921569], 
+               FrameMargins -> {{5, 5}, {1.5, 1.5}}, 
+               ImageMargins -> {{2, 2}, {2, 2}}, BaselinePosition -> Baseline,
+                RoundingRadius -> 4], #3, 
+              BaseStyle -> {
+               FontWeight -> "Plain", ShowStringCharacters -> False, 
+                LineIndent -> 0, 
+                PrivateFontOptions -> {"OperatorSubstitution" -> False}}]& ), 
+            Editable -> False, InterpretationFunction -> (#2& )}], 
+         Cell[
+          StyleData["EntityValue"], ShowStringCharacters -> False, 
+          TemplateBoxOptions -> {DisplayFunction -> (FrameBox[
+              
+              GridBox[{{#, #2}}, GridBoxAlignment -> {"Rows" -> {{Baseline}}},
+                GridBoxItemSize -> {"Columns" -> {{All}}, "Rows" -> {{All}}}, 
+               GridBoxSpacings -> {"Columns" -> {{0}}}, 
+               BaselinePosition -> {1, 1}], Background -> 
+              RGBColor[{0.9921568627450981, 0.9529411764705882, 
+                0.8509803921568627}], BaselinePosition -> Baseline, 
+              FrameMargins -> {{1, 1}, {1, 1}}, ImageMargins -> 2, FrameStyle -> 
+              RGBColor[{0.9333333333333333, 0.8470588235294118, 
+                0.5529411764705883}], RoundingRadius -> 5]& )}]}, Closed]]}, 
+     Closed]]}, Visible -> False, FrontEndVersion -> 
+  "12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\:65e5)", 
+  StyleDefinitions -> "StylesheetFormatting.nb"],
+ExpressionUUID->"e9ec21c8-e35a-474d-b43a-30204456296f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "i:1"->{
+  Cell[702, 24, 753, 18, 189, "Section",ExpressionUUID->"54ed8130-640a-410d-9a5d-06af0f5cea6f",
+   CounterAssignments->{{"Section", 1}, {"Subsection", 0}, {"Subsubsection", 0}, {"Exercise", 0}, {"Question", 0}},
+   CellTags->{"p:3", "i:1"}]},
+ "i:10"->{
+  Cell[44067, 1404, 540, 15, 55, "Question",ExpressionUUID->"d89d7a26-91f8-4223-9fd8-16b763dacf67",
+   CellTags->"i:10"]},
+ "i:11"->{
+  Cell[48261, 1531, 424, 8, 55, "Question",ExpressionUUID->"7f1f976f-8da6-4060-8e04-c4eb3c0205b9",
+   CellTags->"i:11"]},
+ "i:12"->{
+  Cell[51026, 1605, 898, 18, 104, "TechNote",ExpressionUUID->"5c1c27e8-28f5-4cec-94ce-96c1328cfabf",
+   CellTags->"i:12"]},
+ "i:2"->{
+  Cell[1458, 44, 928, 25, 128, "Text",ExpressionUUID->"1b55d5d3-a30c-42f4-88f4-bd47fdcddf42",
+   CellTags->"i:2"]},
+ "i:3"->{
+  Cell[4013, 133, 393, 11, 69, "CodeCaption",ExpressionUUID->"933e543e-3f15-4e6e-a8e6-6631fa2b3c7e",
+   CellTags->"i:3"]},
+ "i:4"->{
+  Cell[5682, 192, 435, 8, 67, "Text",ExpressionUUID->"8ea36605-4a5b-40a7-91ed-a03e19c3c087",
+   CellTags->"i:4"]},
+ "i:5"->{
+  Cell[6120, 202, 415, 12, 67, "Text",ExpressionUUID->"227feee0-7e2d-4719-a411-82506f66c98c",
+   CellTags->"i:5"]},
+ "i:6"->{
+  Cell[7321, 243, 532, 14, 67, "Text",ExpressionUUID->"f6fecac7-7050-4189-9dd7-20ef9d78b28e",
+   CellTags->"i:6"]},
+ "i:7"->{
+  Cell[9822, 326, 2631, 75, 570, "VocabularyTable3Column",ExpressionUUID->"e122106c-f7d2-462c-a4fd-4de76f7407a2",
+   CellTags->"i:7"]},
+ "i:8"->{
+  Cell[41678, 1336, 508, 14, 63, "Question",ExpressionUUID->"209a098d-73eb-4afd-a5d2-7eeefdf13bcd",
+   CellTags->"i:8"]},
+ "i:9"->{
+  Cell[42755, 1368, 637, 16, 59, "Question",ExpressionUUID->"bcdaa796-5d67-4fee-9179-763abd66191b",
+   CellTags->"i:9"]},
+ "LastCellOfAPage"->{
+  Cell[9231, 304, 221, 6, 79, "Output",ExpressionUUID->"cf0f6fd9-cc32-46e2-b222-16eea55d8590",
+   Evaluatable->False,
+   CellTags->"LastCellOfAPage"],
+  Cell[48688, 1541, 672, 15, 86, "Answer",ExpressionUUID->"0eafc7d5-f5f0-428e-97a0-6879d30b08df",
+   CellTags->"LastCellOfAPage"],
+  Cell[52308, 1639, 429, 9, 59, "MoreExplore",ExpressionUUID->"f7390ec3-749f-4697-acb5-6ab5dceff26d",
+   CellTags->"LastCellOfAPage"]},
+ "p:3"->{
+  Cell[702, 24, 753, 18, 189, "Section",ExpressionUUID->"54ed8130-640a-410d-9a5d-06af0f5cea6f",
+   CounterAssignments->{{"Section", 1}, {"Subsection", 0}, {"Subsubsection", 0}, {"Exercise", 0}, {"Question", 0}},
+   CellTags->{"p:3", "i:1"}]},
+ "p:4"->{
+  Cell[9501, 316, 318, 8, 129, "VocabularySection",ExpressionUUID->"4893dd6b-e68c-4d5b-abf5-09e6f0654329",
+   CellTags->"p:4"]},
+ "p:5"->{
+  Cell[49397, 1561, 352, 8, 141, "TechNoteSection",ExpressionUUID->"95311b94-353d-4314-824f-ab7eca24eae5",
+   CellTags->"p:5"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"i:1", 144250, 3496},
+ {"i:10", 144504, 3500},
+ {"i:11", 144638, 3503},
+ {"i:12", 144771, 3506},
+ {"i:2", 144905, 3509},
+ {"i:3", 145031, 3512},
+ {"i:4", 145164, 3515},
+ {"i:5", 145289, 3518},
+ {"i:6", 145415, 3521},
+ {"i:7", 145541, 3524},
+ {"i:8", 145687, 3527},
+ {"i:9", 145819, 3530},
+ {"LastCellOfAPage", 145963, 3533},
+ {"p:3", 146391, 3541},
+ {"p:4", 146644, 3545},
+ {"p:5", 146783, 3548}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[702, 24, 753, 18, 189, "Section",ExpressionUUID->"54ed8130-640a-410d-9a5d-06af0f5cea6f",
+ CounterAssignments->{{"Section", 1}, {"Subsection", 0}, {"Subsubsection", 0}, {"Exercise", 0}, {"Question", 0}},
+ CellTags->{"p:3", "i:1"}],
+Cell[1458, 44, 928, 25, 128, "Text",ExpressionUUID->"1b55d5d3-a30c-42f4-88f4-bd47fdcddf42",
+ CellTags->"i:2"],
+Cell[2389, 71, 382, 12, 69, "CodeCaption",ExpressionUUID->"b9500f89-12d2-4bf5-ac17-af1c68dc0f9a"],
+Cell[CellGroupData[{
+Cell[2796, 87, 195, 5, 92, "Input",ExpressionUUID->"a1e8d18d-4097-465b-be4d-eed3036478d9"],
+Cell[2994, 94, 191, 5, 79, "Output",ExpressionUUID->"015255e0-bf5e-4c83-a38c-54ddc58ae1bc",
+ Evaluatable->False]
+}, Open  ]],
+Cell[3200, 102, 374, 12, 69, "CodeCaption",ExpressionUUID->"80196e49-29d0-4dff-93f1-2a27378c53bc"],
+Cell[CellGroupData[{
+Cell[3599, 118, 205, 5, 92, "Input",ExpressionUUID->"15005ee5-9fde-42b7-a346-5fc94e5f4ebd"],
+Cell[3807, 125, 191, 5, 79, "Output",ExpressionUUID->"d32fb37a-df9f-4e6c-9d39-0bcae6867a80",
+ Evaluatable->False]
+}, Open  ]],
+Cell[4013, 133, 393, 11, 69, "CodeCaption",ExpressionUUID->"933e543e-3f15-4e6e-a8e6-6631fa2b3c7e",
+ CellTags->"i:3"],
+Cell[CellGroupData[{
+Cell[4431, 148, 196, 5, 92, "Input",ExpressionUUID->"4bd1fecf-b3e8-4cd2-a239-f7c699311d0b"],
+Cell[4630, 155, 191, 5, 79, "Output",ExpressionUUID->"b81ce32f-d234-4c6e-bf9c-ca9fed1d81d9",
+ Evaluatable->False]
+}, Open  ]],
+Cell[4836, 163, 358, 8, 69, "CodeCaption",ExpressionUUID->"5d3c3dfb-04fd-4c36-9058-b35177c617f5"],
+Cell[CellGroupData[{
+Cell[5219, 175, 253, 7, 92, "Input",ExpressionUUID->"a5140266-a21e-433d-a9c5-8d86bc66e4ea"],
+Cell[5475, 184, 192, 5, 79, "Output",ExpressionUUID->"6e9ddd3d-ddc0-416b-8458-779272897ad1",
+ Evaluatable->False]
+}, Open  ]],
+Cell[5682, 192, 435, 8, 67, "Text",ExpressionUUID->"8ea36605-4a5b-40a7-91ed-a03e19c3c087",
+ CellTags->"i:4"],
+Cell[6120, 202, 415, 12, 67, "Text",ExpressionUUID->"227feee0-7e2d-4719-a411-82506f66c98c",
+ CellTags->"i:5"],
+Cell[6538, 216, 345, 8, 69, "CodeCaption",ExpressionUUID->"44bb4687-d987-4e6b-9550-414fe0afb9b4"],
+Cell[CellGroupData[{
+Cell[6908, 228, 204, 5, 92, "Input",ExpressionUUID->"4781b511-93cf-4c77-a463-a2df6059946d"],
+Cell[7115, 235, 191, 5, 79, "Output",ExpressionUUID->"2e8840be-6531-4da1-8fdd-f1d1ae00647b",
+ Evaluatable->False]
+}, Open  ]],
+Cell[7321, 243, 532, 14, 67, "Text",ExpressionUUID->"f6fecac7-7050-4189-9dd7-20ef9d78b28e",
+ CellTags->"i:6"],
+Cell[7856, 259, 387, 9, 69, "CodeCaption",ExpressionUUID->"5b76f1d1-02e0-47ab-bf42-6d6d0fb374b6"],
+Cell[CellGroupData[{
+Cell[8268, 272, 183, 4, 92, "Input",ExpressionUUID->"0d59ab3b-7f80-42fb-a373-00c62dabf73a"],
+Cell[8454, 278, 192, 5, 79, "Output",ExpressionUUID->"9ada605b-4a58-4e8b-b1b8-6bb5701ab982",
+ Evaluatable->False]
+}, Open  ]],
+Cell[8661, 286, 359, 8, 69, "CodeCaption",ExpressionUUID->"c7caa9f4-6ab9-491f-abd1-306502adc700"],
+Cell[CellGroupData[{
+Cell[9045, 298, 183, 4, 92, "Input",ExpressionUUID->"4f3cb2e9-ac50-454f-8d44-77389a1e0dae"],
+Cell[9231, 304, 221, 6, 79, "Output",ExpressionUUID->"cf0f6fd9-cc32-46e2-b222-16eea55d8590",
+ Evaluatable->False,
+ CellTags->"LastCellOfAPage"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9501, 316, 318, 8, 129, "VocabularySection",ExpressionUUID->"4893dd6b-e68c-4d5b-abf5-09e6f0654329",
+ CellTags->"p:4"],
+Cell[9822, 326, 2631, 75, 570, "VocabularyTable3Column",ExpressionUUID->"e122106c-f7d2-462c-a4fd-4de76f7407a2",
+ CellTags->"i:7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12490, 406, 1876, 49, 139, "ExerciseSection",ExpressionUUID->"4f59bfc1-25d5-49e4-a0aa-9b306a9c93c6"],
+Cell[CellGroupData[{
+Cell[14391, 459, 1681, 51, 163, "ExerciseSummaryCell",ExpressionUUID->"9fe83728-50c9-4a33-9c6d-f81df0ed48fe"],
+Cell[CellGroupData[{
+Cell[16097, 514, 819, 25, 59, "Exercise",ExpressionUUID->"53264e16-9f57-40b9-a110-733ed81492d6"],
+Cell[16919, 541, 1035, 29, 70, "ExerciseOutput",ExpressionUUID->"c9789bda-448b-4640-a104-363ffd68e3f0"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17991, 575, 873, 28, 47, "Exercise",ExpressionUUID->"698e3c30-1903-4409-82e9-b592d4b656c7"],
+Cell[18867, 605, 1035, 29, 70, "ExerciseOutput",ExpressionUUID->"c5686a61-808b-467f-a715-f5082b36ea3e"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19939, 639, 872, 26, 47, "Exercise",ExpressionUUID->"e3cc0d8c-380b-4132-a0fc-b6b9dea5d36d"],
+Cell[20814, 667, 1035, 29, 70, "ExerciseOutput",ExpressionUUID->"20f05a97-869b-4042-8766-54d715197a51"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[21886, 701, 865, 26, 47, "Exercise",ExpressionUUID->"f383efb6-724e-4b5e-b27f-5f8cb0581b06"],
+Cell[22754, 729, 1049, 29, 70, "ExerciseOutput",ExpressionUUID->"62a5a685-7bd8-416e-acd2-c8aa6e92a08f"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[23840, 763, 946, 30, 47, "Exercise",ExpressionUUID->"17dc79f8-fd44-445f-a0e1-282ac6c005d1"],
+Cell[24789, 795, 1047, 29, 156, "ExerciseOutput",ExpressionUUID->"4159ad5f-27ad-4704-acd1-0130e7c4f9aa"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[25873, 829, 830, 25, 47, "Exercise",ExpressionUUID->"d7213e14-24bf-46a7-a28b-7c8d89986b3d"],
+Cell[26706, 856, 1037, 29, 70, "ExerciseOutput",ExpressionUUID->"48d2e928-6556-43d9-a5f7-a34929412cc4"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[27780, 890, 860, 26, 47, "Exercise",ExpressionUUID->"1b8205c6-3fc4-4131-b649-8fee131737a1"],
+Cell[28643, 918, 1074, 30, 70, "ExerciseOutput",ExpressionUUID->"c09fccec-b1a8-4735-ab6c-78b571f42506"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[29754, 953, 915, 29, 47, "Exercise",ExpressionUUID->"64c51d53-99d0-42a7-b770-865aa97bdb73"],
+Cell[30672, 984, 1037, 29, 70, "ExerciseOutput",ExpressionUUID->"ff3b6e1c-8a0b-4088-8fbd-dd6196db63bf"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[31746, 1018, 875, 28, 47, "Exercise",ExpressionUUID->"0cec5534-3960-4d52-994a-491dca66e396"],
+Cell[32624, 1048, 1074, 30, 70, "ExerciseOutput",ExpressionUUID->"35d0d5b0-3f30-41ee-997d-9dbd9c1c8a03"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[33735, 1083, 874, 28, 47, "Exercise",ExpressionUUID->"1033ebb0-3105-4382-aa7d-4b5d99b7e3e6"],
+Cell[34612, 1113, 1035, 29, 70, "ExerciseOutput",ExpressionUUID->"55d7f3f4-f7e6-4dba-baee-031abdd7b5da"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[35684, 1147, 788, 22, 47, "Exercise",ExpressionUUID->"c793c2bf-55b0-4ee7-9de6-18d0bdd443dc"],
+Cell[36475, 1171, 1037, 29, 70, "ExerciseOutput",ExpressionUUID->"0766a9a8-ef6c-47f7-9680-1038b0b9d7dc"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[37549, 1205, 786, 22, 47, "Exercise",ExpressionUUID->"03d0f2f0-2d60-4272-b408-260173be0580"],
+Cell[38338, 1229, 1037, 29, 70, "ExerciseOutput",ExpressionUUID->"e7bcd8c9-7afa-476f-9fa6-5ca0e8e4ac5c"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[39412, 1263, 798, 23, 47, "Exercise",ExpressionUUID->"f1667ffc-140f-4025-912d-8f38c708c223"],
+Cell[40213, 1288, 1039, 29, 70, "ExerciseOutput",ExpressionUUID->"d99601a5-2338-468c-9dd8-344f137ffc86"]
+}, Closed]]
+}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41313, 1324, 362, 10, 137, "QASection",ExpressionUUID->"166acb6f-68a4-41a2-b546-77f52769b323"],
+Cell[41678, 1336, 508, 14, 63, "Question",ExpressionUUID->"209a098d-73eb-4afd-a5d2-7eeefdf13bcd",
+ CellTags->"i:8"],
+Cell[42189, 1352, 563, 14, 86, "Answer",ExpressionUUID->"34d1430d-6fb4-42fb-a350-c92b5fa701d2"],
+Cell[42755, 1368, 637, 16, 59, "Question",ExpressionUUID->"bcdaa796-5d67-4fee-9179-763abd66191b",
+ CellTags->"i:9"],
+Cell[43395, 1386, 669, 16, 45, "Answer",ExpressionUUID->"4cebf128-b2b1-4009-91a5-245e8a5742a2"],
+Cell[44067, 1404, 540, 15, 55, "Question",ExpressionUUID->"d89d7a26-91f8-4223-9fd8-16b763dacf67",
+ CellTags->"i:10"],
+Cell[44610, 1421, 946, 20, 86, "Answer",ExpressionUUID->"9abb3897-9310-4320-9b6c-e97d1377836b"],
+Cell[45559, 1443, 581, 17, 59, "Question",ExpressionUUID->"29c9a334-e03d-4223-9635-8ef122291042"],
+Cell[46143, 1462, 715, 20, 86, "Answer",ExpressionUUID->"4e358088-739d-41c4-9c68-920bbf882ba9"],
+Cell[46861, 1484, 591, 18, 59, "Question",ExpressionUUID->"d90c8eba-9ad1-4384-9a28-2b5ce8f5a249"],
+Cell[47455, 1504, 803, 25, 45, "Answer",ExpressionUUID->"0e24c1e6-c4dd-4341-90b6-3d2283003ca5"],
+Cell[48261, 1531, 424, 8, 55, "Question",ExpressionUUID->"7f1f976f-8da6-4060-8e04-c4eb3c0205b9",
+ CellTags->"i:11"],
+Cell[48688, 1541, 672, 15, 86, "Answer",ExpressionUUID->"0eafc7d5-f5f0-428e-97a0-6879d30b08df",
+ CellTags->"LastCellOfAPage"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49397, 1561, 352, 8, 141, "TechNoteSection",ExpressionUUID->"95311b94-353d-4314-824f-ab7eca24eae5",
+ CellTags->"p:5"],
+Cell[49752, 1571, 554, 13, 59, "TechNote",ExpressionUUID->"aca586fb-3d25-4dbc-950a-670a0aa6e30a"],
+Cell[50309, 1586, 714, 17, 104, "TechNote",ExpressionUUID->"27c72d25-93ac-49f0-8d10-35550200e952"],
+Cell[51026, 1605, 898, 18, 104, "TechNote",ExpressionUUID->"5c1c27e8-28f5-4cec-94ce-96c1328cfabf",
+ CellTags->"i:12"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51961, 1628, 344, 9, 141, "MoreExploreSection",ExpressionUUID->"9b644817-c85a-4c02-b07b-11e276485c06"],
+Cell[52308, 1639, 429, 9, 59, "MoreExplore",ExpressionUUID->"f7390ec3-749f-4697-acb5-6ab5dceff26d",
+ CellTags->"LastCellOfAPage"]
+}, Open  ]]
+}
+]
+*)
+

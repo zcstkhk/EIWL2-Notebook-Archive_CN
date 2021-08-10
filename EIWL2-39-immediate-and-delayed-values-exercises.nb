@@ -1,0 +1,1727 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     78390,       1717]
+NotebookOptionsPosition[     18797,        503]
+NotebookOutlinePosition[     76903,       1694]
+CellTagsIndexPosition[     76825,       1689]
+WindowTitle->\:7ACB\:5373\:8D4B\:503C\:4E0E\:5EF6\:8FDF\:8D4B\:503C - Wolfram \
+\:8BED\:8A00\:5165\:95E8\:4ECB\:7ECD \:7FFB\:8BD1 By \:90D1\:660C\:76DB
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ "\:5c06",
+ Cell[BoxData[
+  RowBox[{"{", 
+   RowBox[{"x", ",", 
+    RowBox[{"x", "+", "1"}], ",", 
+    RowBox[{"x", "+", "2"}], ",", 
+    RowBox[{"x", "^", "2"}]}], "}"}]], "InlineCode",ExpressionUUID->
+  "3adf59ae-9a69-49fc-a6d6-abc32ef2549b"],
+ "\:4e2d\:7684 x \:66ff\:6362\:4e3a\:76f8\:540c\:7684 100 \:4ee5\:5185\:7684\
+\:968f\:673a\:6574\:6570\:3002"
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "39.1", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ Copyable->False,
+ TaggingRules->{"MultipleSolutions" -> "True"},
+ CellChangeTimes->{{3.8373796008494987`*^9, 3.837379631632229*^9}},
+ CounterAssignments->{{"SectionNumber", 39}, {"ExerciseNumber", 1}, {
+   "WebOnly", 0}},ExpressionUUID->"cc4a7cf1-2db6-4566-8ae5-7407058dc4fd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  ButtonBox[
+   StyleBox[
+    RowBox[{"\:671f\:671b\:8f93\:51fa\:793a\:4f8b", " ", "\[RightGuillemet]"}],
+    FontFamily->"Source Sans Pro",
+    FontSize->12,
+    FontColor->GrayLevel[0.6]],
+   Appearance->None,
+   ButtonFunction:>(SelectionMove[
+      ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; FrontEndExecute[
+      FrontEndToken[
+       ButtonNotebook[], "OpenCloseGroup"]]),
+   Evaluator->Automatic,
+   Method->"Preemptive"],
+  MouseAppearanceTag["LinkHand"]]], "ExerciseExpectedResult",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ Copyable->False,ExpressionUUID->"d9764594-f4d4-4da2-af05-66894b8d5636"],
+
+Cell[BoxData[
+ FrameBox[
+  TagBox[GridBox[{
+     {
+      PaneBox[
+       InterpretationBox[Cell[BoxData[
+         GraphicsBox[
+          TagBox[RasterBox[CompressedData["
+1:eJztVzGvpDYQRpcm5Un5BfkD1Gkpr1rponQUuVMepzQv6F2kiNZN5JKOjoo0
+SJGQTqKioUKRaGjcWBENKYhEQQoXLvZmbNjH7trv8apcsSMtMmN/843HM2P2
+2/e/vA1eOY7z8Wt4vH33m/fw8C76/jW8/HD/8ecP93c/vbn/9e7D3cN3778C
+5Tfw+xF+OD7e5CY3ucn/KVNJA9cNOwHjua2KPC/bftJzI+/Ohc3SZucSiyKn
+ti7zvDhT7sPKiYOuKJthftp/E6+2MPK23TgsR/Aly4tuEHaWOQs8zyfNuMDm
+LoFGHdBiED31YOi4Lj6jsofJWI034tZGb+U19ngULFK6g5oiVW/enwkrWK7e
+NP2hHi2nYuRdpCdqplkcXlbqXRRcWFgkK1MfVLRZox87Tgyrhwp3k3NcU0QA
+CZFMLgLzFHRBLo4GMWKVZa9Rp4rzbmzMIRNWZAd0cVDnF8CQ1MbwmH1W0ia+
+3nU7X6zscRQU0s7C0sPJW9FhfMBGG3uPWxhKsJGyx1yZcLNOOZiP0YhV8SGj
+0o3onjk+Juw/Cera1VvYKTEy23yWPMfQRJHnHFT+yCKEs0r0flgGBgMmZhtL
+hxPLYg6LFQVyOXThmmp4idvThtCUE1Xm6Fiwcihh4IUZHzrIbY+ac8CE/Ttx
+Hz0fKoJ5aKpri88jprobj3N3WIAzGPRWgwJbCugnGwtTMYEhNCeMq6o1wTMs
+RZ8kCdEFmbSLT/o48t7ami3YOd2UfDW+ANsmkPpOSJOY6DLxW1N8jNgOM0Gn
+TQfH0smjPt9TfFTL9cCgjUXvlxaMas/XNJl4HZMoIkndFHgwa/48keEnucbW
+4LJLuZAjK0M8UKsFE6/oygx0NC3bimIbMTa+K+zvn/7QbSdOYkpC7DQRrfp/
+TflztLOIRIVbTgzjTi4LR6huUww6YWZoV3A3WLPHjB3h7jtkXCtlF9tqxM67
+CLYuL7WE5xL7Z/dXEsdJAo84pkt86v6/Mnw0wrMA+8/5frYsgqXYyho8T577
+unPC10Hok5r1vM1V2hWrgbPkVLtlcFd4pDz5bMKKPEDvKj4KMZYU1D5+Yu3C
+HllO4JODD32d4W1D63E370Yk1lerVPozhhTdyCt/varMLEtPTpZYrfeXHJtg
+/dpxg2TTbPBCPIuP6LBcVQdb/TRhBceoLHLIu2k/lhX0hIyy9mW8m5TyNknb
+psHqS/wUy/n9pW5hemKcp2man81llXWrhZMYsVKA+uyjey9WiukC+RJeo4j5
+yqSJhWHBLCy61rzr4NtlwGJ2su7pvwxfFna3iCbFWtvUi2gyGgSE7ToBFDkP
+fNi9+svA7hZR0jAkKX/uKrnJTZ6Vz2SiuQo=
+            "], {{0, 19}, {96, 0}}, {0, 
+            255},
+            ColorFunction->RGBColor],
+           BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+           Selectable->False],
+          DefaultBaseStyle->"ImageGraphics",
+          ImageSize->Magnification[1],
+          ImageSizeRaw->{96, 19},
+          PlotRange->{{0, 96}, {0, 19}}]], "ExerciseOutput",
+         ImageSize->{100, 19},
+         ImageMargins->{{0, 0}, {0, 0}},
+         ImageRegion->{{0, 1}, {0, 1}},
+         Magnification->1,ExpressionUUID->
+         "2c25d7f4-6664-48f6-b0ea-d76487e6c82e"],
+        Apply[TextCell, 
+         Cell[
+          BoxData[
+           GraphicsBox[
+            TagBox[
+             RasterBox[CompressedData["
+1:eJztVzGvpDYQRpcm5Un5BfkD1Gkpr1rponQUuVMepzQv6F2kiNZN5JKOjoo0
+SJGQTqKioUKRaGjcWBENKYhEQQoXLvZmbNjH7trv8apcsSMtMmN/843HM2P2
+2/e/vA1eOY7z8Wt4vH33m/fw8C76/jW8/HD/8ecP93c/vbn/9e7D3cN3778C
+5Tfw+xF+OD7e5CY3ucn/KVNJA9cNOwHjua2KPC/bftJzI+/Ohc3SZucSiyKn
+ti7zvDhT7sPKiYOuKJthftp/E6+2MPK23TgsR/Aly4tuEHaWOQs8zyfNuMDm
+LoFGHdBiED31YOi4Lj6jsofJWI034tZGb+U19ngULFK6g5oiVW/enwkrWK7e
+NP2hHi2nYuRdpCdqplkcXlbqXRRcWFgkK1MfVLRZox87Tgyrhwp3k3NcU0QA
+CZFMLgLzFHRBLo4GMWKVZa9Rp4rzbmzMIRNWZAd0cVDnF8CQ1MbwmH1W0ia+
+3nU7X6zscRQU0s7C0sPJW9FhfMBGG3uPWxhKsJGyx1yZcLNOOZiP0YhV8SGj
+0o3onjk+Juw/Cera1VvYKTEy23yWPMfQRJHnHFT+yCKEs0r0flgGBgMmZhtL
+hxPLYg6LFQVyOXThmmp4idvThtCUE1Xm6Fiwcihh4IUZHzrIbY+ac8CE/Ttx
+Hz0fKoJ5aKpri88jprobj3N3WIAzGPRWgwJbCugnGwtTMYEhNCeMq6o1wTMs
+RZ8kCdEFmbSLT/o48t7ami3YOd2UfDW+ANsmkPpOSJOY6DLxW1N8jNgOM0Gn
+TQfH0smjPt9TfFTL9cCgjUXvlxaMas/XNJl4HZMoIkndFHgwa/48keEnucbW
+4LJLuZAjK0M8UKsFE6/oygx0NC3bimIbMTa+K+zvn/7QbSdOYkpC7DQRrfp/
+TflztLOIRIVbTgzjTi4LR6huUww6YWZoV3A3WLPHjB3h7jtkXCtlF9tqxM67
+CLYuL7WE5xL7Z/dXEsdJAo84pkt86v6/Mnw0wrMA+8/5frYsgqXYyho8T577
+unPC10Hok5r1vM1V2hWrgbPkVLtlcFd4pDz5bMKKPEDvKj4KMZYU1D5+Yu3C
+HllO4JODD32d4W1D63E370Yk1lerVPozhhTdyCt/varMLEtPTpZYrfeXHJtg
+/dpxg2TTbPBCPIuP6LBcVQdb/TRhBceoLHLIu2k/lhX0hIyy9mW8m5TyNknb
+psHqS/wUy/n9pW5hemKcp2man81llXWrhZMYsVKA+uyjey9WiukC+RJeo4j5
+yqSJhWHBLCy61rzr4NtlwGJ2su7pvwxfFna3iCbFWtvUi2gyGgSE7ToBFDkP
+fNi9+svA7hZR0jAkKX/uKrnJTZ6Vz2SiuQo=
+              "], {{0, 19}, {96, 0}}, {0,
+               255}, ColorFunction -> RGBColor], 
+             BoxForm`ImageTag[
+             "Byte", ColorSpace -> "RGB", Interleaving -> True], Selectable -> 
+             False], DefaultBaseStyle -> "ImageGraphics", ImageSize -> 
+            Magnification[1], ImageSizeRaw -> {96, 19}, 
+            PlotRange -> {{0, 96}, {0, 19}}]], "ExerciseOutput", 
+          Magnification -> 1, CellFrameColor -> GrayLevel[0], Selectable -> 
+          False, Copyable -> False, Editable -> False, ShowCellBracket -> 
+          False, CellLabel -> "Out[]=", CellFrame -> False]]],
+       FrameMargins->{{10, 0}, {10, 12}},
+       ImageMargins->0,
+       ImageSize->Full], 
+      ButtonBox[
+       PaneBox[
+        StyleBox["\[Times]",
+         FontFamily->"MathematicaMono",
+         FontSize->18,
+         FontWeight->"Bold",
+         FontColor->GrayLevel[0.75]],
+        Alignment->Right,
+        FrameMargins->{{0, 6}, {0, 0}},
+        ImageMargins->0],
+       Appearance->None,
+       ButtonFunction:>(SelectionMove[
+          ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+        NotebookFind[
+          EvaluationNotebook[], "ExerciseExpectedResult", Previous, CellStyle,
+           WrapAround -> False, AutoScroll -> False]; FrontEndExecute[
+          FrontEndToken[
+           ButtonNotebook[], "OpenCloseGroup"]])]}
+    },
+    GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {Top}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+   "Grid"],
+  FrameMargins->0,
+  FrameStyle->GrayLevel[0.7],
+  StripOnInput->False]], "ExerciseOutput",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ Copyable->False,
+ CellFrameMargins->{{0, 0}, {0, 0}},
+ CellFrameColor->GrayLevel[1],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"b6171d00-aba8-4553-804f-1085719780a4"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ StyleBox[
+  DynamicBox[ToBoxes[
+    $CellContext`SolutionResponseText["39.1"], StandardForm],
+   ImageSizeCache->{4.5, {1., 12.}}], "SolutionResponseText"]], "Subsection",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{24, 25}, {3, 0}},
+ Copyable->False,
+ CellFrameMargins->{{8, 0}, {0, 0}},
+ TextAlignment->Right,
+ ShowStringCharacters->False,
+ FontFamily->"Source Sans Pro",
+ FontSize->12,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ Background->GrayLevel[
+  1],ExpressionUUID->"b1b3821f-2de4-4429-b5a8-6e2395e08693"],
+
+Cell[BoxData[
+ ButtonBox[
+  PaneBox[
+   StyleBox[
+    RowBox[{"[", " ", 
+     RowBox[{"Click", " ", "to", " ", "enter", " ", "code"}], " ", "]"}],
+    Selectable->False,
+    StripOnInput->False,
+    FontFamily->"Source Sans Pro",
+    FontSize->14,
+    FontWeight->Plain,
+    FontColor->GrayLevel[0.6]],
+   ImageSize->Full],
+  Appearance->None,
+  ButtonFunction:>(SelectionMove[
+     InputNotebook[], All, ButtonCell]; NotebookWrite[
+     InputNotebook[], 
+     Cell[
+      BoxData[""], "Input"]]; SelectionMove[
+     InputNotebook[], Before, CellContents]; Null),
+  Evaluator->Automatic,
+  Method->"Preemptive"]], "Input",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ Copyable->False,
+ CellFrameLabels->{{None, None}, {None, None}},
+ ShowSyntaxStyles->False,
+ ShowStringCharacters->False,
+ CellTags->
+  "FirstInputCell",ExpressionUUID->"f81b0cfa-7458-4036-b232-c14cf773055a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ PaneBox["\[ThickSpace]",
+  ImageSize->Full]], "CodeSectionDividerCloud",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellMargins->{{0, 0}, {0, 35}},
+ CellBracketOptions->{"OverlapContent"->True},
+ Copyable->False,ExpressionUUID->"56bd07ef-ec7c-4ebb-a90c-b45d778ace3c"],
+
+Cell[TextData[{
+ "\:5c06",
+ Cell[BoxData[
+  RowBox[{"{", 
+   RowBox[{"x", ",", 
+    RowBox[{"x", "+", "1"}], ",", 
+    RowBox[{"x", "+", "2"}], ",", 
+    RowBox[{"x", "^", "2"}]}], "}"}]], "InlineCode",ExpressionUUID->
+  "c9b42b13-5567-42b7-8016-b74e7c3f27be"],
+ "\:4e2d\:7684 x \:66ff\:6362\:4e3a\:5355\:72ec\:8ba1\:7b97\:7684 100 \:4ee5\
+\:5185\:7684\:968f\:673a\:6574\:6570\:3002"
+}], "Exercise",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellDingbat->Cell[
+  "39.2", "ExerciseNumber", FontColor -> 
+   RGBColor[0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]],
+ ShowCellBracket->False,
+ Copyable->False,
+ TaggingRules->{"MultipleSolutions" -> "True"},
+ CellChangeTimes->{{3.8373796405044904`*^9, 3.837379669200758*^9}},
+ CounterAssignments->{{"SectionNumber", 39}, {"ExerciseNumber", 2}, {
+   "WebOnly", 0}},ExpressionUUID->"9d4495e7-6a78-439c-b10d-24751ddcbe79"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TagBox[
+  ButtonBox[
+   StyleBox[
+    RowBox[{"\:671f\:671b\:8f93\:51fa\:793a\:4f8b", " ", "\[RightGuillemet]"}],
+    FontFamily->"Source Sans Pro",
+    FontSize->12,
+    FontColor->GrayLevel[0.6]],
+   Appearance->None,
+   ButtonFunction:>(SelectionMove[
+      ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; FrontEndExecute[
+      FrontEndToken[
+       ButtonNotebook[], "OpenCloseGroup"]]),
+   Evaluator->Automatic,
+   Method->"Preemptive"],
+  MouseAppearanceTag["LinkHand"]]], "ExerciseExpectedResult",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ Copyable->False,ExpressionUUID->"d5ac5218-4e8c-4ea3-924a-b1bfcf1931b1"],
+
+Cell[BoxData[
+ FrameBox[
+  TagBox[GridBox[{
+     {
+      PaneBox[
+       InterpretationBox[Cell[BoxData[
+         GraphicsBox[
+          TagBox[RasterBox[CompressedData["
+1:eJztV62v5DYQj1pysFL/gv4DwUcDiyJdVbbg7tSXU8lr9K5StTQsMCwsKCjI
+KCgkKCTExMSqQkICUsnEwOB1xs7H7j4nu699UkH3J+3K+/PY8+GZsfeHz799
+CL5xHOfrO/j68OkP7+np0/Gn7+DHz49ff/3y+PDLj4+/P3x5eHr/+Vsgv4fP
+R/jg+PmOO+6447/EWMaB64ZUmp+CU9oJtc6roS6LvCC0l1fIl5BDU5GClA3r
+Xy2mxhZ0FKTtxu11HT1HN6A9Y0dhZUGqblwdsZHo7ALWC2DywPMOUTNMMoKm
+0KiDmPTqmRdHRyNuFpO62HNmuITLbfISqq98I6G//bhWt4tJpk1xfa0oqjqr
+CpqsdkzWJG2bBXpk9vOqHvezks+yPVsfN2AOK7MDCOJYx6dNHCeZ3K7yKERj
+03aKT1+hmQWH3TocBURtkDbHS8+NuJ6rMKBeI24V01Z55pRQm5ts5JBSUgEw
+VhlY7rdCZp7jpy1Ojg146iUwtpKgmsCwhlRRBtOmDLaaNUqK8TkxnIGaZIqP
+IiFskJpZlsPGAZNW0m79grGOtuJjFdPxiQZNDhigrfgscWJgxyFnOBTjbI5I
+llDYSK3Fpy9Ol6ae404OcnDw9HR0ys3xEak7bYUzWIlgvJXcNFwMPa2LA6ZZ
+vhOeCzFMKtg3zHlPIae8uN4PT1dA+QT80tM+0hW3RZre4h7CMDymxeoE0zGB
+nyOvMBfmWrPEx1tDoXfzWmElN/1O5wqf97xRTGQnLa4aroQHMszP6AVLdSMp
+e7VFSl5A2SUFIZnudkFhckzxArsRYbHRfmr4W+cPqpNDmWBqkM7aqCxideRC
+i+RSDawMoae60d7915ewKj+/JvoKnTsSfpU06HTXmB2RqW7kamRgCFwPJ1ZS
+7D/UyKkSF2VGMc8xh5mykla75Wqxot7Ztbgv9mfiOn7OZy7ZP4KuhNM/0JPw
+dDoOwXlGvSShty/joVo7pGQZSGYNngnHojf9R+JjoMapY14zik8bU6ERoQOv
+MC8j7ANWEjrkEfIqKhczMYzusWL9OHQk9qcjvknsL2wnTlDxQUJSIandf7HW
+oE3WdooekUhXZVhT2rZN01B471hIqVt6UnbDwJscq9nPTnpyarSs95ds/fO3
+RKLbyvRywOXJUh8WUtKDfn8sdsq+jQ7u+jAp+WvEeLxa4xd0tK41oKm/3KfQ
+U9PLNxFkhZVUrDqh/YiKZcM14PqOi/cvXinGcRTqGompeHKOBgrl/onY7Wv/
+HZQQo5BnmhneQJMWU2tekO72zuvosU6cnF55p9wo9uZrb4Zs9F3mra8C2eRx
+EERX33j7UKLn+//FXiP25mtvhizjMIwy/qY5esf/E38DUMH6Zg==
+            "], {{0, 
+            19}, {96, 0}}, {0, 255},
+            ColorFunction->RGBColor],
+           BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+           Selectable->False],
+          DefaultBaseStyle->"ImageGraphics",
+          ImageSize->Magnification[1],
+          ImageSizeRaw->{96, 19},
+          PlotRange->{{0, 96}, {0, 19}}]], "ExerciseOutput",
+         ImageSize->{100, 19},
+         ImageMargins->{{0, 0}, {0, 0}},
+         ImageRegion->{{0, 1}, {0, 1}},
+         Magnification->1,ExpressionUUID->
+         "b8939977-b430-4492-9af9-29c460b7be98"],
+        Apply[TextCell, 
+         Cell[
+          BoxData[
+           GraphicsBox[
+            TagBox[
+             RasterBox[CompressedData["
+1:eJztV62v5DYQj1pysFL/gv4DwUcDiyJdVbbg7tSXU8lr9K5StTQsMCwsKCjI
+KCgkKCTExMSqQkICUsnEwOB1xs7H7j4nu699UkH3J+3K+/PY8+GZsfeHz799
+CL5xHOfrO/j68OkP7+np0/Gn7+DHz49ff/3y+PDLj4+/P3x5eHr/+Vsgv4fP
+R/jg+PmOO+6447/EWMaB64ZUmp+CU9oJtc6roS6LvCC0l1fIl5BDU5GClA3r
+Xy2mxhZ0FKTtxu11HT1HN6A9Y0dhZUGqblwdsZHo7ALWC2DywPMOUTNMMoKm
+0KiDmPTqmRdHRyNuFpO62HNmuITLbfISqq98I6G//bhWt4tJpk1xfa0oqjqr
+CpqsdkzWJG2bBXpk9vOqHvezks+yPVsfN2AOK7MDCOJYx6dNHCeZ3K7yKERj
+03aKT1+hmQWH3TocBURtkDbHS8+NuJ6rMKBeI24V01Z55pRQm5ts5JBSUgEw
+VhlY7rdCZp7jpy1Ojg146iUwtpKgmsCwhlRRBtOmDLaaNUqK8TkxnIGaZIqP
+IiFskJpZlsPGAZNW0m79grGOtuJjFdPxiQZNDhigrfgscWJgxyFnOBTjbI5I
+llDYSK3Fpy9Ol6ae404OcnDw9HR0ys3xEak7bYUzWIlgvJXcNFwMPa2LA6ZZ
+vhOeCzFMKtg3zHlPIae8uN4PT1dA+QT80tM+0hW3RZre4h7CMDymxeoE0zGB
+nyOvMBfmWrPEx1tDoXfzWmElN/1O5wqf97xRTGQnLa4aroQHMszP6AVLdSMp
+e7VFSl5A2SUFIZnudkFhckzxArsRYbHRfmr4W+cPqpNDmWBqkM7aqCxideRC
+i+RSDawMoae60d7915ewKj+/JvoKnTsSfpU06HTXmB2RqW7kamRgCFwPJ1ZS
+7D/UyKkSF2VGMc8xh5mykla75Wqxot7Ztbgv9mfiOn7OZy7ZP4KuhNM/0JPw
+dDoOwXlGvSShty/joVo7pGQZSGYNngnHojf9R+JjoMapY14zik8bU6ERoQOv
+MC8j7ANWEjrkEfIqKhczMYzusWL9OHQk9qcjvknsL2wnTlDxQUJSIandf7HW
+oE3WdooekUhXZVhT2rZN01B471hIqVt6UnbDwJscq9nPTnpyarSs95ds/fO3
+RKLbyvRywOXJUh8WUtKDfn8sdsq+jQ7u+jAp+WvEeLxa4xd0tK41oKm/3KfQ
+U9PLNxFkhZVUrDqh/YiKZcM14PqOi/cvXinGcRTqGompeHKOBgrl/onY7Wv/
+HZQQo5BnmhneQJMWU2tekO72zuvosU6cnF55p9wo9uZrb4Zs9F3mra8C2eRx
+EERX33j7UKLn+//FXiP25mtvhizjMIwy/qY5esf/E38DUMH6Zg==
+              "], {{0, 
+              19}, {96, 0}}, {0, 255}, ColorFunction -> RGBColor], 
+             BoxForm`ImageTag[
+             "Byte", ColorSpace -> "RGB", Interleaving -> True], Selectable -> 
+             False], DefaultBaseStyle -> "ImageGraphics", ImageSize -> 
+            Magnification[1], ImageSizeRaw -> {96, 19}, 
+            PlotRange -> {{0, 96}, {0, 19}}]], "ExerciseOutput", 
+          Magnification -> 1, CellFrameColor -> GrayLevel[0], Selectable -> 
+          False, Copyable -> False, Editable -> False, ShowCellBracket -> 
+          False, CellLabel -> "Out[]=", CellFrame -> False]]],
+       FrameMargins->{{10, 0}, {10, 12}},
+       ImageMargins->0,
+       ImageSize->Full], 
+      ButtonBox[
+       PaneBox[
+        StyleBox["\[Times]",
+         FontFamily->"MathematicaMono",
+         FontSize->18,
+         FontWeight->"Bold",
+         FontColor->GrayLevel[0.75]],
+        Alignment->Right,
+        FrameMargins->{{0, 6}, {0, 0}},
+        ImageMargins->0],
+       Appearance->None,
+       ButtonFunction:>(SelectionMove[
+          ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+        NotebookFind[
+          EvaluationNotebook[], "ExerciseExpectedResult", Previous, CellStyle,
+           WrapAround -> False, AutoScroll -> False]; FrontEndExecute[
+          FrontEndToken[
+           ButtonNotebook[], "OpenCloseGroup"]])]}
+    },
+    GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {Top}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+   "Grid"],
+  FrameMargins->0,
+  FrameStyle->GrayLevel[0.7],
+  StripOnInput->False]], "ExerciseOutput",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellFrame->{{1, 1}, {1, 1}},
+ ShowCellBracket->False,
+ Copyable->False,
+ CellFrameMargins->{{0, 0}, {0, 0}},
+ CellFrameColor->GrayLevel[1],
+ LineBreakWithin->
+  Automatic,ExpressionUUID->"a7b5067e-3779-4277-ae08-6a1a0bb1124c"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ StyleBox[
+  DynamicBox[ToBoxes[
+    $CellContext`SolutionResponseText["39.2"], StandardForm],
+   ImageSizeCache->{4.5, {1., 12.}}], "SolutionResponseText"]], "Subsection",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ ShowCellBracket->False,
+ CellMargins->{{24, 25}, {3, 0}},
+ Copyable->False,
+ CellFrameMargins->{{8, 0}, {0, 0}},
+ TextAlignment->Right,
+ ShowStringCharacters->False,
+ FontFamily->"Source Sans Pro",
+ FontSize->12,
+ FontWeight->"Plain",
+ FontSlant->"Plain",
+ Background->GrayLevel[
+  1],ExpressionUUID->"18577184-ade3-4e97-809b-7983b664ab5b"],
+
+Cell[BoxData[
+ ButtonBox[
+  PaneBox[
+   StyleBox[
+    RowBox[{"[", " ", 
+     RowBox[{"Click", " ", "to", " ", "enter", " ", "code"}], " ", "]"}],
+    Selectable->False,
+    StripOnInput->False,
+    FontFamily->"Source Sans Pro",
+    FontSize->14,
+    FontWeight->Plain,
+    FontColor->GrayLevel[0.6]],
+   ImageSize->Full],
+  Appearance->None,
+  ButtonFunction:>(SelectionMove[
+     InputNotebook[], All, ButtonCell]; NotebookWrite[
+     InputNotebook[], 
+     Cell[
+      BoxData[""], "Input"]]; SelectionMove[
+     InputNotebook[], Before, CellContents]; Null),
+  Evaluator->Automatic,
+  Method->"Preemptive"]], "Input",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ Copyable->False,
+ CellFrameLabels->{{None, None}, {None, None}},
+ ShowSyntaxStyles->False,
+ ShowStringCharacters->False,
+ CellTags->
+  "FirstInputCell",ExpressionUUID->"f147e3fc-24de-414e-9c80-928026ce6f6d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ PaneBox["\[ThickSpace]",
+  ImageSize->Full]], "CodeSectionDividerCloud",
+ Editable->False,
+ Selectable->False,
+ Deletable->False,
+ CellMargins->{{0, 0}, {0, 35}},
+ CellBracketOptions->{"OverlapContent"->True},
+ Copyable->False,ExpressionUUID->"3c7ca192-d3ec-42d7-a045-dc638719d61d"]
+},
+Saveable->False,
+WindowSize->{1908., 1005.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"\:7acb\:5373\:8d4b\:503c\:4e0e\:5ef6\:8fdf\:8d4b\:503c - \
+Wolfram \:8bed\:8a00\:5165\:95e8\:4ecb\:7ecd \:7ffb\:8bd1 By \:90d1\:660c\
+\:76db",
+DockedCells->{
+  Cell[
+   BoxData[
+    DynamicModuleBox[{}, 
+     TagBox[
+      GridBox[{{
+         TagBox[
+          ButtonBox[
+           PaneBox[
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAEiEGSIPafvQ3/iQM/qxmAiEjFmOohXKwIouDvuQXEGw4xENM6POaT5Hiq
+qP97c+uvfvWfDVy/59j/ahX5Pdfx3/sHuNSDFE/UBpI/G3l+TTP9vS7p7+nZ
+QBG4FjT1QJOBin+vCAcpaxcHWgEU/HOk7/ciHzzqgSYD2b/XJQO5UPFueezq
+J+sDFf/qVQY64PeSgN8b0n5NMfz34DAu9T+beIFm/upV+jXF4PcC9z87K4C6
+fk3SwaUeGBq/18QDDQQ5e2f5rw6pP0f7gd4BCmJVD3QG0HygBxHO61UG6sIV
+nhAtwNAAOgCEgOEPMxmXevyAEvV4EidaQiU+P0IAAEIjNUM=
+               "], {{0, 
+               20}, {16, 0}}, {0, 255}, ColorFunction -> RGBColor], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> ColorProfileData[CompressedData["
+1:eJydlndcFNcWx+/MbC+0XZYiZem9twVEehOQXkVh2V1gKQsuuxTFhogKRBQR
+EWwgQQEDRkORWBHFQkCw14AEASUGo9hQyax8PokvL++9vPz+uJ/vnHvOnXvP
+OXc+o5GQEZIIAwCyCOgQws5xFQrZeaEy6EO4IIufJOBxfQUiXhJPyEqAUKMP
+BR0AxcefL8iAUa90gUgY4u3GjIqOYeL7AQyIAAcsAGBzsjIDQr3CJN6+nu7M
+LNQJ/Ite3wKSBcF1E58gJhP8f5LlZApFAEBBKFtxeVkclAtRTssRZUrs0yjT
+E1IlDGMkLEQ3iLKihJPm2fizzzy7SJibLuCiLNlzJjedK+EelDdni3koI/4o
+F2XzeTko30BZO02czkf5rSQ2ncfOAgAjyY62iMdJRtlckihhWIg7ygsBIFCS
+vuCEL1jEyxVJDuWekZkn5Ccli5j6HAOmhb09i+nDy0njiUQmQWxOKlvIZbpn
+pGeyBXkAzJ/5s+QkuWWiSba1sLe1NbE0tfgiUf918m9KUtt5ehn8uWYQo+8P
+21/5ZdQBwJpBc7PtD1vCbgA6NgKgeO8Pm/YBAKTRurUPfHEehqRfkkWiTAcz
+s5ycHFM+j2MqSejv+p8Of0NfvM9Ustzv6WF68BLZ4jQRU5I3TkZahljIzMpk
+c3hMkz838T8O/Ot9GIfwEnlCngCNiEC7jC9IQsst4PJF/AwBky/4T0X8h2F/
+0nxfo6LVfwL0OFMgM0AHyM99AEMjAyR2HzoD/V43f2IEkNy8SPXx+b7/LOjf
+V4XLJAP6Gfkc5x4SxuSIhdnzc5JrCbCABKQBHSgBNaAF9IEJsAR2wBG4AE+w
+GASCMBANlgMOSAbpQAhyQD5YD4pACdgGdoJqsB/Ug0bQAo6BDnASnAMXwVVw
+DdwE98EwGAPPwDR4DWYhCMJDVIgGKUHqkA5kBFlCLGgR5An5QyFQNBQPJUEC
+SAzlQxugEqgcqoZqoUboW+gEdA66DA1Cd6ERaBL6FXoPIzAFpsOqsC5sBrNg
+V9gPDoOXwUnwCnglXAhvhavgOvgI3A6fg6/CN+Fh+Bk8gwCEjDAQDcQEYSHu
+SCASgyQiQmQNUoxUInVIC9KF9CLXkWFkCnmHwWFoGCbGBOOI8cGEYziYFZg1
+mFJMNeYwph3Tg7mOGcFMYz5hqVgVrBHWAeuLjcImYXOwRdhKbAO2DXsBexM7
+hn2Nw+EYOD2cHc4HF41Lwa3CleL24lpxZ3GDuFHcDB6PV8Ib4Z3wgXg2XoQv
+wu/GH8GfwQ/hx/BvCWSCOsGS4EWIIQgIBYRKQhPhNGGIME6YJcoQdYgOxEAi
+l5hHLCPWE7uIA8Qx4ixJlqRHciKFkVJI60lVpBbSBdID0ksymaxJticHk/nk
+deQq8lHyJfII+R1FjmJIcafEUsSUrZRDlLOUu5SXVCpVl+pCjaGKqFupjdTz
+1EfUt1I0KVMpXymu1FqpGql2qSGp59JEaR1pV+nl0iulK6WPSw9IT8kQZXRl
+3GXYMmtkamROyNyWmZGlyVrIBsqmy5bKNslelp2Qw8vpynnKceUK5Q7KnZcb
+pSE0LZo7jUPbQKunXaCN0XF0PbovPYVeQv+G3k+flpeTt5aPkM+Vr5E/JT/M
+QBi6DF9GGqOMcYxxi/FeQVXBVYGnsEWhRWFI4Y3iAkUXRZ5isWKr4k3F90pM
+JU+lVKXtSh1KD5UxyobKwco5yvuULyhPLaAvcFzAWVC84NiCeyqwiqFKiMoq
+lYMqfSozqmqq3qqZqrtVz6tOqTHUXNRS1CrUTqtNqtPUF6nz1SvUz6g/Zcoz
+XZlpzCpmD3NaQ0XDR0OsUavRrzGrqacZrlmg2ar5UIukxdJK1KrQ6taa1lbX
+DtDO127WvqdD1GHpJOvs0unVeaOrpxupu0m3Q3dCT1HPV2+lXrPeA32qvrP+
+Cv06/RsGOAOWQarBXoNrhrChjWGyYY3hgBFsZGvEN9prNGiMNbY3FhjXGd82
+oZi4mmSbNJuMmDJM/U0LTDtMn5tpm8WYbTfrNftkbmOeZl5vft9CzmKxRYFF
+l8WvloaWHMsayxtWVCsvq7VWnVYvrI2sedb7rO/Y0GwCbDbZdNt8tLWzFdq2
+2E7aadvF2+2xu82is4JYpaxL9lh7N/u19ift3znYOogcjjn84mjimOrY5Dix
+UG8hb2H9wlEnTSe2U63T8CLmovhFBxYNO2s4s53rnB+7aLlwXRpcxl0NXFNc
+j7g+dzN3E7q1ub1xd3Bf7X7WA/Hw9ij26PeU8wz3rPZ85KXpleTV7DXtbeO9
+yvusD9bHz2e7z21fVV+Ob6Pv9GK7xasX9/hR/EL9qv0e+xv6C/27AuCAxQE7
+Ah4s0VkiWNIRCAJ9A3cEPgzSC1oR9H0wLjgouCb4SYhFSH5IbygtNC60KfR1
+mFtYWdj9cP1wcXh3hHREbERjxJtIj8jyyOEos6jVUVejlaP50Z0x+JiImIaY
+maWeS3cuHYu1iS2KvbVMb1nussvLlZenLT8VJx3Hjjsej42PjG+K/8AOZNex
+ZxJ8E/YkTHPcObs4z7gu3AruJM+JV84bT3RKLE+cSHJK2pE0meycXJk8xXfn
+V/NfpPik7E95kxqYeih1Li0yrTWdkB6ffkIgJ0gV9GSoZeRmDGYaZRZlDq9w
+WLFzxbTQT9iQBWUty+oU0dGfqT6xvnijeCR7UXZN9tuciJzjubK5gty+PMO8
+LXnjK71Wfr0Ks4qzqjtfI399/shq19W1a6A1CWu612qtLVw7ts573eH1pPWp
+638oMC8oL3i1IXJDV6Fq4brC0Y3eG5uLpIqERbc3OW7avxmzmb+5f4vVlt1b
+PhVzi6+UmJdUlnwo5ZRe+criq6qv5rYmbu0vsy3btw23TbDt1nbn7YfLZctX
+lo/uCNjRXsGsKK54tTNu5+VK68r9u0i7xLuGq/yrOndr7962+0N1cvXNGrea
+1j0qe7bsebOXu3don8u+lv2q+0v2vz/AP3Cn1ru2vU63rvIg7mD2wSf1EfW9
+X7O+bmxQbihp+HhIcGj4cMjhnka7xsYmlaayZrhZ3Dx5JPbItW88vulsMWmp
+bWW0lhwFR8VHn34b/+2tY37Huo+zjrd8p/PdnjZaW3E71J7XPt2R3DHcGd05
+eGLxie4ux662702/P3RS42TNKflTZadJpwtPz51ZeWbmbObZqXNJ50a747rv
+n486f6MnuKf/gt+FSxe9Lp7vde09c8np0snLDpdPXGFd6bhqe7W9z6av7Qeb
+H9r6bfvbB+wGOq/ZX+saXDh4esh56Nx1j+sXb/jeuHpzyc3BW+G37tyOvT18
+h3tn4m7a3Rf3su/N3l/3APug+KHMw8pHKo/qfjT4sXXYdvjUiMdI3+PQx/dH
+OaPPfsr66cNY4RPqk8px9fHGCcuJk5Nek9eeLn069izz2exU0c+yP+95rv/8
+u19cfumbjpoeeyF8Mfdr6Uull4deWb/qngmaefQ6/fXsm+K3Sm8Pv2O9630f
++X58NucD/kPVR4OPXZ/8Pj2YS5+b+w0AsgC3
+                 "], "RGB", "XYZ"], 
+               Interleaving -> True], Selectable -> False], DefaultBaseStyle -> 
+             "ImageGraphics", ImageSizeRaw -> {16, 20}, 
+             PlotRange -> {{0, 16}, {0, 20}}], Alignment -> {Center, Center}, 
+            ImageMargins -> {{15, 10}, {4, 0}}], Appearance -> None, 
+           ButtonFunction :> NotebookLocate[{
+              URL["http://www.wolfram.com/language/elementary-introduction/"],
+               None}], Evaluator -> Automatic, Method -> "Preemptive"], 
+          MouseAppearanceTag["LinkHand"]], 
+         ItemBox[
+          TagBox[
+           GridBox[{{
+              TagBox[
+               ButtonBox[
+                StyleBox[
+                "STEPHEN WOLFRAM Wolfram \
+\:8bed\:8a00\:5165\:95e8\:4ecb\:7ecd", "DockedCellAuthorName"], Appearance -> 
+                None, ButtonFunction :> NotebookLocate[{
+                   URL[
+                   "http://www.wolfram.com/language/elementary-introduction/"]\
+, None}], Evaluator -> Automatic, Method -> "Preemptive"], 
+               MouseAppearanceTag["LinkHand"]]}, {
+              TagBox[
+               ButtonBox[
+                TemplateBox[{
+                  StyleBox["\:4e60\:9898 ", "DockedCellSectionTitle"], 
+                  StyleBox["|", "DockedCellSectionTitleDivider"], 
+                  StyleBox[
+                  " 39  \:7acb\:5373\:8d4b\:503c\:4e0e\:5ef6\:8fdf\:8d4b\:503c\
+", "DockedCellSectionTitle"]}, "RowDefault"], Appearance -> None, 
+                ButtonFunction :> NotebookLocate[{
+                   URL[
+                   "http://www.wolfram.com/language/elementary-introduction/\
+39-immediate-and-delayed-values.html"], None}], Evaluator -> Automatic, 
+                Method -> "Preemptive"], 
+               MouseAppearanceTag["LinkHand"]]}}, DefaultBaseStyle -> 
+            "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            GridBoxSpacings -> {"Columns" -> {{0}}, "Rows" -> {{0}}}], 
+           "Column"], Alignment -> Left, ItemSize -> 30]}}, AutoDelete -> 
+       False, GridBoxSpacings -> {"Columns" -> {{0}}, "Rows" -> {{0}}}, 
+       GridBoxAlignment -> {"Columns" -> {Left}, "Rows" -> {Center}}, 
+       GridBoxItemSize -> {
+        "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+     DynamicModuleValues :> {}, 
+     Initialization :> (
+      Clear[$CellContext`SolutionResponseText]; \
+$CellContext`SolutionResponseText[
+         Pattern[ElementaryIntroToWLWeb`Private`a, 
+          BlankNullSequence[]]] := " "; 
+      Map[($CellContext`SolutionResponseText[#] := " ")& , {"39.1", "39.2"}]; 
+      Clear[$CellContext`SolutionResponseDetails]; \
+$CellContext`SolutionResponseDetails[
+         Pattern[ElementaryIntroToWLWeb`Private`str, 
+          Blank[String]], True] := 
+       Style[ElementaryIntroToWLWeb`Private`str, 
+         "SolutionTrue"]; $CellContext`SolutionResponseDetails[
+         Pattern[ElementaryIntroToWLWeb`Private`str, 
+          Blank[String]], False] := 
+       Style[ElementaryIntroToWLWeb`Private`str, 
+         "SolutionFalse"]; $CellContext`SolutionResponseDetails[
+         Pattern[ElementaryIntroToWLWeb`Private`str, 
+          Blank[String]]] := 
+       ElementaryIntroToWLWeb`Private`str; \
+$CellContext`SolutionResponseDetails[
+         Missing[
+          BlankSequence[]]] := " "; $CellContext`SolutionResponseDetails[
+         BlankNullSequence[]] := " "; 
+      Clear[$CellContext`GetUserSolutions]; $CellContext`GetUserSolutions[] := 
+       Flatten[
+         Cases[
+          Options[
+           EvaluationNotebook[], TaggingRules], ("EIWLExercises" -> 
+           Pattern[ElementaryIntroToWLWeb`Private`ex, 
+             Blank[]]) :> ElementaryIntroToWLWeb`Private`ex, Infinity]]; 
+      Clear[$CellContext`GetUserSolutionsTotal]; \
+$CellContext`GetUserSolutionsTotal[] := Length[
+         Union[
+          Flatten[
+           Cases[
+            Cases[
+             Options[
+              EvaluationNotebook[], TaggingRules], ("EIWLExercises" -> 
+              Pattern[ElementaryIntroToWLWeb`Private`ex, 
+                Blank[]]) :> ElementaryIntroToWLWeb`Private`ex, Infinity], (
+             "ExercisesTotal" -> Pattern[ElementaryIntroToWLWeb`Private`t, 
+               Blank[]]) :> ElementaryIntroToWLWeb`Private`t, Infinity]]]]; 
+      Clear[$CellContext`GetUserSolutionsTried]; \
+$CellContext`GetUserSolutionsTried[] := Length[
+         Union[
+          Flatten[
+           Cases[
+            Cases[
+             Options[
+              EvaluationNotebook[], TaggingRules], ("EIWLExercises" -> 
+              Pattern[ElementaryIntroToWLWeb`Private`ex, 
+                Blank[]]) :> ElementaryIntroToWLWeb`Private`ex, Infinity], (
+             "ExercisesTried" -> Pattern[ElementaryIntroToWLWeb`Private`t, 
+               Blank[]]) :> ElementaryIntroToWLWeb`Private`t, Infinity]]]]; 
+      Clear[$CellContext`GetUserSolutionsCorrect]; \
+$CellContext`GetUserSolutionsCorrect[] := Length[
+         Union[
+          Flatten[
+           Cases[
+            Cases[
+             Options[
+              EvaluationNotebook[], TaggingRules], ("EIWLExercises" -> 
+              Pattern[ElementaryIntroToWLWeb`Private`ex, 
+                Blank[]]) :> ElementaryIntroToWLWeb`Private`ex, Infinity], (
+             "ExercisesCorrect" -> Pattern[ElementaryIntroToWLWeb`Private`t, 
+               Blank[]]) :> ElementaryIntroToWLWeb`Private`t, 
+            Infinity]]]]; $CellContext`EIWLExerciseSolutionsTotal = \
+$CellContext`GetUserSolutionsTotal[]; $CellContext`EIWLExerciseSolutionsTried = \
+$CellContext`GetUserSolutionsTried[]; \
+$CellContext`EIWLExerciseSolutionsCorrect = \
+$CellContext`GetUserSolutionsCorrect[]; 
+      Clear[$CellContext`SetUserSolutionsTried]; \
+$CellContext`SetUserSolutionsTried[
+         Pattern[ElementaryIntroToWLWeb`Private`value, 
+          Blank[]]] := 
+       Module[{ElementaryIntroToWLWeb`Private`data, 
+          ElementaryIntroToWLWeb`Private`tr}, 
+         ElementaryIntroToWLWeb`Private`data = Flatten[
+            Cases[
+             Options[
+              EvaluationNotebook[], TaggingRules], ("EIWLExercises" -> 
+              Pattern[ElementaryIntroToWLWeb`Private`ex, 
+                Blank[]]) :> ElementaryIntroToWLWeb`Private`ex, Infinity]]; 
+         ElementaryIntroToWLWeb`Private`tr = ReplaceAll[TaggingRules, 
+            Options[
+             EvaluationNotebook[], TaggingRules]]; 
+         ElementaryIntroToWLWeb`Private`tr = 
+          DeleteCases[
+           ElementaryIntroToWLWeb`Private`tr, "EIWLExercises" -> Blank[], 
+            Infinity]; 
+         AppendTo[
+          ElementaryIntroToWLWeb`Private`tr, 
+           "EIWLExercises" -> {
+            "ExercisesTotal" -> 
+             ReplaceAll[
+              "ExercisesTotal", ElementaryIntroToWLWeb`Private`data], 
+             "ExercisesTried" -> Append[
+               Flatten[
+                Cases[
+                ElementaryIntroToWLWeb`Private`data, ("ExercisesTried" -> 
+                  Pattern[ElementaryIntroToWLWeb`Private`t, 
+                    Blank[]]) :> ElementaryIntroToWLWeb`Private`t, Infinity]],
+                ElementaryIntroToWLWeb`Private`value], "ExercisesCorrect" -> 
+             ReplaceAll[
+              "ExercisesCorrect", ElementaryIntroToWLWeb`Private`data]}]; 
+         SetOptions[
+           EvaluationNotebook[], TaggingRules -> 
+           ElementaryIntroToWLWeb`Private`tr]; \
+$CellContext`EIWLExerciseSolutionsTried = \
+$CellContext`GetUserSolutionsTried[]; Null]; 
+      Clear[$CellContext`SetUserSolutionsCorrect]; \
+$CellContext`SetUserSolutionsCorrect[
+         Pattern[ElementaryIntroToWLWeb`Private`value, 
+          Blank[]]] := 
+       Module[{ElementaryIntroToWLWeb`Private`data, 
+          ElementaryIntroToWLWeb`Private`tr}, 
+         ElementaryIntroToWLWeb`Private`data = Flatten[
+            Cases[
+             Options[
+              EvaluationNotebook[], TaggingRules], ("EIWLExercises" -> 
+              Pattern[ElementaryIntroToWLWeb`Private`ex, 
+                Blank[]]) :> ElementaryIntroToWLWeb`Private`ex, Infinity]]; 
+         ElementaryIntroToWLWeb`Private`tr = ReplaceAll[TaggingRules, 
+            Options[
+             EvaluationNotebook[], TaggingRules]]; 
+         ElementaryIntroToWLWeb`Private`tr = 
+          DeleteCases[
+           ElementaryIntroToWLWeb`Private`tr, "EIWLExercises" -> Blank[], 
+            Infinity]; 
+         AppendTo[
+          ElementaryIntroToWLWeb`Private`tr, 
+           "EIWLExercises" -> {
+            "ExercisesTotal" -> 
+             ReplaceAll[
+              "ExercisesTotal", ElementaryIntroToWLWeb`Private`data], 
+             "ExercisesTried" -> 
+             ReplaceAll[
+              "ExercisesTried", ElementaryIntroToWLWeb`Private`data], 
+             "ExercisesCorrect" -> Append[
+               Flatten[
+                Cases[
+                ElementaryIntroToWLWeb`Private`data, ("ExercisesCorrect" -> 
+                  Pattern[ElementaryIntroToWLWeb`Private`t, 
+                    Blank[]]) :> ElementaryIntroToWLWeb`Private`t, Infinity]],
+                ElementaryIntroToWLWeb`Private`value]}]; SetOptions[
+           EvaluationNotebook[], TaggingRules -> 
+           ElementaryIntroToWLWeb`Private`tr]; \
+$CellContext`EIWLExerciseSolutionsCorrect = \
+$CellContext`GetUserSolutionsCorrect[]; Null]; 
+      Clear[ElementaryIntroToWLWeb`Private`GetCurrentTallyCell]; \
+$CellContext`GetCurrentTallyCell[] := Module[{}, 
+         With[{
+          ElementaryIntroToWLWeb`Private`solutionsTried = \
+$CellContext`GetUserSolutionsTried[], 
+           ElementaryIntroToWLWeb`Private`solutionsTotal = \
+$CellContext`GetUserSolutionsTotal[], 
+           ElementaryIntroToWLWeb`Private`solutionsCorrect = \
+$CellContext`GetUserSolutionsCorrect[]}, 
+          Cell[
+           BoxData[
+            PaneBox[
+             TemplateBox[{
+               StyleBox[
+               "COMPLETED\[ThickSpace]\[ThickSpace]", 
+                "DockedCellCompletedExerciseText"], 
+               StyleBox[
+               ElementaryIntroToWLWeb`Private`solutionsTried, 
+                "DockedCellCompletedExerciseText"], 
+               StyleBox["/", "DockedCellSolutionDivider"], 
+               StyleBox[
+               ElementaryIntroToWLWeb`Private`solutionsTotal, 
+                "DockedCellCompletedExerciseText"], 
+               StyleBox[
+               "\[ThinSpace]|\[ThinSpace]", "DockedCellSolutionDivider"], 
+               StyleBox[
+               ElementaryIntroToWLWeb`Private`solutionsCorrect, 
+                "DockedCellCorrectExerciseText"], 
+               StyleBox[
+               "\[ThickSpace]\[ThickSpace]CORRECT", 
+                "DockedCellCorrectExerciseText"]}, "RowDefault"], Alignment -> 
+             Right, ImageSize -> Full]], "Output", TextAlignment -> Right, 
+           CellFrame -> 1, CellMargins -> {{0, 0}, {10, 0}}, 
+           CellFrameMargins -> {{14, 24}, {4, 7}}, CellFrameColor -> 
+           RGBColor[1, 0.956862, 0.878431], MenuSortingValue -> 10000, 
+           Background -> RGBColor[1, 0.956862, 0.878431], CellTags -> 
+           "SolutionTallyCell"]]])]], "Output", CellMargins -> 0, 
+   CellFrameMargins -> {{0, 24}, {3, 6}}, Background -> 
+   RGBColor[0.97647, 0.482352, 0], CellFrame -> 1, CellFrameColor -> 
+   RGBColor[0.97647, 0.482352, 0]], 
+  Cell["\:7b2c\:4e8c\:7248", "Text", FontFamily -> "Source Sans Pro", 
+   CellFrame -> {{0, 0}, {3, 0}}, ShowCellBracket -> False, 
+   CellMargins -> {{0, 0}, {-1, -1}}, CellFrameMargins -> {{44, 0}, {2, 4}}, 
+   CellFrameColor -> RGBColor[0.952941, 0.509804, 0], FontSize -> 10, 
+   FontTracking -> "Extended", FontColor -> RGBColor[1, 0.929412, 0.721569], 
+   Background -> RGBColor[0.862745, 0.309804, 0], CellTags -> 
+   "DockedCellLogoCell"]},
+TaggingRules->{
+ "EIWLExercises" -> {
+   "ExercisesTotal" -> {"39.1", "39.2"}, "ExercisesTried" -> {}, 
+    "ExercisesCorrect" -> {}}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\
+\:65e5)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[StyleDefinitions -> "Default.nb"]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+      "Style Environments", "Section", 
+       CellChangeTimes -> {{3.64661165091824*^9, 3.646611654013329*^9}, 
+         3.6485723794335403`*^9, 3.651347081728628*^9, 3.651347179462186*^9, 
+         3.651347384135805*^9, 3.651348171662589*^9, {3.662385415502224*^9, 
+         3.662385415587447*^9}, {3.662385986094821*^9, 
+         3.662385986340312*^9}, {3.662386515144682*^9, 
+         3.662386515438078*^9}, {3.662386561676188*^9, 
+         3.662386561889332*^9}, {3.668356126688795*^9, 
+         3.6683561270120687`*^9}, {3.670169943059537*^9, 
+         3.670169943254141*^9}}], 
+      Cell[
+       StyleData[All, "Working"]], 
+      Cell[
+       StyleData[All, "Printout"], 
+       PrintingOptions -> {
+        "PageSize" -> {504, 720}, "PrintRegistrationMarks" -> True}, 
+       Magnification -> 0.6]}, Closed]], 
+   Cell[
+    CellGroupData[{
+      Cell[
+      "Custom Styles", "Section", 
+       CellChangeTimes -> {{3.646611660445352*^9, 3.646611669493331*^9}}], 
+      Cell[
+       StyleData["Notebook"], CreateCellID -> True, CellContext -> Notebook, 
+       CellLabelAutoDelete -> False, DefaultNewCellStyle -> "Input", 
+       ShowSyntaxStyles -> True, MenuSortingValue -> None], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Title"], CellMargins -> {{64, Inherited}, {50, 72}}, 
+          MenuCommandKey :> None, FontFamily -> "Verdana", FontSize -> 42, 
+          FontWeight -> "Bold", FontColor -> GrayLevel[0.4]], 
+         Cell[
+          StyleData["Title", "Printout"], 
+          CellMargins -> {{64, Inherited}, {50, 72}}]}, Closed]], 
+      Cell[
+       StyleData["Chapter"], MenuCommandKey :> None], 
+      Cell[
+       StyleData["Subchapter"], MenuCommandKey :> None], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Section"], CellFrame -> {{0, 0}, {0, 0}}, CellDingbat -> 
+          Cell[
+            TextData[
+             CounterBox["Section"], 
+             StyleBox[
+             "|\[NegativeThinSpace]", FontColor -> 
+              RGBColor[
+               0.9019607843137255, 0.4117647058823529, 0.027450980392156862`],
+               FontFamily -> "Courier", FontSize -> 36, FontWeight -> Plain]],
+             "SectionNumber"], CellMargins -> {{96, Inherited}, {12, 64}}, 
+          Evaluatable -> True, CellGroupingRules -> {"SectionGrouping", 60}, 
+          PageBreakAbove -> True, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+          CounterIncrements -> "Section", 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", 
+          FontSize -> 26, FontSlant -> "Plain", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          InterpretationBoxOptions -> {Editable -> True}], 
+         Cell[
+          StyleData["Section", "Printout"], 
+          CellMargins -> {{96, Inherited}, {12, 2}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionDoubleDigit"], CellFrame -> {{0, 0}, {0, 0}}, 
+          CellDingbat -> Cell[
+            TextData[
+             CounterBox["Section"], 
+             StyleBox[
+             "|\[NegativeThinSpace]", FontColor -> 
+              RGBColor[
+               0.9019607843137255, 0.4117647058823529, 0.027450980392156862`],
+               FontFamily -> "Courier", FontSize -> 36, FontWeight -> Plain]],
+             "SectionNumber"], CellMargins -> {{112, Inherited}, {12, 64}}, 
+          Evaluatable -> True, CellGroupingRules -> {"SectionGrouping", 60}, 
+          PageBreakAbove -> True, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+          CounterIncrements -> "Section", 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", 
+          FontSize -> 26, FontSlant -> "Plain", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          InterpretationBoxOptions -> {Editable -> True}], 
+         Cell[
+          StyleData["SectionDoubleDigit", "Printout"], 
+          CellMargins -> {{112, Inherited}, {12, 2}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionNumber"], CellBaseline -> Baseline, FontFamily -> 
+          "Source Sans Pro Semibold", FontSize -> 26, FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+         Cell[
+          StyleData["SectionNumber", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionInline"], FontFamily -> 
+          "Source Sans Pro Semibold", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+         Cell[
+          StyleData["SectionInline", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["SectionNoDingbat"], 
+          CellMargins -> {{64, Inherited}, {12, 64}}, Evaluatable -> True, 
+          CellGroupingRules -> {"SectionGrouping", 60}, PageBreakAbove -> 
+          True, ShowCellLabel -> False, 
+          CellFrameLabelMargins -> {{2, Inherited}, {Inherited, Inherited}}, 
+          CellChangeTimes -> {3.652728456208679*^9, 3.652728527108994*^9}, 
+          CounterIncrements -> "Section", 
+          CounterAssignments -> {{"Subsection", 0}, {"Subsubsection", 0}, {
+            "Exercise", 0}}, FontFamily -> "Source Sans Pro Semibold", 
+          FontSize -> 26, FontSlant -> "Plain", FontColor -> 
+          RGBColor[
+           0.9019607843137255, 0.4117647058823529, 0.027450980392156862`], 
+          InterpretationBoxOptions -> {Editable -> True}], 
+         Cell[
+          StyleData["SectionNoDingbat", "Printout"], 
+          CellMargins -> {{64, Inherited}, {12, 2}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Exercise"], CellDingbat -> Cell[
+            TextData[{"  ", 
+              CounterBox["Section"], ".", 
+              CounterBox["Exercise"]}], "ExerciseNumber", FontColor -> 
+            RGBColor[
+             0.9019607843137255, 0.4117647058823529, 0.027450980392156862`]], 
+          ShowGroupOpener -> True, CellMargins -> {{90, 40}, {4, 18}}, 
+          CellGroupingRules -> "InputGrouping", CounterIncrements -> 
+          "Exercise", MenuSortingValue -> 10020, MenuCommandKey :> "2", 
+          FontFamily -> "Source Sans Pro", FontSize -> 16, FontWeight -> 
+          "Plain", FontSlant -> "Plain", FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["Exercise", "Printout"], ShowGroupOpener -> False, 
+          CellMargins -> {{110, Inherited}, {4, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseNumber"], FontFamily -> "Source Sans Pro", 
+          FontSize -> 16, FontWeight -> "Bold", FontColor -> GrayLevel[0.25]], 
+         Cell[
+          StyleData["ExerciseNumber", "Printout"]]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["ExerciseInput", StyleDefinitions -> StyleData["Input"]], 
+          CellMargins -> {{70, 30}, {4, 7}}, ShowCellLabel -> False, 
+          CellFrameLabels -> {{None, None}, {None, None}}, SpanMaxSize -> 1, 
+          FontSize -> 
+          14, $CellContext`GeneratedCellStyles -> {
+           "Output" -> "ExerciseOutput"}], 
+         Cell[
+          StyleData["ExerciseInput", "Printout"], 
+          CellMargins -> {{88, 10}, {4, 7}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData[
+          "ExerciseOutput", StyleDefinitions -> StyleData["Output"]], 
+          CellMargins -> {{90, 40}, {0, 6}}, CellGroupingRules -> 
+          "OutputGrouping", ShowCellLabel -> False, FontSize -> 14], 
+         Cell[
+          StyleData["ExerciseOutput", "Printout"], 
+          CellMargins -> {{88, 10}, {10, 4}}]}, Closed]], 
+      Cell[
+       StyleData["ExerciseExpectedResult"], ShowCellBracket -> False, 
+       ShowGroupOpener -> False, CellMargins -> {{90, 40}, {3, 9}}, 
+       CellGroupingRules -> "InputGrouping", CounterIncrements -> "Exercise", 
+       MenuSortingValue -> 10000, FontFamily -> "Source Sans Pro", FontSize -> 
+       12, FontWeight -> "Plain", FontSlant -> "Plain"], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Picture"], CellMargins -> {{66, 10}, {10, 10}}, 
+          CellGroupingRules -> "GraphicsGrouping", StyleMenuListing -> None], 
+         
+         Cell[
+          StyleData["Picture", "Printout"], 
+          CellMargins -> {{66, 10}, {8, 8}}]}, Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["Tentative"], 
+          CellBracketOptions -> {
+           "Color" -> RGBColor[
+             0.30000000000000016`, 0.6000000000000003, 0.7000000000000003], 
+            "Thickness" -> 5}, Evaluatable -> False, CellFrameMargins -> 4, 
+          StyleMenuListing -> None, Background -> 
+          RGBColor[0.8500000000000003, 0.9500000000000003, 1]], 
+         Cell[
+          StyleData["Tentative", "Printout"], 
+          CellElementSpacings -> {"CellMinHeight" -> 0.1}, CellOpen -> False, 
+          CellFrameMargins -> 0, FontSize -> 0.1, Magnification -> 0.01]}, 
+        Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+          StyleData["WebOnly"], 
+          CellBracketOptions -> {
+           "Color" -> RGBColor[0.91, 0.92, 0.9], "Thickness" -> 5}, 
+          CellFrameMargins -> 4, StyleMenuListing -> None, Background -> 
+          RGBColor[0.91, 0.92, 0.86]], 
+         Cell[
+          StyleData["WebOnly", "Printout"], 
+          CellElementSpacings -> {"CellMinHeight" -> 0.1}, CellOpen -> False, 
+          CellFrameMargins -> 0, FontSize -> 0.1, Magnification -> 0.01]}, 
+        Closed]], 
+      Cell[
+       StyleData["Lockdown"], 
+       CellBracketOptions -> {
+        "Color" -> RGBColor[0.8, 0.5, 0.4], "Thickness" -> 3}, Evaluatable -> 
+       False, StyleMenuListing -> None], 
+      Cell[
+       StyleData["InlineCode"], SpanMaxSize -> 0, FontColor -> GrayLevel[0]], 
+      
+      Cell[
+       StyleData["ExpectedOutputNote"], Selectable -> False, FontFamily -> 
+       "Source Sans Pro", FontColor -> GrayLevel[0.3]], 
+      Cell[
+       StyleData["EIWLTextLink"], LineBreakWithin -> False, 
+       TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+           
+           ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+            BaseStyle -> {
+             "Hyperlink", FontWeight -> Bold, FontSize -> 16, FontFamily -> 
+              "Source Sans Pro"}], 
+           MouseAppearanceTag["LinkHand"]]& )}, 
+       ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+      Cell[
+       StyleData["CheckAnswerDividerCloud"], ShowCellBracket -> False, 
+       CellMargins -> {{40, 40}, {3, 6}}, 
+       CellBracketOptions -> {"OverlapContent" -> True}, 
+       CellGroupingRules -> {"SectionGrouping", 40}, 
+       CellFrameMargins -> {{20, 20}, {2, 2}}, TextAlignment -> Right], 
+      Cell[
+       StyleData["CodeSectionDividerCloud"], Editable -> False, Selectable -> 
+       False, ShowCellBracket -> False, CellMargins -> {{0, 0}, {0, 35}}, 
+       CellBracketOptions -> {"OverlapContent" -> True}, 
+       CellElementSpacings -> {"CellMinHeight" -> 6}, 
+       CellGroupingRules -> {"SectionGrouping", -5}, 
+       CellFrameMargins -> {{20, 20}, {2, 2}}, DefaultNewCellStyle -> "Input",
+        FontSize -> 6, Background -> GrayLevel[0.95]], 
+      Cell[
+       StyleData["InlineCode"], SpanMaxSize -> 0, FontColor -> GrayLevel[0]], 
+      
+      Cell[
+       StyleData["InlineCodeText"], SpanMaxSize -> 0, FontFamily -> 
+       "Source Sans Pro"], 
+      Cell[
+       StyleData["Input"], CellMargins -> {{92, 20}, {5, 8}}, 
+       CellFrameLabels -> {{None, 
+          
+          DynamicModuleBox[{$CellContext`EIWLExerciseCheck = 
+            Automatic, $CellContext`buttonLabel = " CHECK MY SOLUTION "}, 
+           DynamicBox[
+            ToBoxes[
+             If[
+              TrueQ[$CellContext`EIWLExerciseCheck == Automatic], 
+              MouseAppearance[
+               Tooltip[
+                Button[
+                 Framed[
+                  Panel[
+                   
+                   Style[$CellContext`buttonLabel, FontFamily -> 
+                    "Source Sans Pro", FontSize -> 10, FontColor -> 
+                    RGBColor[0.953948, 0.305638, 0.0285344]], Appearance -> 
+                   None, Background -> GrayLevel[1], 
+                   FrameMargins -> {{2, 2}, {0, 0}}, ImageMargins -> 0], 
+                  FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0.953948, 0.305638, 0.0285344]}, RoundingRadius -> 
+                  3], 
+                 
+                 Block[{$CellContext`usersCell, $CellContext`solutionResult, \
+$CellContext`exerciseNumber, $CellContext`exerciseSwitchResult}, \
+$CellContext`exerciseNumber = StringJoin[
+                    If[
+                    TrueQ[CurrentValue[{"CounterValue", "WebOnly"}] == 1], 
+                    "x", ""], 
+                    ToString[
+                    CurrentValue[{"CounterValue", "SectionNumber"}]], ".", 
+                    ToString[
+                    
+                    CurrentValue[{
+                    "CounterValue", 
+                    "ExerciseNumber"}]]]; $CellContext`buttonLabel = 
+                   Row[{" CHECKING ", 
+                    ProgressIndicator[Appearance -> "Percolate"]}]; 
+                  SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> 
+                    False]; $CellContext`usersCell = NotebookRead[
+                    InputNotebook[]]; If[
+                    TrueQ[Length[
+                    Flatten[{$CellContext`usersCell}]] == 
+                    1], $CellContext`solutionResult = ToExpression[
+                    URLFetch[
+                    "https://www.wolframcloud.com/objects/user-9b23d046-b2a9-\
+4a5c-8723-08465cce25ed/EIWLGradingAPI", "Method" -> "POST", 
+                    "Parameters" -> {
+                    "exNum" -> $CellContext`exerciseNumber, "answer" -> 
+                    ToString[$CellContext`usersCell, InputForm, 
+                    CharacterEncoding -> "ASCII"], "user" -> 
+                    ToString[$WolframID], "referer" -> "eiwl-nb", "uuid" -> 
+                    ToString[$WolframUUID]}]]; \
+$CellContext`SolutionResponseText[$CellContext`exerciseNumber] = \
+$CellContext`SolutionResponseDetails[
+                    $CellContext`solutionResult["Text"], 
+                    $CellContext`solutionResult[
+                    "CorrectQ"]]; $CellContext`exerciseSwitchResult = Switch[
+                    $CellContext`solutionResult["CorrectQ"], 
+                    True, $CellContext`EIWLExerciseCheck = 
+                    True; $CellContext`SetUserSolutionsCorrect[$CellContext`\
+exerciseNumber]; \
+$CellContext`SetUserSolutionsTried[$CellContext`exerciseNumber]; Null, 
+                    
+                    Blank[], $CellContext`EIWLExerciseCheck = 
+                    False; $CellContext`SetUserSolutionsTried[$CellContext`\
+exerciseNumber]], 
+                    CloudSystem`CreateCloudDialog[
+                    StyleBox[
+                    "Select a cell to be checked.", Selectable -> False], 
+                    WindowTitle -> " "]]], Appearance -> None, Evaluator -> 
+                 Automatic, Method -> "Queued"], 
+                "Click to check your solution.", TooltipDelay -> 0.15], 
+               "LinkHand"], 
+              If[
+               TrueQ[$CellContext`EIWLExerciseCheck], 
+               MouseAppearance[
+                Button[
+                 Framed[
+                  Row[{
+                    Panel[
+                    Style[
+                    ToExpression[
+                    "\!\(\* GraphicsBox[ TagBox[RasterBox[CompressedData[\" \
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCECxFJADGKrbtYa \
+RUMUpZzMcNnnQRWjMk5lf/vzDWggtYwCkgNiFDBAsPqCPFcBjcLURYkH0fRS \
+HlZwE6gV7EATfvz98f3Pd6rEIBClncpMPZlJFaNGEd0QANRpOvM= \"], {{0, 20}, { 26, \
+0}}, {0, 255}, ColorFunction->RGBColor], BoxForm`ImageTag[ \"Byte\", \
+Interleaving -> True, Magnification -> 1], Selectable->False], \
+BaseStyle->\"ImageGraphics\", ImageSize->Magnification[1], ImageSizeRaw->{26, \
+20}, PlotRange->{{0, 26}, {0, 20}}]\)"], Selectable -> False], Background -> 
+                    RGBColor[0.146944, 0.70164, 0.16466], 
+                    FrameMargins -> {{5, 5}, {0, 0}}, ImageMargins -> 0, 
+                    Appearance -> None], 
+                    Panel[
+                    Style[
+                    " CORRECT ", FontSize -> 10, FontColor -> 
+                    RGBColor[0.146944, 0.70164, 0.16466], FontFamily -> 
+                    "Source Sans Pro"], Background -> White, 
+                    FrameMargins -> {{5, 5}, {0, 0}}, Appearance -> None]}], 
+                  FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0.146944, 0.70164, 0.16466]}, FrameMargins -> 0, 
+                  RoundingRadius -> 3], $CellContext`buttonLabel = 
+                  " CHECK MY SOLUTION "; $CellContext`EIWLExerciseCheck = 
+                  Automatic, Appearance -> None], "LinkHand"], 
+               MouseAppearance[
+                Button[
+                 Framed[
+                  Row[{
+                    Panel[
+                    Style[
+                    ToExpression[
+                    "\!\(\* GraphicsBox[ TagBox[RasterBox[CompressedData[\" \
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCECxGJADGK/YtAZ \
+RTRCb1W8PnhlYooDBYFSxJgAVPnvy7cPfrkogn65IEFsJmM3BKIeZggal1RD \
+yNOOMOT7DyAiTzvlJlDoCwpDkvLYpDxFjSLyEAAHORZk \"], {{0, 20}, {22, 0}}, { 0, \
+255}, ColorFunction->RGBColor], BoxForm`ImageTag[ \"Byte\", Interleaving -> \
+True, Magnification -> 1], Selectable->False], BaseStyle->\"ImageGraphics\", \
+ImageSize->Magnification[1], ImageSizeRaw->{22, 20}, PlotRange->{{0, 22}, {0, \
+20}}]\)"], Selectable -> False], Background -> 
+                    RGBColor[0.918257, 0, 0.172488], 
+                    FrameMargins -> {{5, 5}, {0, 0}}, ImageMargins -> 0, 
+                    Appearance -> None], 
+                    Panel[
+                    Style[
+                    " TRY AGAIN ", FontSize -> 10, FontColor -> 
+                    RGBColor[0.918257, 0, 0.172488], FontFamily -> 
+                    "Source Sans Pro"], Background -> White, 
+                    FrameMargins -> {{5, 5}, {0, 0}}, Appearance -> None]}], 
+                  FrameStyle -> {
+                    Thickness[Tiny], 
+                    RGBColor[0.918257, 0, 0.172488]}, FrameMargins -> 0, 
+                  RoundingRadius -> 3], $CellContext`buttonLabel = 
+                  " CHECK MY SOLUTION "; $CellContext`EIWLExerciseCheck = 
+                  Automatic, Appearance -> None], "LinkHand"]]], 
+             StandardForm], ImageSizeCache -> {109., {9., 16.}}], 
+           DynamicModuleValues :> {}]}, {None, None}}, 
+       CellChangeTimes -> {{3.6688095471029243`*^9, 3.66880959932793*^9}}, 
+       MenuSortingValue -> 10000, FontSize -> 15], 
+      Cell[
+       StyleData["Output"], Deletable -> True, ShowCellBracket -> True, 
+       CellMargins -> {{92, 50}, {10, 5}}, 
+       CellBracketOptions -> {"OverlapContent" -> True}, CellEditDuplicate -> 
+       True, GeneratedCell -> True, CellAutoOverwrite -> True, 
+       LinebreakAdjustments -> {1, 2., 12., 1.25, 1.}, MenuSortingValue -> 
+       None, FontSize -> 15], 
+      Cell[
+       StyleData["Message"], 
+       CellMargins -> {{92, Inherited}, {Inherited, Inherited}}], 
+      Cell[
+       StyleData["EmptyCell"], Editable -> False, Selectable -> False, 
+       CellMargins -> {{0, 0}, {-2, 0}}, 
+       CellElementSpacings -> {"CellMinHeight" -> 1}, MenuSortingValue -> 
+       10000, FontSize -> 1], 
+      Cell[
+       StyleData["CellLabel"], MenuSortingValue -> 10000, FontColor -> 
+       GrayLevel[0.6]], 
+      Cell[
+       StyleData["Link"], LineBreakWithin -> False, 
+       TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+           
+           ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+            BaseStyle -> {
+             "Hyperlink", FontSize -> 15, FontFamily -> "Source Sans Pro"}], 
+           MouseAppearanceTag["LinkHand"]]& )}, 
+       ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+      Cell[
+       StyleData["ExpectedOutputText"], FontFamily -> "Arial", FontSize -> 13,
+        FontColor -> RGBColor[0.8579079880979629, 0.4263828488593881, 0.]], 
+      Cell[
+       StyleData["CodeSectionDividerCloud"], Selectable -> False, 
+       ShowCellBracket -> False, CellMargins -> {{0, 0}, {0, 35}}, 
+       CellBracketOptions -> {"OverlapContent" -> True}, 
+       CellElementSpacings -> {"CellMinHeight" -> 6}, 
+       CellGroupingRules -> {"SectionGrouping", -5}, 
+       CellFrameMargins -> {{20, 20}, {2, 2}}, DefaultNewCellStyle -> 
+       "EmptyCell", FontSize -> 6, Background -> GrayLevel[0.95]], 
+      Cell[
+       StyleData["DockedCellAuthorName"], MenuSortingValue -> 10000, 
+       FontFamily -> "Source Sans Pro", FontSize -> 12, FontColor -> 
+       RGBColor[1, 0.929411, 0.721568]], 
+      Cell[
+       StyleData["DockedCellSectionTitle"], MenuSortingValue -> 10000, 
+       FontFamily -> "Source Sans Pro", FontSize -> 18, FontColor -> 
+       GrayLevel[1]], 
+      Cell[
+       StyleData["DockedCellSecondCell"], CellFrame -> 1, 
+       CellMargins -> {{0, 0}, {0, 0}}, 
+       CellFrameMargins -> {{10, 10}, {10, 10}}, CellFrameColor -> 
+       RGBColor[1, 0.956862, 0.878431], MenuSortingValue -> 10000, Background -> 
+       RGBColor[1, 0.956862, 0.878431]], 
+      Cell[
+       StyleData["CompletedExerciseHeader"], MenuSortingValue -> 10000, 
+       FontFamily -> "Source Sans Pro", FontSize -> 14, FontColor -> 
+       GrayLevel[0.5]], 
+      Cell[
+       StyleData["DockedCellShareButton"], MenuSortingValue -> 10000, 
+       FontFamily -> "Source Sans Pro", FontSize -> 13, FontColor -> 
+       GrayLevel[1]], 
+      Cell[
+       StyleData["DockedCellLinksSections"], MenuSortingValue -> 10000, 
+       FontFamily -> "Source Sans Pro", FontSize -> 14, FontWeight -> "Plain",
+        FontSlant -> "Plain", FontColor -> RGBColor[0.97647, 0.482352, 0]], 
+      Cell[
+       StyleData["DockedCellLinksDivider"], MenuSortingValue -> 10000, 
+       FontFamily -> "Courier", FontSize -> 18, FontWeight -> "Plain", 
+       FontSlant -> "Plain", FontColor -> RGBColor[0.97647, 0.482352, 0]], 
+      Cell[
+       StyleData["DockedCellSectionTitleDivider"], MenuSortingValue -> 10000, 
+       FontFamily -> "Courier", FontSize -> 24, FontWeight -> "Plain", 
+       FontSlant -> "Plain", FontColor -> GrayLevel[1]], 
+      Cell[
+       StyleData["SolutionTrue"], MenuSortingValue -> 10000, FontFamily -> 
+       "Source Sans Pro", FontSize -> 12, FontWeight -> "Plain", FontSlant -> 
+       "Plain", FontColor -> RGBColor[0.12, 0.7, 0.22]], 
+      Cell[
+       StyleData["SolutionFalse"], MenuSortingValue -> 10000, FontFamily -> 
+       "Source Sans Pro", FontSize -> 12, FontWeight -> "Plain", FontSlant -> 
+       "Plain", FontColor -> RGBColor[0.94, 0.08, 0.2]], 
+      Cell[
+       StyleData["SolutionResponseText"], ShowStringCharacters -> False, 
+       FontFamily -> "Source Sans Pro", FontSize -> 12, FontWeight -> "Plain",
+        FontSlant -> "Plain", FontColor -> GrayLevel[1]], 
+      Cell[
+       StyleData["SolutionResponse"], ShowCellBracket -> False, 
+       CellMargins -> {{24, 25}, {6, 0}}, 
+       CellFrameMargins -> {{8, 0}, {0, 12}}, TextAlignment -> Right, 
+       ShowStringCharacters -> False, FontFamily -> "Source Sans Pro", 
+       FontSize -> 12, FontWeight -> "Plain", FontSlant -> "Plain", 
+       Background -> GrayLevel[1]], 
+      Cell[
+       StyleData["DockedCellCompletedExerciseText"], MenuSortingValue -> 
+       10000, FontFamily -> "Source Sans Pro", FontSize -> 12, FontWeight -> 
+       "Plain", FontSlant -> "Plain", FontColor -> GrayLevel[0.4]], 
+      Cell[
+       StyleData["DockedCellSolutionDivider"], MenuSortingValue -> 10000, 
+       FontFamily -> "Courier", FontSize -> 16, FontWeight -> "Plain", 
+       FontSlant -> "Plain", FontColor -> GrayLevel[0.6]], 
+      Cell[
+       StyleData["DockedCellCorrectExerciseText"], MenuSortingValue -> 10000, 
+       FontFamily -> "Source Sans Pro", FontSize -> 12, FontWeight -> "Plain",
+        FontSlant -> "Plain", FontColor -> RGBColor[0.12, 0.7, 0.22]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+         "EIWL Cloud Link styles", "Subsubsection", 
+          CellChangeTimes -> {{3.663512229965006*^9, 3.66351224118613*^9}}], 
+         Cell[
+          StyleData["EIWLTextLink"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 16, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkAnswer"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkCodeCaption"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontColor -> GrayLevel[0.6], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkExercise"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkExerciseNote"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkInlineCode"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkMoreExplore"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkQuestion"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontWeight -> Bold, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkTechNote"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkText"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 17, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkInlineCodeLink"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 17, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["EIWLTextLinkVocabularyTable"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}]}, 
+        Closed]], 
+      Cell[
+       CellGroupData[{
+         Cell[
+         "EIWL Cloud Link", "Subsubsection", 
+          CellChangeTimes -> {{3.664234597774767*^9, 3.664234605661516*^9}}], 
+         
+         Cell[
+          StyleData["CodeLinkAnswer"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkCodeCaption"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontColor -> GrayLevel[0.6], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkExercise"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkQuestion"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontWeight -> Bold, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkTechNote"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkText"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 17, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkVocabularyTable"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["CodeLinkVocabularyTable3Column"], LineBreakWithin -> 
+          False, TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkAnswer"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkCodeCaption"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontColor -> GrayLevel[0.6], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkExercise"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkExerciseNote"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkIndex"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkIndexSubentry"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkMoreExplore"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkQuestion"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 14, FontWeight -> Bold, FontColor -> 
+                 GrayLevel[0], FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkTechNote"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontColor -> GrayLevel[0.25], 
+                 FontFamily -> "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkText"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 16, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}], 
+         Cell[
+          StyleData["LinkVocabularyTable"], LineBreakWithin -> False, 
+          TemplateBoxOptions -> {DisplayFunction :> (TagBox[
+              
+              ButtonBox[#, Appearance -> None, ButtonData -> #2, 
+               BaseStyle -> {
+                "Hyperlink", FontSize -> 13, FontFamily -> 
+                 "Source Sans Pro"}], 
+              MouseAppearanceTag["LinkHand"]]& )}, 
+          ButtonBoxOptions -> {Appearance -> None, BaseStyle -> "Link"}]}, 
+        Closed]]}, Open]]}, Visible -> False, FrontEndVersion -> 
+  "12.2 for Microsoft Windows (64-bit) (2021\:5e742\:67085\:65e5)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"6105f11a-12f3-4d91-821f-0db97e85c9f3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "FirstInputCell"->{
+  Cell[8511, 218, 888, 30, 67, "Input",ExpressionUUID->"f81b0cfa-7458-4036-b232-c14cf773055a",
+   CellTags->"FirstInputCell"],
+  Cell[17581, 459, 888, 30, 67, "Input",ExpressionUUID->"f147e3fc-24de-414e-9c80-928026ce6f6d",
+   CellTags->"FirstInputCell"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"FirstInputCell", 76546, 1681}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[710, 22, 886, 23, 85, "Exercise",ExpressionUUID->"cc4a7cf1-2db6-4566-8ae5-7407058dc4fd",
+ CounterAssignments->{{"SectionNumber", 39}, {"ExerciseNumber", 1}, {"WebOnly", 0}}],
+Cell[CellGroupData[{
+Cell[1621, 49, 684, 20, 56, "ExerciseExpectedResult",ExpressionUUID->"d9764594-f4d4-4da2-af05-66894b8d5636"],
+Cell[2308, 71, 5578, 121, 70, "ExerciseOutput",ExpressionUUID->"b6171d00-aba8-4553-804f-1085719780a4"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7923, 197, 585, 19, 36, "Subsection",ExpressionUUID->"b1b3821f-2de4-4429-b5a8-6e2395e08693"],
+Cell[8511, 218, 888, 30, 67, "Input",ExpressionUUID->"f81b0cfa-7458-4036-b232-c14cf773055a",
+ CellTags->"FirstInputCell"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9436, 253, 297, 8, 95, "CodeSectionDividerCloud",ExpressionUUID->"56bd07ef-ec7c-4ebb-a90c-b45d778ace3c"],
+Cell[9736, 263, 898, 23, 85, "Exercise",ExpressionUUID->"9d4495e7-6a78-439c-b10d-24751ddcbe79",
+ CounterAssignments->{{"SectionNumber", 39}, {"ExerciseNumber", 2}, {"WebOnly", 0}}],
+Cell[CellGroupData[{
+Cell[10659, 290, 684, 20, 56, "ExerciseExpectedResult",ExpressionUUID->"d5ac5218-4e8c-4ea3-924a-b1bfcf1931b1"],
+Cell[11346, 312, 5610, 121, 70, "ExerciseOutput",ExpressionUUID->"a7b5067e-3779-4277-ae08-6a1a0bb1124c"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[16993, 438, 585, 19, 36, "Subsection",ExpressionUUID->"18577184-ade3-4e97-809b-7983b664ab5b"],
+Cell[17581, 459, 888, 30, 67, "Input",ExpressionUUID->"f147e3fc-24de-414e-9c80-928026ce6f6d",
+ CellTags->"FirstInputCell"]
+}, Open  ]]
+}, Open  ]],
+Cell[18496, 493, 297, 8, 95, "CodeSectionDividerCloud",ExpressionUUID->"3c7ca192-d3ec-42d7-a045-dc638719d61d"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
